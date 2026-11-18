@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+  Log Master website — Home page
+  Edit the wording on this page in the <main> section below.
+  The header and footer are repeated in each HTML file, so update a link
+  or the copyright line in every page. Colors, fonts, and layout live in css/styles.css.
+  Images live in assets/.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log Master</title>
+  <meta name="description" content="Log Master is an offline, installable catalog and inventory reference for any trade. Load your own CSV catalog.">
+  <meta name="theme-color" content="#0d0e11">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="36" height="36" alt="">
+        <span class="brand-name">Log Master</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="menu-btn"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="guide.html">User Guide</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="header-cta" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <div class="wrap">
+      <section class="hero">
+        <img class="hero-logo" src="assets/logo.png" width="88" height="88" alt="">
+        <h1>Log Master</h1>
+        <p class="lede">Your inventory reference, offline and in your pocket.</p>
+        <a class="btn btn-primary" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a>
+      </section>
+
+      <nav class="card-row" aria-label="Site pages">
+        <a class="card" href="downloads.html">
+          <img src="assets/icon-downloads.svg" width="56" height="56" alt="">
+          <h2>Downloads</h2>
+          <p>Install the app or download the source code.</p>
+        </a>
+        <a class="card" href="guide.html">
+          <img src="assets/icon-userguide.svg" width="56" height="56" alt="">
+          <h2>User Guide</h2>
+          <p>Load a catalog and look up items.</p>
+        </a>
+        <a class="card" href="faq.html">
+          <img src="assets/icon-faq.svg" width="56" height="56" alt="">
+          <h2>FAQ</h2>
+          <p>Offline use, your data, and CSV files.</p>
+        </a>
+        <a class="card" href="contact.html">
+          <img src="assets/icon-contact.svg" width="56" height="56" alt="">
+          <h2>Contact</h2>
+          <p>How to get in touch.</p>
+        </a>
+      </nav>
+
+      <div class="sections">
+        <section class="section panel">
+          <span class="kicker">Overview</span>
+          <h2>What it does</h2>
+          <p>Log Master is a catalog and inventory reference you keep on a phone or computer. Search your list, open a row for details, and keep working without an internet connection. Your data stays on the device.</p>
+        </section>
+        <section class="section panel">
+          <span class="kicker">Get started</span>
+          <h2>How to install</h2>
+          <p>Open the app in your browser, then add it to your home screen or install it from the address bar. After that, it works offline. Step-by-step instructions are on the <a href="downloads.html">Downloads</a> page.</p>
+        </section>
+        <section class="section panel">
+          <span class="kicker">Who it is for</span>
+          <h2>Built for the trades</h2>
+          <p>Use it as a pocket reference in any trade. Load your own catalog as a CSV file. A catalog import currently needs the headers Year(s), Make, Model, Product_Name, and id.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <small>© 2026 Log Master</small>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

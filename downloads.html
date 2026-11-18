@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+  Log Master website — Downloads page
+  Edit the wording on this page in the <main> section below.
+  The header and footer are repeated in each HTML file, so update a link
+  or the copyright line in every page. Colors, fonts, and layout live in css/styles.css.
+  Images live in assets/.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Downloads — Log Master</title>
+  <meta name="description" content="Install Log Master on a phone or computer, or download the app source code.">
+  <meta name="theme-color" content="#0d0e11">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="36" height="36" alt="">
+        <span class="brand-name">Log Master</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="menu-btn"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="downloads.html" aria-current="page">Downloads</a></li>
+            <li><a href="guide.html">User Guide</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="header-cta" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <div class="wrap">
+      <header class="page-head">
+        <span class="kicker">Downloads</span>
+        <h1>Install or download</h1>
+        <p class="lede">Install Log Master on a phone or computer, or download a zip of the app’s source code.</p>
+      </header>
+
+      <div class="stack">
+        <section class="install-block panel">
+          <h2>Install Log Master</h2>
+          <p>Open the app, then install it so it works like other apps on your device. After that, it works offline.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://selfnow5784-collab.github.io/log-master/">Install Log Master</a>
+          </div>
+          <ol class="steps">
+            <li><span class="n">1</span><span><strong>iPhone (Safari):</strong> tap Share, then Add to Home Screen.</span></li>
+            <li><span class="n">2</span><span><strong>Android (Chrome):</strong> open the menu, then tap Install app.</span></li>
+            <li><span class="n">3</span><span><strong>Computer (Chrome or Edge):</strong> click the install icon in the address bar.</span></li>
+          </ol>
+        </section>
+
+        <section class="download-block panel">
+          <h2>Source code</h2>
+          <p>A zip of the app’s current code, with no catalog data in it.</p>
+          <div class="actions">
+            <a class="btn btn-ghost" href="https://github.com/selfnow5784-collab/log-master/archive/refs/heads/main.zip">Download source code (.zip)</a>
+          </div>
+          <p class="note">App code only. Setup and hosting steps are in the README inside the zip.</p>
+        </section>
+
+        <section class="catalog-block placeholder" aria-label="Catalog files">
+          Catalog files will be listed here.
+        </section>
+
+        <section class="fund-block panel" id="fund-the-next-update">
+          <h2>Fund the next update</h2>
+          <p>If you want to support future work on Log Master, you can fund the next update.</p>
+          <div class="actions">
+            <a class="btn btn-ghost" href="https://ko-fi.com/logmaster">Fund the next update</a>
+          </div>
+          <p class="note">Support is non-refundable, and update requests are considered, not guaranteed.</p>
+          <!--
+            FUTURE: Ko-fi goal meter goes here.
+            Do not add a meter or amounts until a goal is provided.
+          -->
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <small>© 2026 Log Master</small>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+  Log Master website — FAQ page
+  Edit the wording on this page in the <main> section below.
+  The header and footer are repeated in each HTML file, so update a link
+  or the copyright line in every page. Colors, fonts, and layout live in css/styles.css.
+  Images live in assets/.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ — Log Master</title>
+  <meta name="description" content="Answers about offline use, where your data is stored, CSV columns, and using your own catalog.">
+  <meta name="theme-color" content="#0d0e11">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="36" height="36" alt="">
+        <span class="brand-name">Log Master</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="menu-btn"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="guide.html">User Guide</a></li>
+            <li><a href="faq.html" aria-current="page">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="header-cta" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <div class="wrap">
+      <header class="page-head">
+        <span class="kicker">FAQ</span>
+        <h1>Frequently asked questions</h1>
+        <p class="lede">Short answers about how Log Master works today.</p>
+      </header>
+
+      <div class="faq-list">
+        <section class="faq-item">
+          <h2>Does it work offline?</h2>
+          <p>Yes. After you open or install the app, it works without an internet connection. Your catalog stays on the device.</p>
+        </section>
+        <section class="faq-item">
+          <h2>Where is my data stored?</h2>
+          <p>On the device, in your browser. Log Master does not upload your catalog to this website or to the public code repository. If you clear the browser’s site data, or uninstall the app, that stored catalog can be removed, so keep a copy of your CSV file.</p>
+        </section>
+        <section class="faq-item">
+          <h2>What CSV columns do I need?</h2>
+          <p>For a catalog file to import directly, it currently needs these headers: <strong>Year(s)</strong>, <strong>Make</strong>, <strong>Model</strong>, <strong>Product_Name</strong>, and <strong>id</strong>.</p>
+          <p>If those headers are not present, the app asks <strong>What is this file?</strong> You can then choose a file kind (Reference catalog, Inventory (in stock), or Vehicle ref), map your columns in the Import preview, and tap Import.</p>
+        </section>
+        <section class="faq-item">
+          <h2>Is it free?</h2>
+          <p>Yes. You can open, install, and use the app at no charge.</p>
+        </section>
+        <section class="faq-item">
+          <h2>Can I use my own catalog?</h2>
+          <p>Yes. That is how the app is meant to be used. On the Data tab, tap <strong>Import new CSV</strong> and choose your own file.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <small>© 2026 Log Master</small>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

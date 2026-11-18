@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Log Master website — User Guide page
+  Edit the wording on this page in the <main> section below.
+  The header and footer are repeated in each HTML file, so update a link
+  or the copyright line in every page. Colors, fonts, and layout live in css/styles.css.
+  Images live in assets/.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Guide — Log Master</title>
+  <meta name="description" content="How to install Log Master, import a CSV catalog, and look up items.">
+  <meta name="theme-color" content="#0d0e11">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="36" height="36" alt="">
+        <span class="brand-name">Log Master</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="menu-btn"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="guide.html" aria-current="page">User Guide</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="header-cta" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <div class="wrap">
+      <header class="page-head">
+        <span class="kicker">User Guide</span>
+        <h1>How to use Log Master</h1>
+        <p class="lede">Five steps to install the app, load your catalog, and look up items.</p>
+      </header>
+
+      <ol class="guide-list">
+        <li class="step">
+          <h2>Open the app</h2>
+          <p>Go to the live app, or follow the install steps on the <a href="downloads.html">Downloads</a> page so Log Master sits on your home screen or computer. After it is installed, it works offline.</p>
+        </li>
+        <li class="step">
+          <h2>Import a CSV catalog</h2>
+          <p>Tap <strong>Data</strong> at the top, then <strong>Import new CSV</strong>, and choose a CSV file from your device.</p>
+        </li>
+        <li class="step">
+          <h2>Confirm the import</h2>
+          <p>If a catalog is already loaded, the app asks <strong>Replace the loaded file?</strong> You can save a copy first, replace without saving, or cancel.</p>
+          <p>If the app asks <strong>What is this file?</strong>, choose the kind of file (for example <strong>Reference catalog</strong>), check the Import preview, and tap <strong>Import</strong>.</p>
+          <p>The Data tab then shows the loaded file name and row count.</p>
+        </li>
+        <li class="step">
+          <h2>Search your list</h2>
+          <p>Switch to the <strong>Reference</strong> tab and type in the search box to find items. Tap a row to open its details.</p>
+          <p>On a computer, <strong>File / Edit / View / Help</strong> is at the top. On a phone, the ☰ button opens the same menu. <strong>File</strong> has Print and Share (PDF) of the current view. <strong>Edit</strong> lets you add your own item or hide selected rows. Filters and columns are under <strong>View</strong>.</p>
+        </li>
+        <li class="step">
+          <h2>Export or unload the file</h2>
+          <p>On the Data tab, use <strong>Export catalog</strong> to download a copy, or <strong>Empty</strong> to unload the file. Your in-stock list, your own items, and settings stay on the device. Your catalog is stored on this device, in your browser — it is not uploaded to this website.</p>
+        </li>
+      </ol>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <small>© 2026 Log Master</small>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
