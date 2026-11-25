@@ -1,808 +1,814 @@
+# Schema: logmaster-1
+# Trade: Electrical
+# Columns: Type, Brand, Series, Amps, Wattage, Voltage, Base, Color_Temp, Poles
+# Filters: Type, Brand, Series, Poles, Phase, Base, Color_Temp, Lamp_Count, NEMA_Size, Coil_Voltage, Voltage, Color, Material
+# Search: Product_Name, Type, Brand, Series, Wattage, Voltage, Coil_Voltage, Amps, Base, Color_Temp, Material, Features
+# Card: Type, Brand, Series, Wattage, Voltage, Coil_Voltage, Amps, Poles, Base, Color_Temp, Material, Features
 # Data_Pulled: 2026-11
-# Generic electrical catalog (product types only, our own wording). No supplier part numbers, prices, or links.
+# Generic electrical catalog (product types only, our own wording). No part numbers, prices, or links.
 # Brand names show fit only. Not affiliated with or endorsed by the makers.
-# Always check the panel's label before installing.
-# Gas and electrical parts should be installed by a qualified technician.
-Year(s),Make,Model,Product_Name,Type,Size,Material,id
-,Square D,QO,Single-pole plug-in breaker,,,,elec-001
-,Square D,QO,2-pole plug-in breaker,,,,elec-002
-,Square D,QO,Tandem plug-in breaker,,,,elec-003
-,Square D,QO,GFCI plug-in breaker,,,,elec-004
-,Square D,QO,AFCI plug-in breaker,,,,elec-005
-,Square D,QO,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-006
-,Square D,QO,Bolt-on single-pole breaker,,,,elec-007
-1955-present,Square D,QO,Load center,,,,elec-008
-,Square D,Homeline,Single-pole plug-in breaker,,,,elec-009
-,Square D,Homeline,2-pole plug-in breaker,,,,elec-010
-,Square D,Homeline,Tandem plug-in breaker,,,,elec-011
-,Square D,Homeline,GFCI plug-in breaker,,,,elec-012
-,Square D,Homeline,AFCI plug-in breaker,,,,elec-013
-,Square D,Homeline,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-014
-,Square D,Homeline,Load center,,,,elec-015
-,Eaton,BR,Single-pole plug-in breaker,,,,elec-016
-,Eaton,BR,2-pole plug-in breaker,,,,elec-017
-,Eaton,BR,Tandem plug-in breaker,,,,elec-018
-,Eaton,BR,GFCI plug-in breaker,,,,elec-019
-,Eaton,BR,AFCI plug-in breaker,,,,elec-020
-,Eaton,BR,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-021
-,Eaton,BR,Load center,,,,elec-022
-,Eaton,CH,Single-pole plug-in breaker,,,,elec-023
-,Eaton,CH,2-pole plug-in breaker,,,,elec-024
-,Eaton,CH,Tandem plug-in breaker,,,,elec-025
-,Eaton,CH,GFCI plug-in breaker,,,,elec-026
-,Eaton,CH,AFCI plug-in breaker,,,,elec-027
-,Eaton,CH,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-028
-,Eaton,CH,Load center,,,,elec-029
-,Siemens,QP,Single-pole plug-in breaker,,,,elec-030
-,Siemens,QP,2-pole plug-in breaker,,,,elec-031
-,Siemens,QP,Tandem plug-in breaker,,,,elec-032
-,Siemens,QP,GFCI plug-in breaker,,,,elec-033
-,Siemens,QP,AFCI plug-in breaker,,,,elec-034
-,Siemens,QP,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-035
-,Siemens,QP,Load center,,,,elec-036
-,GE,Q-Line,Single-pole plug-in breaker,,,,elec-037
-,GE,Q-Line,2-pole plug-in breaker,,,,elec-038
-,GE,Q-Line,1/2-inch (thin) plug-in breaker,,,,elec-039
-,GE,Q-Line,GFCI plug-in breaker,,,,elec-040
-,GE,Q-Line,AFCI plug-in breaker,,,,elec-041
-,GE,Q-Line,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-042
-,GE,Q-Line,Load center,,,,elec-043
-,Murray,MP,Single-pole plug-in breaker,,,,elec-044
-,Murray,MP,2-pole plug-in breaker,,,,elec-045
-,Murray,MP,Tandem plug-in breaker,,,,elec-046
-,Murray,MP,Load center,,,,elec-047
-2018-present,Leviton,Load Center,Single-pole plug-in breaker,,,,elec-048
-2018-present,Leviton,Load Center,2-pole plug-in breaker,,,,elec-049
-2018-present,Leviton,Load Center,GFCI plug-in breaker,,,,elec-050
-2018-present,Leviton,Load Center,AFCI plug-in breaker,,,,elec-051
-2018-present,Leviton,Load Center,Dual-function (AFCI/GFCI) plug-in breaker,,,,elec-052
-2018-present,Leviton,Load Center,Load center,,,,elec-053
-,,,Class RK1 time-delay fuse,,,,elec-054
-,,,Class RK5 time-delay fuse,,,,elec-055
-,,,Class CC fuse,,,,elec-056
-,,,Class J time-delay fuse,,,,elec-057
-,,,Edison-base plug fuse,,,,elec-058
-,,,Type S (rejection) plug fuse,,,,elec-059
-,,,15A tamper-resistant duplex receptacle,,,,elec-060
-,,,20A tamper-resistant duplex receptacle,,,,elec-061
-,,,15A GFCI receptacle,,,,elec-062
-,,,20A GFCI receptacle,,,,elec-063
-,,,Weather-resistant duplex receptacle,,,,elec-064
-,,,Single-pole switch,,,,elec-065
-,,,3-way switch,,,,elec-066
-,,,Dimmer switch,,,,elec-067
-,,,30A dryer receptacle (NEMA 14-30),,,,elec-068
-,,,50A range receptacle (NEMA 14-50),,,,elec-069
-,,,Weatherproof in-use cover (extra duty),,,,elec-070
-,,,Single-gang nail-on device box,,,,elec-071
-,,,Single-gang old-work (remodel) device box,,,,elec-072
-,,,2-gang device box,,,,elec-073
-,,,4-inch square box,,,,elec-074
-,,,Round ceiling box,,,,elec-075
-,,,Weatherproof (FS-style) box,,,,elec-076
-,,,Twist-on wire connector,,,,elec-077
-,,,Waterproof (gel-filled) wire connector,,,,elec-078
-,,,Lever-style splice connector,,,,elec-079
-,,,Grounding pigtail,,,,elec-080
-,,,NM cable staple,,,,elec-081
-,,,NM cable box connector,,,,elec-082
-,,,MC cable connector,,,,elec-083
-,,,Set-screw EMT connector,,,,elec-084
-,,,Electrical tape,,,,elec-085
-,,,Anti-oxidant joint compound,,,,elec-086
-,,,14 AWG NM-B cable (2-conductor with ground),,,,elec-087
-,,,12 AWG NM-B cable (2-conductor with ground),,,,elec-088
-,,,14 AWG NM-B cable (3-conductor with ground),,,,elec-089
-,,,12 AWG NM-B cable (3-conductor with ground),,,,elec-090
-,,,12 AWG THHN/THWN-2 building wire,,,,elec-091
-,,,12 AWG MC cable,,,,elec-092
-,,,UF-B underground feeder cable,,,,elec-093
-,,,1/2-inch EMT,,,,elec-094
-,,,1/2-inch PVC schedule 40 conduit,,,,elec-095
-,,,Liquidtight flexible metal conduit (LFMC),,,,elec-096
-,,,30A non-fusible AC disconnect,,,,elec-097
-,,,60A non-fusible AC disconnect,,,,elec-098
-,,,8-foot copper-bonded ground rod,,,,elec-099
-,,,Ground rod clamp,,,,elec-100
-,,,LED A19 lamp (6 W E26 2700 K),Lamp,6 W / E26 / 2700 K,Glass,elec-101
-,,,LED A19 lamp (6 W E26 5000 K),Lamp,6 W / E26 / 5000 K,Glass,elec-102
-,,,LED A19 lamp (9 W E26 2700 K),Lamp,9 W / E26 / 2700 K,Glass,elec-103
-,,,LED A19 lamp (9 W E26 3000 K),Lamp,9 W / E26 / 3000 K,Glass,elec-104
-,,,LED A19 lamp (9 W E26 4000 K),Lamp,9 W / E26 / 4000 K,Glass,elec-105
-,,,LED A19 lamp (9 W E26 5000 K),Lamp,9 W / E26 / 5000 K,Glass,elec-106
-,,,LED A19 lamp (11 W E26 2700 K),Lamp,11 W / E26 / 2700 K,Glass,elec-107
-,,,LED A19 lamp (15 W E26 2700 K),Lamp,15 W / E26 / 2700 K,Glass,elec-108
-,,,LED A19 lamp (15 W E26 5000 K),Lamp,15 W / E26 / 5000 K,Glass,elec-109
-,,,LED A21 lamp (16 W E26 2700 K),Lamp,16 W / E26 / 2700 K,Glass,elec-110
-,,,LED A21 lamp (22 W E26 2700 K),Lamp,22 W / E26 / 2700 K,Glass,elec-111
-,,,LED A19 dimmable lamp (9 W E26 2700 K),Lamp,9 W / E26 / 2700 K,Glass,elec-112
-,,,LED A19 three-way lamp (E26),Lamp,E26 / three-way,Glass,elec-113
-,,,LED A19 filament lamp (6 W E26 2700 K),Lamp,6 W / E26 / 2700 K,Glass,elec-114
-,,,LED A19 high-CRI lamp (9 W E26 2700 K),Lamp,9 W / E26 / 2700 K / 90 CRI,Glass,elec-115
-,,,LED A19 rough-service lamp (9 W E26),Lamp,9 W / E26,Glass,elec-116
-,,,LED A19 enclosed-rated lamp (9 W E26),Lamp,9 W / E26 / enclosed-rated,Glass,elec-117
-,,,LED A19 bug lamp (9 W E26 yellow),Lamp,9 W / E26 / yellow,Glass,elec-118
-,,,LED A19 tunable-white lamp (9 W E26),Lamp,9 W / E26 / tunable-white,Glass,elec-119
-,,,LED A15 appliance lamp (E26),Lamp,E26 / A15,Glass,elec-120
-,,,LED A19 lamp (9 W GU24 2700 K),Lamp,9 W / GU24 / 2700 K,Glass,elec-121
-,,,LED B11 candelabra lamp (4 W E12 2700 K),Lamp,4 W / E12 / 2700 K,Glass,elec-122
-,,,LED B11 candelabra lamp (5 W E12 2700 K),Lamp,5 W / E12 / 2700 K,Glass,elec-123
-,,,LED B11 filament lamp (4 W E12 2700 K),Lamp,4 W / E12 / 2700 K,Glass,elec-124
-,,,LED CA11 flame-tip lamp (4 W E12 2700 K),Lamp,4 W / E12 / 2700 K,Glass,elec-125
-,,,LED B11 lamp (4 W E17 2700 K),Lamp,4 W / E17 / 2700 K,Glass,elec-126
-,,,LED C7 night-light lamp (E12),Lamp,E12 / C7,Glass,elec-127
-,,,LED C9 sign lamp (E17),Lamp,E17 / C9,Glass,elec-128
-,,,LED S14 sign lamp (E26),Lamp,E26 / S14,Glass,elec-129
-,,,LED T6.5 candelabra lamp (E12),Lamp,E12 / T6.5,Glass,elec-130
-,,,LED T10 tubular lamp (E26),Lamp,E26 / T10,Glass,elec-131
-,,,LED ST19 filament lamp (E26 2700 K),Lamp,E26 / ST19 / 2700 K,Glass,elec-132
-,,,LED ST58 filament lamp (E26 2200 K),Lamp,E26 / ST58 / 2200 K,Glass,elec-133
-,,,LED G16.5 globe lamp (4 W E12 2700 K),Lamp,4 W / E12 / 2700 K,Glass,elec-134
-,,,LED G16.5 globe lamp (4 W E26 2700 K),Lamp,4 W / E26 / 2700 K,Glass,elec-135
-,,,LED G25 globe lamp (6 W E26 2700 K),Lamp,6 W / E26 / 2700 K,Glass,elec-136
-,,,LED G25 filament lamp (6 W E26 2700 K),Lamp,6 W / E26 / 2700 K,Glass,elec-137
-,,,LED G40 globe lamp (8 W E26 2700 K),Lamp,8 W / E26 / 2700 K,Glass,elec-138
-,,,LED BR20 lamp (7 W E26 2700 K),Lamp,7 W / E26 / 2700 K,Glass,elec-139
-,,,LED BR30 lamp (8 W E26 2700 K),Lamp,8 W / E26 / 2700 K,Glass,elec-140
-,,,LED BR30 lamp (8 W E26 3000 K),Lamp,8 W / E26 / 3000 K,Glass,elec-141
-,,,LED BR30 lamp (8 W E26 4000 K),Lamp,8 W / E26 / 4000 K,Glass,elec-142
-,,,LED BR30 lamp (8 W E26 5000 K),Lamp,8 W / E26 / 5000 K,Glass,elec-143
-,,,LED BR30 lamp (11 W E26 2700 K),Lamp,11 W / E26 / 2700 K,Glass,elec-144
-,,,LED BR30 lamp (8 W GU24 2700 K),Lamp,8 W / GU24 / 2700 K,Glass,elec-145
-,,,LED BR40 lamp (15 W E26 2700 K),Lamp,15 W / E26 / 2700 K,Glass,elec-146
-,,,LED BR40 lamp (15 W E26 4000 K),Lamp,15 W / E26 / 4000 K,Glass,elec-147
-,,,LED BR40 lamp (17 W E26 5000 K),Lamp,17 W / E26 / 5000 K,Glass,elec-148
-,,,LED R20 lamp (6 W E26 2700 K),Lamp,6 W / E26 / 2700 K,Glass,elec-149
-,,,LED PAR16 lamp (7 W E26 3000 K),Lamp,7 W / E26 / 3000 K,Glass,elec-150
-,,,LED PAR20 lamp (7 W E26 3000 K),Lamp,7 W / E26 / 3000 K,Glass,elec-151
-,,,LED PAR30 short-neck lamp (11 W E26 3000 K),Lamp,11 W / E26 / 3000 K / short-neck,Glass,elec-152
-,,,LED PAR30 long-neck lamp (11 W E26 3000 K),Lamp,11 W / E26 / 3000 K / long-neck,Glass,elec-153
-,,,LED PAR38 lamp (13 W E26 3000 K),Lamp,13 W / E26 / 3000 K,Glass,elec-154
-,,,LED PAR38 lamp (15 W E26 4000 K),Lamp,15 W / E26 / 4000 K,Glass,elec-155
-,,,LED PAR38 lamp (17 W E26 5000 K),Lamp,17 W / E26 / 5000 K,Glass,elec-156
-,,,LED PAR38 narrow-flood lamp (15 W E26 3000 K),Lamp,15 W / E26 / 3000 K / narrow-flood,Glass,elec-157
-,,,LED PAR38 flood lamp (15 W E26 3000 K),Lamp,15 W / E26 / 3000 K / flood,Glass,elec-158
-,,,LED PAR38 wide-flood lamp (15 W E26 3000 K),Lamp,15 W / E26 / 3000 K / wide-flood,Glass,elec-159
-,,,LED MR16 lamp (7 W GU5.3 12 V 3000 K),Lamp,7 W / GU5.3 / 12 V / 3000 K,Glass,elec-160
-,,,LED MR16 lamp (7 W GU5.3 12 V 4000 K),Lamp,7 W / GU5.3 / 12 V / 4000 K,Glass,elec-161
-,,,LED MR16 lamp (5 W GU10 120 V 3000 K),Lamp,5 W / GU10 / 120 V / 3000 K,Glass,elec-162
-,,,LED MR16 lamp (7 W GU10 120 V 3000 K),Lamp,7 W / GU10 / 120 V / 3000 K,Glass,elec-163
-,,,LED MR11 lamp (4 W GU4 12 V),Lamp,4 W / GU4 / 12 V,Glass,elec-164
-,,,LED G4 capsule lamp (2 W 12 V),Lamp,2 W / G4 / 12 V,Glass,elec-165
-,,,LED G8 capsule lamp (3 W 120 V),Lamp,3 W / G8 / 120 V,Glass,elec-166
-,,,LED G9 capsule lamp (4 W 120 V),Lamp,4 W / G9 / 120 V,Glass,elec-167
-,,,LED GY6.35 capsule lamp (5 W 12 V),Lamp,5 W / GY6.35 / 12 V,Glass,elec-168
-,,,LED T4 mini-candelabra lamp (E11),Lamp,E11 / T4,Glass,elec-169
-,,,LED T3 double-ended lamp (RSC 78 mm),Lamp,RSC / 78 mm,Glass,elec-170
-,,,LED T3 double-ended lamp (RSC 118 mm),Lamp,RSC / 118 mm,Glass,elec-171
-,,,LED BA15s lamp (2 W 12 V),Lamp,2 W / BA15s / 12 V,Glass,elec-172
-,,,LED BA15d lamp (3 W 120 V),Lamp,3 W / BA15d / 120 V,Glass,elec-173
-,,,LED A15 intermediate-base lamp (E17),Lamp,E17 / A15,Glass,elec-174
-,,,LED T8 Type A tube (2 ft G13),Lamp,2 ft / G13 / Type A,Glass,elec-175
-,,,LED T8 Type A tube (3 ft G13),Lamp,3 ft / G13 / Type A,Glass,elec-176
-,,,LED T8 Type A tube (4 ft G13),Lamp,4 ft / G13 / Type A,Glass,elec-177
-,,,LED T8 Type A tube (8 ft Fa8),Lamp,8 ft / Fa8 / Type A,Glass,elec-178
-,,,LED T8 Type B single-ended tube (2 ft G13),Lamp,2 ft / G13 / Type B single-ended,Glass,elec-179
-,,,LED T8 Type B single-ended tube (4 ft G13),Lamp,4 ft / G13 / Type B single-ended,Glass,elec-180
-,,,LED T8 Type B single-ended tube (8 ft Fa8),Lamp,8 ft / Fa8 / Type B single-ended,Glass,elec-181
-,,,LED T8 Type B double-ended tube (4 ft G13),Lamp,4 ft / G13 / Type B double-ended,Glass,elec-182
-,,,LED T8 Type A/B hybrid tube (4 ft G13),Lamp,4 ft / G13 / Type A/B,Glass,elec-183
-,,,LED T8 U-bend tube (G13),Lamp,G13 / U-bend,Glass,elec-184
-,,,LED T5 Type B tube (2 ft G5),Lamp,2 ft / G5 / Type B,Glass,elec-185
-,,,LED T5 Type B tube (3 ft G5),Lamp,3 ft / G5 / Type B,Glass,elec-186
-,,,LED T5 Type B tube (4 ft G5),Lamp,4 ft / G5 / Type B,Glass,elec-187
-,,,LED T5HO Type B tube (4 ft G5),Lamp,4 ft / G5 / T5HO / Type B,Glass,elec-188
-,,,LED T12 Type B tube (4 ft G13),Lamp,4 ft / G13 / Type B,Glass,elec-189
-,,,LED T12 Type B tube (8 ft Fa8),Lamp,8 ft / Fa8 / Type B,Glass,elec-190
-,,,LED T8 HO Type B tube (8 ft R17d),Lamp,8 ft / R17d / Type B,Glass,elec-191
-,,,LED T9 circline lamp (12 in),Lamp,12 in / circline,Glass,elec-192
-,,,LED T9 circline lamp (16 in),Lamp,16 in / circline,Glass,elec-193
-,,,LED HID-retrofit lamp (30 W E26),Lamp,30 W / E26,Polycarbonate,elec-194
-,,,LED HID-retrofit lamp (54 W E26),Lamp,54 W / E26,Polycarbonate,elec-195
-,,,LED HID-retrofit lamp (80 W E39),Lamp,80 W / E39,Polycarbonate,elec-196
-,,,LED HID-retrofit lamp (100 W E39),Lamp,100 W / E39,Polycarbonate,elec-197
-,,,LED HID-retrofit lamp (120 W E39),Lamp,120 W / E39,Polycarbonate,elec-198
-,,,LED HID-retrofit lamp (150 W E39),Lamp,150 W / E39,Polycarbonate,elec-199
-,,,LED post-top retrofit lamp (30 W E26),Lamp,30 W / E26,Polycarbonate,elec-200
-,,,LED area-light retrofit lamp (100 W E39),Lamp,100 W / E39,Polycarbonate,elec-201
-,,,LED wall-pack retrofit lamp (45 W E26),Lamp,45 W / E26,Polycarbonate,elec-202
-,,,LED high-bay retrofit lamp (150 W E39),Lamp,150 W / E39,Polycarbonate,elec-203
-,,,LED ED17 filament lamp (E26),Lamp,E26 / ED17,Glass,elec-204
-,,,LED ED28 lamp (E39),Lamp,E39 / ED28,Glass,elec-205
-,,,LED PL lamp (6 W G24q 4-pin),Lamp,6 W / G24q / 4-pin,Polycarbonate,elec-206
-,,,LED PL lamp (8 W G24q 4-pin),Lamp,8 W / G24q / 4-pin,Polycarbonate,elec-207
-,,,LED PL lamp (12 W GX24q 4-pin),Lamp,12 W / GX24q / 4-pin,Polycarbonate,elec-208
-,,,LED PL lamp (6 W G24d 2-pin),Lamp,6 W / G24d / 2-pin,Polycarbonate,elec-209
-,,,LED PLL lamp (16 W 2G11),Lamp,16 W / 2G11,Glass,elec-210
-,,,LED 2-pin CFL-retrofit lamp (G23),Lamp,G23 / 2-pin,Polycarbonate,elec-211
-,,,LED wedge-base lamp (for exit signs),Lamp,wedge base,Glass,elec-212
-,,,T8 fluorescent lamp (17 W 2 ft G13),Lamp,17 W / 2 ft / G13,Glass,elec-213
-,,,T8 fluorescent lamp (25 W 3 ft G13),Lamp,25 W / 3 ft / G13,Glass,elec-214
-,,,T8 fluorescent lamp (32 W 4 ft G13 3500 K),Lamp,32 W / 4 ft / G13 / 3500 K,Glass,elec-215
-,,,T8 fluorescent lamp (32 W 4 ft G13 4100 K),Lamp,32 W / 4 ft / G13 / 4100 K,Glass,elec-216
-,,,T8 fluorescent lamp (32 W 4 ft G13 5000 K),Lamp,32 W / 4 ft / G13 / 5000 K,Glass,elec-217
-,,,T8 fluorescent lamp (59 W 8 ft Fa8),Lamp,59 W / 8 ft / Fa8,Glass,elec-218
-,,,T8 fluorescent U-bend lamp (32 W G13),Lamp,32 W / G13 / U-bend,Glass,elec-219
-,,,T12 fluorescent lamp (20 W 2 ft G13),Lamp,20 W / 2 ft / G13,Glass,elec-220
-,,,T12 fluorescent lamp (40 W 4 ft G13),Lamp,40 W / 4 ft / G13,Glass,elec-221
-,,,T12 fluorescent lamp (75 W 8 ft Fa8),Lamp,75 W / 8 ft / Fa8,Glass,elec-222
-,,,T12 HO fluorescent lamp (110 W 8 ft R17d),Lamp,110 W / 8 ft / R17d,Glass,elec-223
-,,,T5 fluorescent lamp (14 W 2 ft G5),Lamp,14 W / 2 ft / G5,Glass,elec-224
-,,,T5 fluorescent lamp (21 W 3 ft G5),Lamp,21 W / 3 ft / G5,Glass,elec-225
-,,,T5 fluorescent lamp (28 W 4 ft G5),Lamp,28 W / 4 ft / G5,Glass,elec-226
-,,,T5 fluorescent lamp (35 W 5 ft G5),Lamp,35 W / 5 ft / G5,Glass,elec-227
-,,,T5HO fluorescent lamp (24 W 2 ft G5),Lamp,24 W / 2 ft / G5,Glass,elec-228
-,,,T5HO fluorescent lamp (39 W 3 ft G5),Lamp,39 W / 3 ft / G5,Glass,elec-229
-,,,T5HO fluorescent lamp (54 W 4 ft G5),Lamp,54 W / 4 ft / G5,Glass,elec-230
-,,,T9 circline fluorescent lamp (22 W 8 in),Lamp,22 W / 8 in,Glass,elec-231
-,,,T9 circline fluorescent lamp (32 W 12 in),Lamp,32 W / 12 in,Glass,elec-232
-,,,T9 circline fluorescent lamp (40 W 16 in),Lamp,40 W / 16 in,Glass,elec-233
-,,,T5 circline fluorescent lamp (22 W),Lamp,22 W / T5 circline,Glass,elec-234
-,,,CFL spiral lamp (13 W E26),Lamp,13 W / E26,Glass,elec-235
-,,,CFL spiral lamp (18 W E26),Lamp,18 W / E26,Glass,elec-236
-,,,CFL spiral lamp (23 W E26),Lamp,23 W / E26,Glass,elec-237
-,,,CFL spiral lamp (13 W E12),Lamp,13 W / E12,Glass,elec-238
-,,,CFL 2-pin lamp (13 W G24d),Lamp,13 W / G24d / 2-pin,Glass,elec-239
-,,,CFL 2-pin lamp (18 W G24d),Lamp,18 W / G24d / 2-pin,Glass,elec-240
-,,,CFL 2-pin lamp (26 W G24d),Lamp,26 W / G24d / 2-pin,Glass,elec-241
-,,,CFL 4-pin lamp (13 W G24q),Lamp,13 W / G24q / 4-pin,Glass,elec-242
-,,,CFL 4-pin lamp (18 W G24q),Lamp,18 W / G24q / 4-pin,Glass,elec-243
-,,,CFL 4-pin lamp (26 W G24q),Lamp,26 W / G24q / 4-pin,Glass,elec-244
-,,,CFL 4-pin lamp (32 W GX24q),Lamp,32 W / GX24q / 4-pin,Glass,elec-245
-,,,CFL 4-pin lamp (42 W GX24q),Lamp,42 W / GX24q / 4-pin,Glass,elec-246
-,,,CFL long twin-tube lamp (40 W 2G11),Lamp,40 W / 2G11,Glass,elec-247
-,,,CFL long twin-tube lamp (55 W 2G11),Lamp,55 W / 2G11,Glass,elec-248
-,,,CFL 2-pin lamp (13 W G23),Lamp,13 W / G23 / 2-pin,Glass,elec-249
-,,,CFL 2-pin lamp (18 W GX23),Lamp,18 W / GX23 / 2-pin,Glass,elec-250
-,,,High-pressure sodium lamp (35 W E26),Lamp,35 W / E26,Glass,elec-251
-,,,High-pressure sodium lamp (50 W E26),Lamp,50 W / E26,Glass,elec-252
-,,,High-pressure sodium lamp (70 W E26),Lamp,70 W / E26,Glass,elec-253
-,,,High-pressure sodium lamp (100 W E39),Lamp,100 W / E39,Glass,elec-254
-,,,High-pressure sodium lamp (150 W E39),Lamp,150 W / E39,Glass,elec-255
-,,,High-pressure sodium lamp (250 W E39),Lamp,250 W / E39,Glass,elec-256
-,,,High-pressure sodium lamp (400 W E39),Lamp,400 W / E39,Glass,elec-257
-,,,High-pressure sodium lamp (1000 W E39),Lamp,1000 W / E39,Glass,elec-258
-,,,Metal halide lamp (50 W E26),Lamp,50 W / E26,Glass,elec-259
-,,,Metal halide lamp (70 W E26),Lamp,70 W / E26,Glass,elec-260
-,,,Metal halide lamp (100 W E39),Lamp,100 W / E39,Glass,elec-261
-,,,Metal halide probe-start lamp (175 W E39),Lamp,175 W / E39 / probe-start,Glass,elec-262
-,,,Metal halide probe-start lamp (250 W E39),Lamp,250 W / E39 / probe-start,Glass,elec-263
-,,,Metal halide probe-start lamp (400 W E39),Lamp,400 W / E39 / probe-start,Glass,elec-264
-,,,Metal halide probe-start lamp (1000 W E39),Lamp,1000 W / E39 / probe-start,Glass,elec-265
-,,,Metal halide pulse-start lamp (150 W E39),Lamp,150 W / E39 / pulse-start,Glass,elec-266
-,,,Metal halide pulse-start lamp (250 W E39),Lamp,250 W / E39 / pulse-start,Glass,elec-267
-,,,Metal halide pulse-start lamp (400 W E39),Lamp,400 W / E39 / pulse-start,Glass,elec-268
-,,,Metal halide pulse-start lamp (750 W E39),Lamp,750 W / E39 / pulse-start,Glass,elec-269
-,,,Metal halide pulse-start lamp (1000 W E39),Lamp,1000 W / E39 / pulse-start,Glass,elec-270
-,,,Ceramic metal halide lamp (70 W G12),Lamp,70 W / G12,Glass,elec-271
-,,,Ceramic metal halide lamp (150 W G12),Lamp,150 W / G12,Glass,elec-272
-,,,Mercury vapor lamp (100 W E39),Lamp,100 W / E39,Glass,elec-273
-,,,Mercury vapor lamp (175 W E39),Lamp,175 W / E39,Glass,elec-274
-,,,Mercury vapor lamp (250 W E39),Lamp,250 W / E39,Glass,elec-275
-,,,Mercury vapor lamp (400 W E39),Lamp,400 W / E39,Glass,elec-276
-,,,Incandescent A19 lamp (40 W E26),Lamp,40 W / E26,Glass,elec-277
-,,,Incandescent A19 lamp (60 W E26),Lamp,60 W / E26,Glass,elec-278
-,,,Incandescent A19 lamp (100 W E26),Lamp,100 W / E26,Glass,elec-279
-,,,Incandescent three-way A19 lamp (50/100/150 W E26),Lamp,50/100/150 W / E26,Glass,elec-280
-,,,Appliance incandescent lamp (40 W E26),Lamp,40 W / E26,Glass,elec-281
-,,,Oven appliance lamp (40 W E17),Lamp,40 W / E17 / high-temperature,Glass,elec-282
-,,,Refrigerator appliance lamp (40 W E17),Lamp,40 W / E17,Glass,elec-283
-,,,Infrared heat lamp (250 W R40 E26),Lamp,250 W / R40 / E26,Glass,elec-284
-,,,Halogen PAR38 lamp (60 W E26),Lamp,60 W / E26 / PAR38,Glass,elec-285
-,,,Halogen PAR20 lamp (50 W E26),Lamp,50 W / E26 / PAR20,Glass,elec-286
-,,,Halogen MR16 lamp (50 W GU5.3 12 V),Lamp,50 W / GU5.3 / 12 V,Glass,elec-287
-,,,Halogen T3 double-ended lamp (150 W RSC 118 mm),Lamp,150 W / RSC / 118 mm,Glass,elec-288
-,,,Halogen T4 lamp (100 W E11),Lamp,100 W / E11,Glass,elec-289
-,,,Rough-service incandescent lamp (100 W E26),Lamp,100 W / E26,Glass,elec-290
-,,,Exit-sign incandescent lamp (15 W T6.5 E12),Lamp,15 W / T6.5 / E12,Glass,elec-291
-,,,LED flush-mount ceiling fixture (11 in),Fixture,11 in,Steel,elec-292
-,,,LED flush-mount ceiling fixture (14 in),Fixture,14 in,Steel,elec-293
-,,,LED flush-mount ceiling fixture (16 in),Fixture,16 in,Steel,elec-294
-,,,LED flush-mount ceiling fixture (24 in),Fixture,24 in,Steel,elec-295
-,,,LED semi-flush ceiling fixture (14 in),Fixture,14 in,Steel,elec-296
-,,,LED close-to-ceiling utility fixture (12 in),Fixture,12 in,Steel,elec-297
-,,,LED wraparound fixture (2 ft),Fixture,2 ft,Steel,elec-298
-,,,LED wraparound fixture (4 ft),Fixture,4 ft,Steel,elec-299
-,,,LED wraparound fixture (8 ft),Fixture,8 ft,Steel,elec-300
-,,,LED strip fixture (2 ft),Fixture,2 ft,Steel,elec-301
-,,,LED strip fixture (4 ft),Fixture,4 ft,Steel,elec-302
-,,,LED strip fixture (8 ft),Fixture,8 ft,Steel,elec-303
-,,,LED industrial strip fixture (4 ft),Fixture,4 ft,Steel,elec-304
-,,,LED industrial strip fixture (8 ft),Fixture,8 ft,Steel,elec-305
-,,,LED shop light (4 ft linkable),Fixture,4 ft,Steel,elec-306
-,,,LED shop light (8 ft linkable),Fixture,8 ft,Steel,elec-307
-,,,LED round high-bay fixture (100 W),Fixture,100 W,Aluminum,elec-308
-,,,LED round high-bay fixture (150 W),Fixture,150 W,Aluminum,elec-309
-,,,LED round high-bay fixture (200 W),Fixture,200 W,Aluminum,elec-310
-,,,LED round high-bay fixture (240 W),Fixture,240 W,Aluminum,elec-311
-,,,LED linear high-bay fixture (100 W 2 ft),Fixture,100 W / 2 ft,Aluminum,elec-312
-,,,LED linear high-bay fixture (200 W 4 ft),Fixture,200 W / 4 ft,Aluminum,elec-313
-,,,LED linear high-bay fixture (300 W 8 ft),Fixture,300 W / 8 ft,Aluminum,elec-314
-,,,LED low-bay fixture (80 W),Fixture,80 W,Aluminum,elec-315
-,,,LED troffer (1 ft x 4 ft),Fixture,1 ft x 4 ft,Steel,elec-316
-,,,LED flat panel (1 ft x 4 ft),Fixture,1 ft x 4 ft,Aluminum,elec-317
-,,,LED troffer (2 ft x 2 ft),Fixture,2 ft x 2 ft,Steel,elec-318
-,,,LED flat panel (2 ft x 2 ft),Fixture,2 ft x 2 ft,Aluminum,elec-319
-,,,LED troffer (2 ft x 4 ft),Fixture,2 ft x 4 ft,Steel,elec-320
-,,,LED flat panel (2 ft x 4 ft),Fixture,2 ft x 4 ft,Aluminum,elec-321
-,,,LED troffer retrofit kit (2 ft x 2 ft),Fixture,2 ft x 2 ft,Steel,elec-322
-,,,LED troffer retrofit kit (2 ft x 4 ft),Fixture,2 ft x 4 ft,Steel,elec-323
-,,,LED recessed downlight new-construction (4 in),Fixture,4 in / new-construction,Aluminum,elec-324
-,,,LED recessed downlight new-construction (5 in),Fixture,5 in / new-construction,Aluminum,elec-325
-,,,LED recessed downlight new-construction (6 in),Fixture,6 in / new-construction,Aluminum,elec-326
-,,,LED recessed downlight remodel (4 in),Fixture,4 in / remodel,Aluminum,elec-327
-,,,LED recessed downlight remodel (6 in),Fixture,6 in / remodel,Aluminum,elec-328
-,,,LED recessed downlight IC-rated (6 in),Fixture,6 in / IC-rated,Aluminum,elec-329
-,,,LED wafer downlight (4 in),Fixture,4 in,Aluminum,elec-330
-,,,LED wafer downlight (6 in),Fixture,6 in,Aluminum,elec-331
-,,,LED gimbal downlight (4 in),Fixture,4 in,Aluminum,elec-332
-,,,LED gimbal downlight (6 in),Fixture,6 in,Aluminum,elec-333
-,,,Recessed downlight housing new-construction (6 in),Fixture,6 in / new-construction,Steel,elec-334
-,,,Recessed downlight housing remodel (6 in),Fixture,6 in / remodel,Steel,elec-335
-,,,Recessed downlight housing IC-rated (6 in),Fixture,6 in / IC-rated,Steel,elec-336
-,,,LED commercial downlight (6 in 20 W),Fixture,6 in / 20 W,Aluminum,elec-337
-,,,LED commercial downlight (8 in 30 W),Fixture,8 in / 30 W,Aluminum,elec-338
-,,,H-type track rail (4 ft),Fixture,4 ft / H-type,Aluminum,elec-339
-,,,H-type track rail (8 ft),Fixture,8 ft / H-type,Aluminum,elec-340
-,,,H-type LED track head,Fixture,H-type,Aluminum,elec-341
-,,,J-type LED track head,Fixture,J-type,Aluminum,elec-342
-,,,L-type LED track head,Fixture,L-type,Aluminum,elec-343
-,,,LED pendant fixture,Fixture,,Aluminum,elec-344
-,,,LED drum pendant fixture,Fixture,,Steel,elec-345
-,,,LED gooseneck pendant fixture,Fixture,,Aluminum,elec-346
-,,,LED vanity light bar (2-light),Fixture,2-light,Steel,elec-347
-,,,LED vanity light bar (3-light),Fixture,3-light,Steel,elec-348
-,,,LED vanity light bar (4-light),Fixture,4-light,Steel,elec-349
-,,,LED wall sconce,Fixture,,Steel,elec-350
-,,,LED outdoor wall pack (30 W),Fixture,30 W,Die-cast aluminum,elec-351
-,,,LED outdoor wall pack (40 W),Fixture,40 W,Die-cast aluminum,elec-352
-,,,LED outdoor wall pack (60 W),Fixture,60 W,Die-cast aluminum,elec-353
-,,,LED outdoor wall pack (80 W),Fixture,80 W,Die-cast aluminum,elec-354
-,,,LED outdoor wall pack (100 W),Fixture,100 W,Die-cast aluminum,elec-355
-,,,LED full-cutoff wall pack (40 W),Fixture,40 W,Die-cast aluminum,elec-356
-,,,LED area light fixture (75 W),Fixture,75 W,Die-cast aluminum,elec-357
-,,,LED area light fixture (100 W),Fixture,100 W,Die-cast aluminum,elec-358
-,,,LED area light fixture (150 W),Fixture,150 W,Die-cast aluminum,elec-359
-,,,LED area light fixture (300 W),Fixture,300 W,Die-cast aluminum,elec-360
-,,,LED flood light (15 W),Fixture,15 W,Die-cast aluminum,elec-361
-,,,LED flood light (30 W),Fixture,30 W,Die-cast aluminum,elec-362
-,,,LED flood light (50 W),Fixture,50 W,Die-cast aluminum,elec-363
-,,,LED flood light (100 W),Fixture,100 W,Die-cast aluminum,elec-364
-,,,LED flood light (150 W),Fixture,150 W,Die-cast aluminum,elec-365
-,,,LED security flood light with photocell (20 W),Fixture,20 W,Die-cast aluminum,elec-366
-,,,LED security flood light with motion sensor (20 W),Fixture,20 W,Die-cast aluminum,elec-367
-,,,LED dusk-to-dawn yard light (40 W),Fixture,40 W,Die-cast aluminum,elec-368
-,,,LED dusk-to-dawn barn light (50 W),Fixture,50 W,Die-cast aluminum,elec-369
-,,,LED post-top fixture (40 W),Fixture,40 W,Die-cast aluminum,elec-370
-,,,LED outdoor lantern wall fixture,Fixture,,Die-cast aluminum,elec-371
-,,,LED bollard fixture,Fixture,,Aluminum,elec-372
-,,,LED canopy fixture (40 W),Fixture,40 W,Die-cast aluminum,elec-373
-,,,LED canopy fixture (60 W),Fixture,60 W,Die-cast aluminum,elec-374
-,,,LED parking-garage fixture (40 W),Fixture,40 W,Die-cast aluminum,elec-375
-,,,LED stairwell fixture,Fixture,,Die-cast aluminum,elec-376
-,,,LED vandal-resistant ceiling fixture,Fixture,,Polycarbonate,elec-377
-,,,LED vapor-tight fixture (2 ft),Fixture,2 ft,Polycarbonate,elec-378
-,,,LED vapor-tight fixture (4 ft),Fixture,4 ft,Polycarbonate,elec-379
-,,,LED vapor-tight fixture (8 ft),Fixture,8 ft,Polycarbonate,elec-380
-,,,Hazardous-location LED fixture (Class I Div 2),Fixture,Class I Div 2,Die-cast aluminum,elec-381
-,,,Explosion-proof LED fixture (Class I Div 1),Fixture,Class I Div 1,Die-cast aluminum,elec-382
-,,,LED temporary work light (50 W),Fixture,50 W,Aluminum,elec-383
-,,,LED string work light (50 ft),Fixture,50 ft,Plastic,elec-384
-,,,LED under-cabinet bar (12 in),Fixture,12 in,Aluminum,elec-385
-,,,LED under-cabinet bar (24 in),Fixture,24 in,Aluminum,elec-386
-,,,LED under-cabinet bar (36 in),Fixture,36 in,Aluminum,elec-387
-,,,LED tape light (12 V),Fixture,12 V,Plastic,elec-388
-,,,LED tape light (24 V),Fixture,24 V,Plastic,elec-389
-,,,LED cove light channel (4 ft),Fixture,4 ft,Aluminum,elec-390
-,,,LED step light,Fixture,,Die-cast aluminum,elec-391
-,,,LED path light (12 V),Fixture,12 V,Aluminum,elec-392
-,,,LED landscape spotlight (12 V),Fixture,12 V,Aluminum,elec-393
-,,,LED landscape flood (12 V),Fixture,12 V,Aluminum,elec-394
-,,,LED well light (12 V),Fixture,12 V,Brass,elec-395
-,,,LED deck light (12 V),Fixture,12 V,Aluminum,elec-396
-,,,LED wall-wash fixture,Fixture,,Aluminum,elec-397
-,,,LED roadway cobra-head fixture (100 W),Fixture,100 W,Die-cast aluminum,elec-398
-,,,LED roadway cobra-head fixture (150 W),Fixture,150 W,Die-cast aluminum,elec-399
-,,,LED roadway cobra-head fixture (250 W),Fixture,250 W,Die-cast aluminum,elec-400
-,,,Utility jelly-jar fixture,Fixture,,Die-cast aluminum,elec-401
-,,,LED closet puff fixture,Fixture,,Steel,elec-402
-,,,Portable clamp lamp,Fixture,,Steel,elec-403
-,,,LED picture light,Fixture,,Steel,elec-404
-,,,Architectural linear suspended fixture (4 ft),Fixture,4 ft,Aluminum,elec-405
-,,,Architectural linear suspended fixture (8 ft),Fixture,8 ft,Aluminum,elec-406
-,,,Thermoplastic exit sign (red AC-only),Exit sign,red / AC-only,Thermoplastic,elec-407
-,,,Thermoplastic exit sign (red battery backup),Exit sign,red / battery backup,Thermoplastic,elec-408
-,,,Thermoplastic exit sign (green battery backup),Exit sign,green / battery backup,Thermoplastic,elec-409
-,,,Die-cast aluminum exit sign (red battery backup),Exit sign,red / battery backup,Die-cast aluminum,elec-410
-,,,Edge-lit exit sign (red battery backup),Exit sign,red / battery backup,Aluminum,elec-411
-,,,Wet-location exit sign (red battery backup),Exit sign,red / wet-location,Thermoplastic,elec-412
-,,,Hazardous-location exit sign,Exit sign,hazardous-location,Die-cast aluminum,elec-413
-,,,Self-testing exit sign (red battery backup),Exit sign,red / self-testing,Thermoplastic,elec-414
-,,,Combo exit/emergency light (red),Exit sign,red / combo,Thermoplastic,elec-415
-,,,Combo exit/emergency light (green),Exit sign,green / combo,Thermoplastic,elec-416
-,,,Thermoplastic emergency light (two-head),Emergency light,two-head,Thermoplastic,elec-417
-,,,Wet-location emergency light (two-head),Emergency light,two-head / wet-location,Thermoplastic,elec-418
-,,,Remote-capable emergency light,Emergency light,remote-capable,Thermoplastic,elec-419
-,,,Self-testing emergency light (two-head),Emergency light,two-head / self-testing,Thermoplastic,elec-420
-,,,High-output emergency light,Emergency light,high-output,Thermoplastic,elec-421
-,,,Single remote emergency lamp head,Emergency light,single remote head,Thermoplastic,elec-422
-,,,Double remote emergency lamp head,Emergency light,double remote head,Thermoplastic,elec-423
-,,,Adjustable-head emergency unit,Emergency light,adjustable heads,Thermoplastic,elec-424
-,,,Emergency lighting inverter (250 VA),Emergency light,250 VA,Steel,elec-425
-,,,Emergency lighting inverter (500 VA),Emergency light,500 VA,Steel,elec-426
-,,,Emergency lighting inverter (1000 VA),Emergency light,1000 VA,Steel,elec-427
-,,,Stem-mount photocell (120 V),Photocell,120 V / stem-mount,Polycarbonate,elec-428
-,,,Stem-mount photocell (120-277 V),Photocell,120-277 V / stem-mount,Polycarbonate,elec-429
-,,,Stem-mount photocell (480 V),Photocell,480 V / stem-mount,Polycarbonate,elec-430
-,,,Swivel-mount photocell (120-277 V),Photocell,120-277 V / swivel-mount,Polycarbonate,elec-431
-,,,Button photocell (120-277 V),Photocell,120-277 V / button,Polycarbonate,elec-432
-,,,Twist-lock photocell (NEMA 3-pin),Photocell,NEMA 3-pin,Polycarbonate,elec-433
-,,,Twist-lock photocell (NEMA 5-pin),Photocell,NEMA 5-pin,Polycarbonate,elec-434
-,,,Twist-lock photocell (NEMA 7-pin),Photocell,NEMA 7-pin,Polycarbonate,elec-435
-,,,Twist-lock shorting cap (NEMA 3-pin),Photocell,NEMA 3-pin / shorting cap,Polycarbonate,elec-436
-,,,Twist-lock photocell receptacle (NEMA 3-pin),Photocell,NEMA 3-pin / receptacle,Polycarbonate,elec-437
-,,,Ceiling occupancy sensor PIR (360 degree),Occupancy sensor,PIR / 360 degree / ceiling,Thermoplastic,elec-438
-,,,Ceiling occupancy sensor PIR (high-bay),Occupancy sensor,PIR / high-bay / ceiling,Thermoplastic,elec-439
-,,,Ceiling occupancy sensor ultrasonic,Occupancy sensor,ultrasonic / ceiling,Thermoplastic,elec-440
-,,,Ceiling occupancy sensor dual-technology,Occupancy sensor,PIR + ultrasonic / ceiling,Thermoplastic,elec-441
-,,,Wall-mount occupancy sensor PIR (low-voltage),Occupancy sensor,PIR / low-voltage / wall-mount,Thermoplastic,elec-442
-,,,Fixture-mount occupancy sensor,Occupancy sensor,fixture-mount,Thermoplastic,elec-443
-,,,High-bay aisle occupancy sensor,Occupancy sensor,high-bay aisle,Thermoplastic,elec-444
-,,,Daylight harvesting sensor,Lighting control,daylight / low-voltage,Thermoplastic,elec-445
-,,,Low-voltage sensor power pack (120-277 V),Lighting control,120-277 V / power pack,Thermoplastic,elec-446
-,,,0-10 V fixture dimming module,Lighting control,0-10 V,Thermoplastic,elec-447
-,,,ELV fixture dimming module,Lighting control,ELV,Thermoplastic,elec-448
-,,,In-line cord dimmer (lamp-cord),Lighting control,in-line cord,Plastic,elec-449
-,,,Plug-in lamp dimmer,Lighting control,plug-in,Plastic,elec-450
-,,,Fixture-integrated occupancy/dimming sensor,Lighting control,fixture-integrated,Thermoplastic,elec-451
-,,,Bi-level high-bay control module,Lighting control,bi-level / high-bay,Thermoplastic,elec-452
-,,,Astronomical lighting time switch,Lighting control,astronomical,Thermoplastic,elec-453
-,,,7-day lighting time switch,Lighting control,7-day,Thermoplastic,elec-454
-,,,Wireless fixture control module,Lighting control,wireless / fixture-mount,Thermoplastic,elec-455
-,,,Outdoor fixture motion sensor,Lighting control,outdoor / fixture-mount,Polycarbonate,elec-456
-,,,Photocell and motion combo sensor,Lighting control,photocell + motion,Polycarbonate,elec-457
-,,,Hold-off daylighting controller,Lighting control,daylight hold-off,Thermoplastic,elec-458
-,,,Electronic T8 instant-start ballast (1-lamp 4 ft 120-277 V),Ballast,1-lamp / 4 ft / 120-277 V,Thermoplastic,elec-459
-,,,Electronic T8 programmed-start ballast (1-lamp 4 ft 120-277 V),Ballast,1-lamp / 4 ft / 120-277 V,Thermoplastic,elec-460
-,,,Electronic T8 instant-start ballast (2-lamp 4 ft 120-277 V),Ballast,2-lamp / 4 ft / 120-277 V,Thermoplastic,elec-461
-,,,Electronic T8 programmed-start ballast (2-lamp 4 ft 120-277 V),Ballast,2-lamp / 4 ft / 120-277 V,Thermoplastic,elec-462
-,,,Electronic T8 instant-start ballast (3-lamp 4 ft 120-277 V),Ballast,3-lamp / 4 ft / 120-277 V,Thermoplastic,elec-463
-,,,Electronic T8 programmed-start ballast (3-lamp 4 ft 120-277 V),Ballast,3-lamp / 4 ft / 120-277 V,Thermoplastic,elec-464
-,,,Electronic T8 instant-start ballast (4-lamp 4 ft 120-277 V),Ballast,4-lamp / 4 ft / 120-277 V,Thermoplastic,elec-465
-,,,Electronic T8 programmed-start ballast (4-lamp 4 ft 120-277 V),Ballast,4-lamp / 4 ft / 120-277 V,Thermoplastic,elec-466
-,,,Electronic T8 instant-start ballast (2-lamp 8 ft),Ballast,2-lamp / 8 ft,Thermoplastic,elec-467
-,,,Electronic T8 0-10 V dimming ballast (2-lamp 4 ft),Ballast,2-lamp / 4 ft / 0-10 V,Thermoplastic,elec-468
-,,,Magnetic T12 ballast (1-lamp 40 W 120 V),Ballast,1-lamp / 40 W / 120 V,Steel,elec-469
-,,,Magnetic T12 ballast (2-lamp 40 W 120 V),Ballast,2-lamp / 40 W / 120 V,Steel,elec-470
-,,,Electronic T12 ballast (2-lamp 4 ft),Ballast,2-lamp / 4 ft,Thermoplastic,elec-471
-,,,Electronic T5 programmed-start ballast (1-lamp 28 W),Ballast,1-lamp / 28 W,Thermoplastic,elec-472
-,,,Electronic T5 programmed-start ballast (2-lamp 28 W),Ballast,2-lamp / 28 W,Thermoplastic,elec-473
-,,,Electronic T5HO programmed-start ballast (1-lamp 54 W),Ballast,1-lamp / 54 W,Thermoplastic,elec-474
-,,,Electronic T5HO programmed-start ballast (2-lamp 54 W),Ballast,2-lamp / 54 W,Thermoplastic,elec-475
-,,,Electronic T5HO programmed-start ballast (3-lamp 54 W),Ballast,3-lamp / 54 W,Thermoplastic,elec-476
-,,,Electronic T5HO programmed-start ballast (4-lamp 54 W),Ballast,4-lamp / 54 W,Thermoplastic,elec-477
-,,,Electronic T5HO 0-10 V dimming ballast (2-lamp 54 W),Ballast,2-lamp / 54 W / 0-10 V,Thermoplastic,elec-478
-,,,Electronic sign ballast (2-12 ft 120-277 V),Ballast,2-12 ft / 120-277 V,Thermoplastic,elec-479
-,,,Circline electronic ballast (22/32/40 W),Ballast,22/32/40 W,Thermoplastic,elec-480
-,,,CFL electronic ballast (13 W),Ballast,13 W,Thermoplastic,elec-481
-,,,CFL electronic ballast (18 W),Ballast,18 W,Thermoplastic,elec-482
-,,,CFL electronic ballast (26 W),Ballast,26 W,Thermoplastic,elec-483
-,,,CFL electronic ballast (32 W),Ballast,32 W,Thermoplastic,elec-484
-,,,CFL electronic ballast (42 W),Ballast,42 W,Thermoplastic,elec-485
-,,,CFL magnetic ballast (26 W 2-pin),Ballast,26 W / 2-pin,Steel,elec-486
-,,,Compact fluorescent dimming ballast (26 W),Ballast,26 W / dimming,Thermoplastic,elec-487
-,,,HPS core-and-coil ballast (70 W quad-tap),Ballast,70 W / quad-tap,Steel,elec-488
-,,,HPS core-and-coil ballast (100 W quad-tap),Ballast,100 W / quad-tap,Steel,elec-489
-,,,HPS core-and-coil ballast (150 W quad-tap),Ballast,150 W / quad-tap,Steel,elec-490
-,,,HPS core-and-coil ballast (250 W quad-tap),Ballast,250 W / quad-tap,Steel,elec-491
-,,,HPS core-and-coil ballast (400 W quad-tap),Ballast,400 W / quad-tap,Steel,elec-492
-,,,HPS core-and-coil ballast (1000 W quad-tap),Ballast,1000 W / quad-tap,Steel,elec-493
-,,,HPS reactor ballast (250 W 120 V),Ballast,250 W / 120 V,Steel,elec-494
-,,,Metal halide probe-start ballast (175 W quad-tap),Ballast,175 W / quad-tap / probe-start,Steel,elec-495
-,,,Metal halide probe-start ballast (250 W quad-tap),Ballast,250 W / quad-tap / probe-start,Steel,elec-496
-,,,Metal halide probe-start ballast (400 W quad-tap),Ballast,400 W / quad-tap / probe-start,Steel,elec-497
-,,,Metal halide probe-start ballast (1000 W quad-tap),Ballast,1000 W / quad-tap / probe-start,Steel,elec-498
-,,,Metal halide pulse-start ballast (150 W quad-tap),Ballast,150 W / quad-tap / pulse-start,Steel,elec-499
-,,,Metal halide pulse-start ballast (250 W quad-tap),Ballast,250 W / quad-tap / pulse-start,Steel,elec-500
-,,,Metal halide pulse-start ballast (400 W quad-tap),Ballast,400 W / quad-tap / pulse-start,Steel,elec-501
-,,,Metal halide pulse-start ballast (750 W quad-tap),Ballast,750 W / quad-tap / pulse-start,Steel,elec-502
-,,,Metal halide pulse-start ballast (1000 W quad-tap),Ballast,1000 W / quad-tap / pulse-start,Steel,elec-503
-,,,Mercury vapor ballast (175 W),Ballast,175 W,Steel,elec-504
-,,,Mercury vapor ballast (400 W),Ballast,400 W,Steel,elec-505
-,,,HID F-can ballast (250 W 120 V),Ballast,250 W / 120 V / F-can,Steel,elec-506
-,,,HID encapsulated ballast (400 W),Ballast,400 W / encapsulated,Steel,elec-507
-,,,HID ignitor (for HPS/MH),Ballast,,Thermoplastic,elec-508
-,,,HID ballast capacitor (24 uF),Ballast,24 uF,,elec-509
-,,,HID ballast kit (400 W pulse-start),Ballast,400 W / pulse-start / kit,Steel,elec-510
-,,,Constant-current LED driver (12 W 350 mA 120-277 V),Driver,12 W / 350 mA / 120-277 V,Aluminum,elec-511
-,,,Constant-current LED driver (20 W 500 mA 120-277 V),Driver,20 W / 500 mA / 120-277 V,Aluminum,elec-512
-,,,Constant-current LED driver (40 W 700 mA 120-277 V),Driver,40 W / 700 mA / 120-277 V,Aluminum,elec-513
-,,,Constant-current LED driver (40 W 1050 mA 120-277 V),Driver,40 W / 1050 mA / 120-277 V,Aluminum,elec-514
-,,,Constant-current LED driver (60 W 1400 mA 120-277 V),Driver,60 W / 1400 mA / 120-277 V,Aluminum,elec-515
-,,,Constant-current LED driver (75 W 2100 mA 120-277 V),Driver,75 W / 2100 mA / 120-277 V,Aluminum,elec-516
-,,,Constant-current LED driver (100 W 2100 mA 120-277 V),Driver,100 W / 2100 mA / 120-277 V,Aluminum,elec-517
-,,,Constant-current LED driver (150 W 120-277 V),Driver,150 W / 120-277 V,Aluminum,elec-518
-,,,Constant-current LED driver (200 W 120-277 V),Driver,200 W / 120-277 V,Aluminum,elec-519
-,,,Constant-current LED driver (240 W 120-277 V),Driver,240 W / 120-277 V,Aluminum,elec-520
-,,,Constant-current LED driver (100 W 347-480 V),Driver,100 W / 347-480 V,Aluminum,elec-521
-,,,Constant-current 0-10 V dimming driver (40 W 700 mA),Driver,40 W / 700 mA / 0-10 V,Aluminum,elec-522
-,,,Constant-current 0-10 V dimming driver (60 W),Driver,60 W / 0-10 V,Aluminum,elec-523
-,,,Constant-current 0-10 V dimming driver (100 W),Driver,100 W / 0-10 V,Aluminum,elec-524
-,,,Constant-current 0-10 V dimming driver (150 W),Driver,150 W / 0-10 V,Aluminum,elec-525
-,,,Constant-current 0-10 V dimming driver (200 W),Driver,200 W / 0-10 V,Aluminum,elec-526
-,,,Constant-current TRIAC-dimming driver (20 W),Driver,20 W / TRIAC,Aluminum,elec-527
-,,,Constant-current TRIAC-dimming driver (40 W),Driver,40 W / TRIAC,Aluminum,elec-528
-,,,Programmable constant-current LED driver (100 W),Driver,100 W / programmable,Aluminum,elec-529
-,,,Class 2 constant-current LED driver (20 W),Driver,20 W / Class 2,Thermoplastic,elec-530
-,,,Wet-location LED driver (60 W 120-277 V),Driver,60 W / 120-277 V / wet-location,Aluminum,elec-531
-,,,Wet-location LED driver (100 W 120-277 V),Driver,100 W / 120-277 V / wet-location,Aluminum,elec-532
-,,,High-bay LED driver (150 W 0-10 V),Driver,150 W / 0-10 V,Aluminum,elec-533
-,,,Downlight LED driver (15 W),Driver,15 W,Thermoplastic,elec-534
-,,,Constant-voltage LED driver (12 V 20 W),Driver,12 V / 20 W,Aluminum,elec-535
-,,,Constant-voltage LED driver (12 V 60 W),Driver,12 V / 60 W,Aluminum,elec-536
-,,,Constant-voltage LED driver (12 V 100 W),Driver,12 V / 100 W,Aluminum,elec-537
-,,,Constant-voltage LED driver (12 V 150 W),Driver,12 V / 150 W,Aluminum,elec-538
-,,,Constant-voltage LED driver (12 V 200 W),Driver,12 V / 200 W,Aluminum,elec-539
-,,,Constant-voltage LED driver (24 V 20 W),Driver,24 V / 20 W,Aluminum,elec-540
-,,,Constant-voltage LED driver (24 V 60 W),Driver,24 V / 60 W,Aluminum,elec-541
-,,,Constant-voltage LED driver (24 V 100 W),Driver,24 V / 100 W,Aluminum,elec-542
-,,,Constant-voltage LED driver (24 V 150 W),Driver,24 V / 150 W,Aluminum,elec-543
-,,,Constant-voltage LED driver (24 V 200 W),Driver,24 V / 200 W,Aluminum,elec-544
-,,,Constant-voltage 0-10 V dimming driver (24 V 96 W),Driver,24 V / 96 W / 0-10 V,Aluminum,elec-545
-,,,Constant-voltage TRIAC-dimming driver (12 V 60 W),Driver,12 V / 60 W / TRIAC,Aluminum,elec-546
-,,,Class 2 constant-voltage LED driver (24 V 60 W),Driver,24 V / 60 W / Class 2,Thermoplastic,elec-547
-,,,Wet-location constant-voltage LED driver (24 V 100 W),Driver,24 V / 100 W / wet-location,Aluminum,elec-548
-,,,Emergency fluorescent ballast pack (500-700 lm),Emergency ballast,500-700 lm,Steel,elec-549
-,,,Emergency fluorescent ballast pack (900-1400 lm),Emergency ballast,900-1400 lm,Steel,elec-550
-,,,Emergency fluorescent ballast pack (high-output),Emergency ballast,high-output,Steel,elec-551
-,,,Emergency compact fluorescent ballast pack,Emergency ballast,CFL,Steel,elec-552
-,,,Emergency LED driver (5 W),Emergency ballast,5 W,Steel,elec-553
-,,,Emergency LED driver (7 W),Emergency ballast,7 W,Steel,elec-554
-,,,Emergency LED driver (10 W),Emergency ballast,10 W,Steel,elec-555
-,,,Emergency LED driver (15 W),Emergency ballast,15 W,Steel,elec-556
-,,,Emergency LED driver (20 W),Emergency ballast,20 W,Steel,elec-557
-,,,Emergency LED driver (constant-power 10 W),Emergency ballast,10 W / constant-power,Steel,elec-558
-,,,Dual-mode emergency LED driver (10 W),Emergency ballast,10 W / dual-mode,Steel,elec-559
-,,,Emergency LED driver with battery pack (10 W 90 min),Emergency ballast,10 W / 90 min,Steel,elec-560
-,,,Emergency lighting battery pack (nickel-cadmium),Emergency ballast,NiCd,,elec-561
-,,,Emergency lighting test switch and indicator,Emergency ballast,,Thermoplastic,elec-562
-,,,IEC 3-pole contactor (9 A 120 V coil),Contactor,9 A / 3-pole / 120 V coil,,elec-563
-,,,IEC 3-pole contactor (12 A 120 V coil),Contactor,12 A / 3-pole / 120 V coil,,elec-564
-,,,IEC 3-pole contactor (18 A 120 V coil),Contactor,18 A / 3-pole / 120 V coil,,elec-565
-,,,IEC 3-pole contactor (25 A 120 V coil),Contactor,25 A / 3-pole / 120 V coil,,elec-566
-,,,IEC 3-pole contactor (32 A 120 V coil),Contactor,32 A / 3-pole / 120 V coil,,elec-567
-,,,IEC 3-pole contactor (40 A 120 V coil),Contactor,40 A / 3-pole / 120 V coil,,elec-568
-,,,IEC 3-pole contactor (50 A 120 V coil),Contactor,50 A / 3-pole / 120 V coil,,elec-569
-,,,IEC 3-pole contactor (65 A 120 V coil),Contactor,65 A / 3-pole / 120 V coil,,elec-570
-,,,IEC 3-pole contactor (80 A 120 V coil),Contactor,80 A / 3-pole / 120 V coil,,elec-571
-,,,IEC 3-pole contactor (95 A 120 V coil),Contactor,95 A / 3-pole / 120 V coil,,elec-572
-,,,IEC 3-pole contactor (18 A 24 V coil),Contactor,18 A / 3-pole / 24 V coil,,elec-573
-,,,IEC 3-pole contactor (18 A 24 V DC coil),Contactor,18 A / 3-pole / 24 V DC coil,,elec-574
-,,,IEC 3-pole contactor (18 A 208 V coil),Contactor,18 A / 3-pole / 208 V coil,,elec-575
-,,,IEC 3-pole contactor (18 A 240 V coil),Contactor,18 A / 3-pole / 240 V coil,,elec-576
-,,,IEC 3-pole contactor (32 A 24 V coil),Contactor,32 A / 3-pole / 24 V coil,,elec-577
-,,,IEC 3-pole contactor (32 A 240 V coil),Contactor,32 A / 3-pole / 240 V coil,,elec-578
-,,,IEC 3-pole contactor (65 A 24 V coil),Contactor,65 A / 3-pole / 24 V coil,,elec-579
-,,,IEC 4-pole contactor (18 A 120 V coil),Contactor,18 A / 4-pole / 120 V coil,,elec-580
-,,,IEC reversing contactor pair (18 A 120 V coil),Contactor,18 A / reversing / 120 V coil,,elec-581
-,,,NEMA Size 00 3-pole contactor (120 V coil),Contactor,NEMA Size 00 / 3-pole / 120 V coil,,elec-582
-,,,NEMA Size 0 3-pole contactor (120 V coil),Contactor,NEMA Size 0 / 3-pole / 120 V coil,,elec-583
-,,,NEMA Size 1 3-pole contactor (120 V coil),Contactor,NEMA Size 1 / 3-pole / 120 V coil,,elec-584
-,,,NEMA Size 2 3-pole contactor (120 V coil),Contactor,NEMA Size 2 / 3-pole / 120 V coil,,elec-585
-,,,NEMA Size 3 3-pole contactor (120 V coil),Contactor,NEMA Size 3 / 3-pole / 120 V coil,,elec-586
-,,,NEMA Size 4 3-pole contactor (120 V coil),Contactor,NEMA Size 4 / 3-pole / 120 V coil,,elec-587
-,,,NEMA Size 5 3-pole contactor (120 V coil),Contactor,NEMA Size 5 / 3-pole / 120 V coil,,elec-588
-,,,NEMA Size 1 3-pole contactor (24 V coil),Contactor,NEMA Size 1 / 3-pole / 24 V coil,,elec-589
-,,,NEMA Size 1 3-pole contactor (240 V coil),Contactor,NEMA Size 1 / 3-pole / 240 V coil,,elec-590
-,,,NEMA Size 1 4-pole contactor (120 V coil),Contactor,NEMA Size 1 / 4-pole / 120 V coil,,elec-591
-,,,Electrically held lighting contactor (20 A 4-pole),Contactor,20 A / 4-pole / electrically held,,elec-592
-,,,Electrically held lighting contactor (30 A 8-pole),Contactor,30 A / 8-pole / electrically held,,elec-593
-,,,Electrically held lighting contactor (30 A 12-pole),Contactor,30 A / 12-pole / electrically held,,elec-594
-,,,Mechanically held lighting contactor (30 A 8-pole),Contactor,30 A / 8-pole / mechanically held,,elec-595
-,,,Mechanically held lighting contactor (60 A 4-pole),Contactor,60 A / 4-pole / mechanically held,,elec-596
-,,,Lighting contactor (100 A 3-pole),Contactor,100 A / 3-pole,,elec-597
-,,,Lighting contactor (200 A 3-pole),Contactor,200 A / 3-pole,,elec-598
-,,,Definite-purpose contactor (25 A 3-pole 24 V coil),Contactor,25 A / 3-pole / 24 V coil,,elec-599
-,,,Definite-purpose contactor (30 A 3-pole 24 V coil),Contactor,30 A / 3-pole / 24 V coil,,elec-600
-,,,Definite-purpose contactor (40 A 3-pole 24 V coil),Contactor,40 A / 3-pole / 24 V coil,,elec-601
-,,,Definite-purpose contactor (50 A 3-pole 24 V coil),Contactor,50 A / 3-pole / 24 V coil,,elec-602
-,,,Definite-purpose contactor (60 A 3-pole 24 V coil),Contactor,60 A / 3-pole / 24 V coil,,elec-603
-,,,Definite-purpose contactor (90 A 3-pole 24 V coil),Contactor,90 A / 3-pole / 24 V coil,,elec-604
-,,,NEMA Size 00 non-reversing starter (120 V coil),Motor starter,NEMA Size 00 / 120 V coil,,elec-605
-,,,NEMA Size 0 non-reversing starter (120 V coil),Motor starter,NEMA Size 0 / 120 V coil,,elec-606
-,,,NEMA Size 1 non-reversing starter (120 V coil),Motor starter,NEMA Size 1 / 120 V coil,,elec-607
-,,,NEMA Size 2 non-reversing starter (120 V coil),Motor starter,NEMA Size 2 / 120 V coil,,elec-608
-,,,NEMA Size 3 non-reversing starter (120 V coil),Motor starter,NEMA Size 3 / 120 V coil,,elec-609
-,,,NEMA Size 4 non-reversing starter (120 V coil),Motor starter,NEMA Size 4 / 120 V coil,,elec-610
-,,,NEMA Size 5 non-reversing starter (120 V coil),Motor starter,NEMA Size 5 / 120 V coil,,elec-611
-,,,NEMA Size 1 reversing starter (120 V coil),Motor starter,NEMA Size 1 / reversing / 120 V coil,,elec-612
-,,,NEMA Size 2 reversing starter (120 V coil),Motor starter,NEMA Size 2 / reversing / 120 V coil,,elec-613
-,,,IEC non-reversing starter (9 A),Motor starter,9 A / IEC,,elec-614
-,,,IEC non-reversing starter (18 A),Motor starter,18 A / IEC,,elec-615
-,,,IEC non-reversing starter (32 A),Motor starter,32 A / IEC,,elec-616
-,,,IEC non-reversing starter (65 A),Motor starter,65 A / IEC,,elec-617
-,,,IEC reversing starter (18 A),Motor starter,18 A / IEC / reversing,,elec-618
-,,,Combination starter NEMA Size 1 (NEMA 1 enclosure),Motor starter,NEMA Size 1 / NEMA 1 enclosure,Steel,elec-619
-,,,Combination starter NEMA Size 2 (NEMA 12 enclosure),Motor starter,NEMA Size 2 / NEMA 12 enclosure,Steel,elec-620
-,,,Wye-delta starter (25 HP 460 V),Motor starter,25 HP / 460 V / wye-delta,,elec-621
-,,,Part-winding starter (30 HP 460 V),Motor starter,30 HP / 460 V / part-winding,,elec-622
-,,,Soft starter (10 HP 460 V),Soft starter,10 HP / 460 V,,elec-623
-,,,Soft starter (25 HP 460 V),Soft starter,25 HP / 460 V,,elec-624
-,,,Soft starter (50 HP 460 V),Soft starter,50 HP / 460 V,,elec-625
-,,,Soft starter (100 HP 460 V),Soft starter,100 HP / 460 V,,elec-626
-,,,Full-voltage non-reversing starter (5 HP 230 V 1-phase),Motor starter,5 HP / 230 V / 1-phase,,elec-627
-,,,Full-voltage non-reversing starter (10 HP 460 V),Motor starter,10 HP / 460 V,,elec-628
-,,,Bimetallic overload relay (0.16-0.25 A Class 10),Overload relay,0.16-0.25 A / Class 10,,elec-629
-,,,Bimetallic overload relay (0.63-1 A Class 10),Overload relay,0.63-1 A / Class 10,,elec-630
-,,,Bimetallic overload relay (1.6-2.5 A Class 10),Overload relay,1.6-2.5 A / Class 10,,elec-631
-,,,Bimetallic overload relay (2.5-4 A Class 10),Overload relay,2.5-4 A / Class 10,,elec-632
-,,,Bimetallic overload relay (4-6 A Class 10),Overload relay,4-6 A / Class 10,,elec-633
-,,,Bimetallic overload relay (6-10 A Class 10),Overload relay,6-10 A / Class 10,,elec-634
-,,,Bimetallic overload relay (9-13 A Class 10),Overload relay,9-13 A / Class 10,,elec-635
-,,,Bimetallic overload relay (12-18 A Class 10),Overload relay,12-18 A / Class 10,,elec-636
-,,,Bimetallic overload relay (16-24 A Class 10),Overload relay,16-24 A / Class 10,,elec-637
-,,,Bimetallic overload relay (23-32 A Class 10),Overload relay,23-32 A / Class 10,,elec-638
-,,,Bimetallic overload relay (30-40 A Class 10),Overload relay,30-40 A / Class 10,,elec-639
-,,,Bimetallic overload relay (6-10 A Class 20),Overload relay,6-10 A / Class 20,,elec-640
-,,,Electronic overload relay (1-5 A Class 10),Overload relay,1-5 A / Class 10,,elec-641
-,,,Electronic overload relay (4-20 A Class 10),Overload relay,4-20 A / Class 10,,elec-642
-,,,Electronic overload relay (8-40 A Class 10),Overload relay,8-40 A / Class 10,,elec-643
-,,,Electronic overload relay (20-100 A Class 10),Overload relay,20-100 A / Class 10,,elec-644
-,,,Electronic overload relay with phase-loss protection (4-20 A),Overload relay,4-20 A / phase-loss,,elec-645
-,,,Overload heater element (Size 1 mid-range),Overload relay,NEMA Size 1 / mid-range,,elec-646
-,,,Manual motor starter (16 A 1-pole),Manual starter,16 A / 1-pole,,elec-647
-,,,Manual motor starter (16 A 2-pole),Manual starter,16 A / 2-pole,,elec-648
-,,,Manual motor starter (1 HP 120 V 1-phase),Manual starter,1 HP / 120 V / 1-phase,,elec-649
-,,,Manual motor starter (2 HP 240 V 1-phase),Manual starter,2 HP / 240 V / 1-phase,,elec-650
-,,,Manual motor starter (3 HP 240 V 1-phase),Manual starter,3 HP / 240 V / 1-phase,,elec-651
-,,,Manual motor protector (0.16-0.25 A),Manual starter,0.16-0.25 A,,elec-652
-,,,Manual motor protector (1-1.6 A),Manual starter,1-1.6 A,,elec-653
-,,,Manual motor protector (2.5-4 A),Manual starter,2.5-4 A,,elec-654
-,,,Manual motor protector (6-10 A),Manual starter,6-10 A,,elec-655
-,,,Manual motor protector (9-14 A),Manual starter,9-14 A,,elec-656
-,,,Manual motor protector (13-18 A),Manual starter,13-18 A,,elec-657
-,,,Manual motor protector (20-25 A),Manual starter,20-25 A,,elec-658
-,,,Manual motor protector (24-32 A),Manual starter,24-32 A,,elec-659
-,,,Manual motor starter in NEMA 1 enclosure (1 HP),Manual starter,1 HP / NEMA 1 enclosure,Steel,elec-660
-,,,Manual motor starter in NEMA 3R enclosure (3 HP),Manual starter,3 HP / NEMA 3R enclosure,Steel,elec-661
-,,,Manual motor starter with pilot light (2-pole),Manual starter,2-pole / with pilot light,,elec-662
-,,,22 mm flush pushbutton momentary (red),Pushbutton,22 mm / momentary / red,Polycarbonate,elec-663
-,,,22 mm flush pushbutton momentary (green),Pushbutton,22 mm / momentary / green,Polycarbonate,elec-664
-,,,22 mm flush pushbutton momentary (black),Pushbutton,22 mm / momentary / black,Polycarbonate,elec-665
-,,,22 mm flush pushbutton momentary (yellow),Pushbutton,22 mm / momentary / yellow,Polycarbonate,elec-666
-,,,22 mm flush pushbutton momentary (blue),Pushbutton,22 mm / momentary / blue,Polycarbonate,elec-667
-,,,22 mm flush pushbutton momentary (white),Pushbutton,22 mm / momentary / white,Polycarbonate,elec-668
-,,,22 mm extended pushbutton momentary (green),Pushbutton,22 mm / extended / green,Polycarbonate,elec-669
-,,,22 mm maintained pushbutton (red),Pushbutton,22 mm / maintained / red,Polycarbonate,elec-670
-,,,22 mm mushroom emergency-stop (twist-to-release),Pushbutton,22 mm / E-stop / twist-to-release,Polycarbonate,elec-671
-,,,22 mm mushroom emergency-stop (pull-to-release),Pushbutton,22 mm / E-stop / pull-to-release,Polycarbonate,elec-672
-,,,22 mm mushroom emergency-stop (key-release),Pushbutton,22 mm / E-stop / key-release,Polycarbonate,elec-673
-,,,22 mm illuminated pushbutton (red 24 V),Pushbutton,22 mm / illuminated / red / 24 V,Polycarbonate,elec-674
-,,,22 mm illuminated pushbutton (green 120 V),Pushbutton,22 mm / illuminated / green / 120 V,Polycarbonate,elec-675
-,,,22 mm 2-position selector switch,Pushbutton,22 mm / 2-position,Polycarbonate,elec-676
-,,,22 mm 3-position selector switch,Pushbutton,22 mm / 3-position,Polycarbonate,elec-677
-,,,22 mm key selector switch (2-position),Pushbutton,22 mm / key / 2-position,Polycarbonate,elec-678
-,,,22 mm LED pilot light (red 24 V),Pilot light,22 mm / red / 24 V,Polycarbonate,elec-679
-,,,22 mm LED pilot light (green 24 V),Pilot light,22 mm / green / 24 V,Polycarbonate,elec-680
-,,,22 mm LED pilot light (amber 24 V),Pilot light,22 mm / amber / 24 V,Polycarbonate,elec-681
-,,,22 mm LED pilot light (blue 24 V),Pilot light,22 mm / blue / 24 V,Polycarbonate,elec-682
-,,,22 mm LED pilot light (white 24 V),Pilot light,22 mm / white / 24 V,Polycarbonate,elec-683
-,,,22 mm LED pilot light (red 120 V),Pilot light,22 mm / red / 120 V,Polycarbonate,elec-684
-,,,22 mm LED pilot light (green 120 V),Pilot light,22 mm / green / 120 V,Polycarbonate,elec-685
-,,,22 mm push-to-test pilot light (red 120 V),Pilot light,22 mm / push-to-test / red / 120 V,Polycarbonate,elec-686
-,,,30 mm flush pushbutton momentary (red),Pushbutton,30 mm / momentary / red,Metal,elec-687
-,,,30 mm flush pushbutton momentary (green),Pushbutton,30 mm / momentary / green,Metal,elec-688
-,,,30 mm mushroom emergency-stop (twist-to-release),Pushbutton,30 mm / E-stop / twist-to-release,Metal,elec-689
-,,,30 mm LED pilot light (red 120 V),Pilot light,30 mm / red / 120 V,Metal,elec-690
-,,,30 mm 2-position selector switch,Pushbutton,30 mm / 2-position,Metal,elec-691
-,,,Contact block (normally open),Accessory,N.O.,,elec-692
-,,,Contact block (normally closed),Accessory,N.C.,,elec-693
-,,,Contact block (1 NO / 1 NC),Accessory,1 NO / 1 NC,,elec-694
-,,,Pushbutton enclosure (1-hole),Enclosure,1-hole,Steel,elec-695
-,,,Pushbutton enclosure (2-hole),Enclosure,2-hole,Steel,elec-696
-,,,Pushbutton enclosure (3-hole),Enclosure,3-hole,Steel,elec-697
-,,,Pushbutton enclosure (4-hole),Enclosure,4-hole,Steel,elec-698
-,,,Pushbutton legend plate,Accessory,,Aluminum,elec-699
-,,,Industrial foot switch (momentary),Control station,momentary,Cast metal,elec-700
-,,,Pendant control station (2-button),Control station,2-button,Thermoplastic,elec-701
-,,,Pendant control station (4-button),Control station,4-button,Thermoplastic,elec-702
-,,,Octal ice-cube relay (8-pin DPDT 10 A 120 V coil),Control relay,8-pin / DPDT / 10 A / 120 V coil,,elec-703
-,,,Octal ice-cube relay (8-pin DPDT 10 A 24 V coil),Control relay,8-pin / DPDT / 10 A / 24 V coil,,elec-704
-,,,Octal ice-cube relay (11-pin 3PDT 10 A 120 V coil),Control relay,11-pin / 3PDT / 10 A / 120 V coil,,elec-705
-,,,Octal ice-cube relay (11-pin 3PDT 10 A 24 V coil),Control relay,11-pin / 3PDT / 10 A / 24 V coil,,elec-706
-,,,Octal relay socket (8-pin),Accessory,8-pin,Thermoplastic,elec-707
-,,,Octal relay socket (11-pin),Accessory,11-pin,Thermoplastic,elec-708
-,,,IEC control relay (4 NO 120 V coil),Control relay,4 NO / 120 V coil,,elec-709
-,,,IEC control relay (3 NO / 1 NC 120 V coil),Control relay,3 NO / 1 NC / 120 V coil,,elec-710
-,,,IEC control relay (2 NO / 2 NC 120 V coil),Control relay,2 NO / 2 NC / 120 V coil,,elec-711
-,,,IEC control relay (4 NO 24 V coil),Control relay,4 NO / 24 V coil,,elec-712
-,,,Latching control relay (120 V),Control relay,120 V / latching,,elec-713
-,,,Interposing relay (24 V DC coil 8 A),Control relay,24 V DC coil / 8 A,,elec-714
-,,,Solid-state relay (10 A 24 V DC input),Control relay,10 A / 24 V DC input,,elec-715
-,,,Solid-state relay (25 A 24 V DC input),Control relay,25 A / 24 V DC input,,elec-716
-,,,Solid-state relay (40 A 24 V DC input),Control relay,40 A / 24 V DC input,,elec-717
-,,,Solid-state relay (50 A AC input),Control relay,50 A / AC input,,elec-718
-,,,Phase-monitor relay (208-240 V),Control relay,208-240 V,,elec-719
-,,,Phase-monitor relay (440-480 V),Control relay,440-480 V,,elec-720
-,,,Voltage-monitoring relay (120 V),Control relay,120 V,,elec-721
-,,,Current-monitoring relay,Control relay,,,elec-722
-,,,Alternating relay (120 V),Control relay,120 V,,elec-723
-,,,Contactor auxiliary contact (1 NO / 1 NC),Accessory,1 NO / 1 NC,,elec-724
-,,,Contactor coil surge suppressor (120 V),Accessory,120 V,,elec-725
-,,,Reversing contactor mechanical interlock,Accessory,,,elec-726
-,,,On-delay timing relay (0.1 s to 10 min 120 V),Timer,on-delay / 0.1 s-10 min / 120 V,,elec-727
-,,,Off-delay timing relay (0.1 s to 10 min 120 V),Timer,off-delay / 0.1 s-10 min / 120 V,,elec-728
-,,,Interval timing relay (120 V),Timer,interval / 120 V,,elec-729
-,,,One-shot timing relay (120 V),Timer,one-shot / 120 V,,elec-730
-,,,Recycle timing relay (120 V),Timer,recycle / 120 V,,elec-731
-,,,Multi-function digital timer (24-240 V),Timer,multi-function / 24-240 V,,elec-732
-,,,Analog dial timer (120 V),Timer,analog / 120 V,,elec-733
-,,,Star-delta timing relay,Timer,star-delta,,elec-734
-,,,Pneumatic timer attachment (on-delay),Timer,pneumatic / on-delay,,elec-735
-,,,Pneumatic timer attachment (off-delay),Timer,pneumatic / off-delay,,elec-736
-,,,24-hour time switch (120 V),Timer,24-hour / 120 V,,elec-737
-,,,7-day digital time switch (120 V),Timer,7-day / 120 V,,elec-738
-,,,24-hour time switch (208-277 V),Timer,24-hour / 208-277 V,,elec-739
-,,,VFD (0.5 HP 230 V 1-phase input),VFD,0.5 HP / 230 V / 1-phase input,,elec-740
-,,,VFD (1 HP 230 V 1-phase input),VFD,1 HP / 230 V / 1-phase input,,elec-741
-,,,VFD (2 HP 230 V 1-phase input),VFD,2 HP / 230 V / 1-phase input,,elec-742
-,,,VFD (3 HP 230 V 1-phase input),VFD,3 HP / 230 V / 1-phase input,,elec-743
-,,,VFD (1 HP 230 V 3-phase),VFD,1 HP / 230 V / 3-phase,,elec-744
-,,,VFD (3 HP 230 V 3-phase),VFD,3 HP / 230 V / 3-phase,,elec-745
-,,,VFD (5 HP 230 V 3-phase),VFD,5 HP / 230 V / 3-phase,,elec-746
-,,,VFD (10 HP 230 V 3-phase),VFD,10 HP / 230 V / 3-phase,,elec-747
-,,,VFD (1 HP 460 V 3-phase),VFD,1 HP / 460 V / 3-phase,,elec-748
-,,,VFD (3 HP 460 V 3-phase),VFD,3 HP / 460 V / 3-phase,,elec-749
-,,,VFD (5 HP 460 V 3-phase),VFD,5 HP / 460 V / 3-phase,,elec-750
-,,,VFD (7.5 HP 460 V 3-phase),VFD,7.5 HP / 460 V / 3-phase,,elec-751
-,,,VFD (10 HP 460 V 3-phase),VFD,10 HP / 460 V / 3-phase,,elec-752
-,,,VFD (15 HP 460 V 3-phase),VFD,15 HP / 460 V / 3-phase,,elec-753
-,,,VFD (20 HP 460 V 3-phase),VFD,20 HP / 460 V / 3-phase,,elec-754
-,,,VFD (25 HP 460 V 3-phase),VFD,25 HP / 460 V / 3-phase,,elec-755
-,,,VFD (30 HP 460 V 3-phase),VFD,30 HP / 460 V / 3-phase,,elec-756
-,,,VFD (40 HP 460 V 3-phase),VFD,40 HP / 460 V / 3-phase,,elec-757
-,,,VFD (50 HP 460 V 3-phase),VFD,50 HP / 460 V / 3-phase,,elec-758
-,,,VFD (75 HP 460 V 3-phase),VFD,75 HP / 460 V / 3-phase,,elec-759
-,,,VFD (100 HP 460 V 3-phase),VFD,100 HP / 460 V / 3-phase,,elec-760
-,,,VFD line reactor (5 HP),Accessory,5 HP / line reactor,,elec-761
-,,,VFD line reactor (10 HP),Accessory,10 HP / line reactor,,elec-762
-,,,VFD line reactor (25 HP),Accessory,25 HP / line reactor,,elec-763
-,,,VFD load reactor (10 HP),Accessory,10 HP / load reactor,,elec-764
-,,,VFD load reactor (25 HP),Accessory,25 HP / load reactor,,elec-765
-,,,VFD dynamic braking resistor (5 HP),Accessory,5 HP / braking resistor,,elec-766
-,,,VFD dynamic braking resistor (10 HP),Accessory,10 HP / braking resistor,,elec-767
-,,,VFD EMC filter (10 HP),Accessory,10 HP / EMC filter,,elec-768
-,,,VFD remote keypad,Accessory,remote keypad,,elec-769
-,,,NEMA 1 control enclosure (8 in x 6 in x 4 in),Enclosure,8 in x 6 in x 4 in / NEMA 1,Steel,elec-770
-,,,NEMA 1 control enclosure (12 in x 10 in x 6 in),Enclosure,12 in x 10 in x 6 in / NEMA 1,Steel,elec-771
-,,,NEMA 1 control enclosure (16 in x 14 in x 8 in),Enclosure,16 in x 14 in x 8 in / NEMA 1,Steel,elec-772
-,,,NEMA 12 control enclosure (12 in x 10 in x 6 in),Enclosure,12 in x 10 in x 6 in / NEMA 12,Steel,elec-773
-,,,NEMA 12 control enclosure (16 in x 14 in x 8 in),Enclosure,16 in x 14 in x 8 in / NEMA 12,Steel,elec-774
-,,,NEMA 12 control enclosure (20 in x 16 in x 8 in),Enclosure,20 in x 16 in x 8 in / NEMA 12,Steel,elec-775
-,,,NEMA 12 control enclosure (24 in x 20 in x 8 in),Enclosure,24 in x 20 in x 8 in / NEMA 12,Steel,elec-776
-,,,NEMA 3R control enclosure (12 in x 10 in x 6 in),Enclosure,12 in x 10 in x 6 in / NEMA 3R,Steel,elec-777
-,,,NEMA 3R control enclosure (16 in x 14 in x 8 in),Enclosure,16 in x 14 in x 8 in / NEMA 3R,Steel,elec-778
-,,,NEMA 3R control enclosure (20 in x 16 in x 8 in),Enclosure,20 in x 16 in x 8 in / NEMA 3R,Steel,elec-779
-,,,NEMA 4 control enclosure (12 in x 10 in x 6 in),Enclosure,12 in x 10 in x 6 in / NEMA 4,Steel,elec-780
-,,,NEMA 4 control enclosure (16 in x 14 in x 8 in),Enclosure,16 in x 14 in x 8 in / NEMA 4,Steel,elec-781
-,,,NEMA 4X stainless enclosure (12 in x 10 in x 6 in),Enclosure,12 in x 10 in x 6 in / NEMA 4X,Stainless steel,elec-782
-,,,NEMA 4X stainless enclosure (16 in x 14 in x 8 in),Enclosure,16 in x 14 in x 8 in / NEMA 4X,Stainless steel,elec-783
-,,,NEMA 4X nonmetallic enclosure (12 in x 10 in x 6 in),Enclosure,12 in x 10 in x 6 in / NEMA 4X,Polycarbonate,elec-784
-,,,NEMA 4X nonmetallic enclosure (16 in x 14 in x 8 in),Enclosure,16 in x 14 in x 8 in / NEMA 4X,Polycarbonate,elec-785
-,,,NEMA 7 hazardous-location enclosure,Enclosure,NEMA 7,Cast metal,elec-786
-,,,Motor starter enclosure NEMA Size 0 (NEMA 1),Enclosure,NEMA Size 0 / NEMA 1,Steel,elec-787
-,,,Motor starter enclosure NEMA Size 1 (NEMA 1),Enclosure,NEMA Size 1 / NEMA 1,Steel,elec-788
-,,,Motor starter enclosure NEMA Size 1 (NEMA 12),Enclosure,NEMA Size 1 / NEMA 12,Steel,elec-789
-,,,Motor starter enclosure NEMA Size 2 (NEMA 1),Enclosure,NEMA Size 2 / NEMA 1,Steel,elec-790
-,,,Motor starter enclosure NEMA Size 3 (NEMA 1),Enclosure,NEMA Size 3 / NEMA 1,Steel,elec-791
-,,,Freestanding motor-control enclosure (60 in),Enclosure,60 in,Steel,elec-792
-,,,Motor control center unit (Size 1),Enclosure,MCC unit / Size 1,Steel,elec-793
-,,,Control transformer (50 VA 240/480-120 V),Control transformer,50 VA / 240/480-120 V,,elec-794
-,,,Control transformer (100 VA 240/480-120 V),Control transformer,100 VA / 240/480-120 V,,elec-795
-,,,Control transformer (150 VA 240/480-120 V),Control transformer,150 VA / 240/480-120 V,,elec-796
-,,,Control transformer (250 VA 240/480-120 V),Control transformer,250 VA / 240/480-120 V,,elec-797
-,,,Control transformer (500 VA 240/480-120 V),Control transformer,500 VA / 240/480-120 V,,elec-798
-,,,Control transformer (1000 VA 240/480-120 V),Control transformer,1000 VA / 240/480-120 V,,elec-799
-,,,Control transformer (100 VA 208/120 V),Control transformer,100 VA / 208/120 V,,elec-800
-,,,Machine-tool control transformer (150 VA),Control transformer,150 VA / machine-tool,,elec-801
-,,,Reversing drum switch (2 HP),Control station,2 HP / reversing,Cast metal,elec-802
+# Always check the panel's label and local code before installing.
+# Gas and electrical parts should be installed by a qualified, licensed electrician.
+id,Product_Name,Type,Brand,Series,Wattage,Voltage,Coil_Voltage,Amps,Current_mA,Horsepower,Phase,Poles,Base,Color_Temp,Lamp_Count,Length,Pins,Contacts,NEMA_Size,Rating,Mounting,Color,Size,Material,Features
+elec-001,Single-pole plug-in breaker,Breaker,Square D,QO,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-002,2-pole plug-in breaker,Breaker,Square D,QO,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-003,Tandem plug-in breaker,Breaker,Square D,QO,,,,,,,,,,,,,,,,,,,,,tandem
+elec-004,GFCI plug-in breaker,Breaker,Square D,QO,,,,,,,,,,,,,,,,,,,,,
+elec-005,AFCI plug-in breaker,Breaker,Square D,QO,,,,,,,,,,,,,,,,,,,,,
+elec-006,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,Square D,QO,,,,,,,,,,,,,,,,,,,,,
+elec-007,Bolt-on single-pole breaker,Breaker,Square D,QO,,,,,,,,1-pole,,,,,,,,,,,,,bolt-on
+elec-008,Load center,Load center,Square D,QO,,,,,,,,,,,,,,,,,,,,,
+elec-009,Single-pole plug-in breaker,Breaker,Square D,Homeline,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-010,2-pole plug-in breaker,Breaker,Square D,Homeline,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-011,Tandem plug-in breaker,Breaker,Square D,Homeline,,,,,,,,,,,,,,,,,,,,,tandem
+elec-012,GFCI plug-in breaker,Breaker,Square D,Homeline,,,,,,,,,,,,,,,,,,,,,
+elec-013,AFCI plug-in breaker,Breaker,Square D,Homeline,,,,,,,,,,,,,,,,,,,,,
+elec-014,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,Square D,Homeline,,,,,,,,,,,,,,,,,,,,,
+elec-015,Load center,Load center,Square D,Homeline,,,,,,,,,,,,,,,,,,,,,
+elec-016,Single-pole plug-in breaker,Breaker,Eaton,BR,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-017,2-pole plug-in breaker,Breaker,Eaton,BR,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-018,Tandem plug-in breaker,Breaker,Eaton,BR,,,,,,,,,,,,,,,,,,,,,tandem
+elec-019,GFCI plug-in breaker,Breaker,Eaton,BR,,,,,,,,,,,,,,,,,,,,,
+elec-020,AFCI plug-in breaker,Breaker,Eaton,BR,,,,,,,,,,,,,,,,,,,,,
+elec-021,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,Eaton,BR,,,,,,,,,,,,,,,,,,,,,
+elec-022,Load center,Load center,Eaton,BR,,,,,,,,,,,,,,,,,,,,,
+elec-023,Single-pole plug-in breaker,Breaker,Eaton,CH,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-024,2-pole plug-in breaker,Breaker,Eaton,CH,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-025,Tandem plug-in breaker,Breaker,Eaton,CH,,,,,,,,,,,,,,,,,,,,,tandem
+elec-026,GFCI plug-in breaker,Breaker,Eaton,CH,,,,,,,,,,,,,,,,,,,,,
+elec-027,AFCI plug-in breaker,Breaker,Eaton,CH,,,,,,,,,,,,,,,,,,,,,
+elec-028,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,Eaton,CH,,,,,,,,,,,,,,,,,,,,,
+elec-029,Load center,Load center,Eaton,CH,,,,,,,,,,,,,,,,,,,,,
+elec-030,Single-pole plug-in breaker,Breaker,Siemens,QP,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-031,2-pole plug-in breaker,Breaker,Siemens,QP,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-032,Tandem plug-in breaker,Breaker,Siemens,QP,,,,,,,,,,,,,,,,,,,,,tandem
+elec-033,GFCI plug-in breaker,Breaker,Siemens,QP,,,,,,,,,,,,,,,,,,,,,
+elec-034,AFCI plug-in breaker,Breaker,Siemens,QP,,,,,,,,,,,,,,,,,,,,,
+elec-035,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,Siemens,QP,,,,,,,,,,,,,,,,,,,,,
+elec-036,Load center,Load center,Siemens,QP,,,,,,,,,,,,,,,,,,,,,
+elec-037,Single-pole plug-in breaker,Breaker,GE,Q-Line,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-038,2-pole plug-in breaker,Breaker,GE,Q-Line,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-039,1/2-inch (thin) plug-in breaker,Breaker,GE,Q-Line,,,,,,,,,,,,,,,,,,,1/2 in,,
+elec-040,GFCI plug-in breaker,Breaker,GE,Q-Line,,,,,,,,,,,,,,,,,,,,,
+elec-041,AFCI plug-in breaker,Breaker,GE,Q-Line,,,,,,,,,,,,,,,,,,,,,
+elec-042,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,GE,Q-Line,,,,,,,,,,,,,,,,,,,,,
+elec-043,Load center,Load center,GE,Q-Line,,,,,,,,,,,,,,,,,,,,,
+elec-044,Single-pole plug-in breaker,Breaker,Murray,MP,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-045,2-pole plug-in breaker,Breaker,Murray,MP,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-046,Tandem plug-in breaker,Breaker,Murray,MP,,,,,,,,,,,,,,,,,,,,,tandem
+elec-047,Load center,Load center,Murray,MP,,,,,,,,,,,,,,,,,,,,,
+elec-048,Single-pole plug-in breaker,Breaker,Leviton,Load Center,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-049,2-pole plug-in breaker,Breaker,Leviton,Load Center,,,,,,,,2-pole,,,,,,,,,,,,,
+elec-050,GFCI plug-in breaker,Breaker,Leviton,Load Center,,,,,,,,,,,,,,,,,,,,,
+elec-051,AFCI plug-in breaker,Breaker,Leviton,Load Center,,,,,,,,,,,,,,,,,,,,,
+elec-052,Dual-function (AFCI/GFCI) plug-in breaker,Breaker,Leviton,Load Center,,,,,,,,,,,,,,,,,,,,,
+elec-053,Load center,Load center,Leviton,Load Center,,,,,,,,,,,,,,,,,,,,,
+elec-054,Class RK1 time-delay fuse,Fuse,,,,,,,,,,,,,,,,,,,,,,,
+elec-055,Class RK5 time-delay fuse,Fuse,,,,,,,,,,,,,,,,,,,,,,,
+elec-056,Class CC fuse,Fuse,,,,,,,,,,,,,,,,,,,,,,,
+elec-057,Class J time-delay fuse,Fuse,,,,,,,,,,,,,,,,,,,,,,,
+elec-058,Edison-base plug fuse,Fuse,,,,,,,,,,,,,,,,,,,,,,,
+elec-059,Type S (rejection) plug fuse,Fuse,,,,,,,,,,,,,,,,,,,,,,,
+elec-060,15A tamper-resistant duplex receptacle,Receptacle,,,,,,15 A,,,,,,,,,,,,,,,,,
+elec-061,20A tamper-resistant duplex receptacle,Receptacle,,,,,,20 A,,,,,,,,,,,,,,,,,
+elec-062,15A GFCI receptacle,Receptacle,,,,,,15 A,,,,,,,,,,,,,,,,,
+elec-063,20A GFCI receptacle,Receptacle,,,,,,20 A,,,,,,,,,,,,,,,,,
+elec-064,Weather-resistant duplex receptacle,Receptacle,,,,,,,,,,,,,,,,,,,,,,,
+elec-065,Single-pole switch,Switch,,,,,,,,,,1-pole,,,,,,,,,,,,,
+elec-066,3-way switch,Switch,,,,,,,,,,,,,,,,,,,,,,,
+elec-067,Dimmer switch,Switch,,,,,,,,,,,,,,,,,,,,,,,
+elec-068,30A dryer receptacle (NEMA 14-30),Receptacle,,,,,,30 A,,,,,,,,,,,,NEMA 14-30,,,,,
+elec-069,50A range receptacle (NEMA 14-50),Receptacle,,,,,,50 A,,,,,,,,,,,,NEMA 14-50,,,,,
+elec-070,Weatherproof in-use cover (extra duty),Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-071,Single-gang nail-on device box,Box,,,,,,,,,,,,,,,,,,,,,1-gang,,
+elec-072,Single-gang old-work (remodel) device box,Box,,,,,,,,,,,,,,,,,,,,,1-gang,,
+elec-073,2-gang device box,Box,,,,,,,,,,,,,,,,,,,,,2-gang,,
+elec-074,4-inch square box,Box,,,,,,,,,,,,,,,,,,,,,4 in,,
+elec-075,Round ceiling box,Box,,,,,,,,,,,,,,,,,,,,,,,
+elec-076,Weatherproof (FS-style) box,Box,,,,,,,,,,,,,,,,,,,,,,,
+elec-077,Twist-on wire connector,Connector,,,,,,,,,,,,,,,,,,,,,,,
+elec-078,Waterproof (gel-filled) wire connector,Connector,,,,,,,,,,,,,,,,,,,,,,,
+elec-079,Lever-style splice connector,Connector,,,,,,,,,,,,,,,,,,,,,,,
+elec-080,Grounding pigtail,Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-081,NM cable staple,Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-082,NM cable box connector,Box,,,,,,,,,,,,,,,,,,,,,,,
+elec-083,MC cable connector,Connector,,,,,,,,,,,,,,,,,,,,,,,
+elec-084,Set-screw EMT connector,Connector,,,,,,,,,,,,,,,,,,,,,,,
+elec-085,Electrical tape,Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-086,Anti-oxidant joint compound,Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-087,14 AWG NM-B cable (2-conductor with ground),Cable,,,,,,,,,,,,,,,,,,,,,14 AWG,,
+elec-088,12 AWG NM-B cable (2-conductor with ground),Cable,,,,,,,,,,,,,,,,,,,,,12 AWG,,
+elec-089,14 AWG NM-B cable (3-conductor with ground),Cable,,,,,,,,,,,,,,,,,,,,,14 AWG,,
+elec-090,12 AWG NM-B cable (3-conductor with ground),Cable,,,,,,,,,,,,,,,,,,,,,12 AWG,,
+elec-091,12 AWG THHN/THWN-2 building wire,Cable,,,,,,,,,,,,,,,,,,,,,12 AWG,,
+elec-092,12 AWG MC cable,Cable,,,,,,,,,,,,,,,,,,,,,12 AWG,,
+elec-093,UF-B underground feeder cable,Cable,,,,,,,,,,,,,,,,,,,,,,,
+elec-094,1/2-inch EMT,Conduit,,,,,,,,,,,,,,,,,,,,,1/2 in,,
+elec-095,1/2-inch PVC schedule 40 conduit,Conduit,,,,,,,,,,,,,,,,,,,,,1/2 in,,
+elec-096,Liquidtight flexible metal conduit (LFMC),Conduit,,,,,,,,,,,,,,,,,,,,,,,
+elec-097,30A non-fusible AC disconnect,Switch,,,,,,30 A,,,,,,,,,,,,,,,,,
+elec-098,60A non-fusible AC disconnect,Switch,,,,,,60 A,,,,,,,,,,,,,,,,,
+elec-099,8-foot copper-bonded ground rod,Accessory,,,,,,,,,,,,,,8 ft,,,,,,,,,
+elec-100,Ground rod clamp,Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-101,LED A19 lamp (6 W E26 2700 K),Lamp,,,6 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-102,LED A19 lamp (6 W E26 5000 K),Lamp,,,6 W,,,,,,,,E26,5000 K,,,,,,,,,,Glass,
+elec-103,LED A19 lamp (9 W E26 2700 K),Lamp,,,9 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-104,LED A19 lamp (9 W E26 3000 K),Lamp,,,9 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,
+elec-105,LED A19 lamp (9 W E26 4000 K),Lamp,,,9 W,,,,,,,,E26,4000 K,,,,,,,,,,Glass,
+elec-106,LED A19 lamp (9 W E26 5000 K),Lamp,,,9 W,,,,,,,,E26,5000 K,,,,,,,,,,Glass,
+elec-107,LED A19 lamp (11 W E26 2700 K),Lamp,,,11 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-108,LED A19 lamp (15 W E26 2700 K),Lamp,,,15 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-109,LED A19 lamp (15 W E26 5000 K),Lamp,,,15 W,,,,,,,,E26,5000 K,,,,,,,,,,Glass,
+elec-110,LED A21 lamp (16 W E26 2700 K),Lamp,,,16 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-111,LED A21 lamp (22 W E26 2700 K),Lamp,,,22 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-112,LED A19 dimmable lamp (9 W E26 2700 K),Lamp,,,9 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-113,LED A19 three-way lamp (E26),Lamp,,,,,,,,,,,E26,,,,,,,,,,,Glass,three-way
+elec-114,LED A19 filament lamp (6 W E26 2700 K),Lamp,,,6 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-115,LED A19 high-CRI lamp (9 W E26 2700 K),Lamp,,,9 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,90 CRI
+elec-116,LED A19 rough-service lamp (9 W E26),Lamp,,,9 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-117,LED A19 enclosed-rated lamp (9 W E26),Lamp,,,9 W,,,,,,,,E26,,,,,,,,,,,Glass,enclosed-rated
+elec-118,LED A19 bug lamp (9 W E26 yellow),Lamp,,,9 W,,,,,,,,E26,,,,,,,,,yellow,,Glass,
+elec-119,LED A19 tunable-white lamp (9 W E26),Lamp,,,9 W,,,,,,,,E26,,,,,,,,,,,Glass,tunable-white
+elec-120,LED A15 appliance lamp (E26),Lamp,,,,,,,,,,,E26,,,,,,,,,,,Glass,A15
+elec-121,LED A19 lamp (9 W GU24 2700 K),Lamp,,,9 W,,,,,,,,GU24,2700 K,,,,,,,,,,Glass,
+elec-122,LED B11 candelabra lamp (4 W E12 2700 K),Lamp,,,4 W,,,,,,,,E12,2700 K,,,,,,,,,,Glass,
+elec-123,LED B11 candelabra lamp (5 W E12 2700 K),Lamp,,,5 W,,,,,,,,E12,2700 K,,,,,,,,,,Glass,
+elec-124,LED B11 filament lamp (4 W E12 2700 K),Lamp,,,4 W,,,,,,,,E12,2700 K,,,,,,,,,,Glass,
+elec-125,LED CA11 flame-tip lamp (4 W E12 2700 K),Lamp,,,4 W,,,,,,,,E12,2700 K,,,,,,,,,,Glass,
+elec-126,LED B11 lamp (4 W E17 2700 K),Lamp,,,4 W,,,,,,,,E17,2700 K,,,,,,,,,,Glass,
+elec-127,LED C7 night-light lamp (E12),Lamp,,,,,,,,,,,E12,,,,,,,,,,,Glass,C7
+elec-128,LED C9 sign lamp (E17),Lamp,,,,,,,,,,,E17,,,,,,,,,,,Glass,C9
+elec-129,LED S14 sign lamp (E26),Lamp,,,,,,,,,,,E26,,,,,,,,,,,Glass,S14
+elec-130,LED T6.5 candelabra lamp (E12),Lamp,,,,,,,,,,,E12,,,,,,,,,,,Glass,T6.5
+elec-131,LED T10 tubular lamp (E26),Lamp,,,,,,,,,,,E26,,,,,,,,,,,Glass,T10
+elec-132,LED ST19 filament lamp (E26 2700 K),Lamp,,,,,,,,,,,E26,2700 K,,,,,,,,,,Glass,ST19
+elec-133,LED ST58 filament lamp (E26 2200 K),Lamp,,,,,,,,,,,E26,2200 K,,,,,,,,,,Glass,ST58
+elec-134,LED G16.5 globe lamp (4 W E12 2700 K),Lamp,,,4 W,,,,,,,,E12,2700 K,,,,,,,,,,Glass,
+elec-135,LED G16.5 globe lamp (4 W E26 2700 K),Lamp,,,4 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-136,LED G25 globe lamp (6 W E26 2700 K),Lamp,,,6 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-137,LED G25 filament lamp (6 W E26 2700 K),Lamp,,,6 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-138,LED G40 globe lamp (8 W E26 2700 K),Lamp,,,8 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-139,LED BR20 lamp (7 W E26 2700 K),Lamp,,,7 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-140,LED BR30 lamp (8 W E26 2700 K),Lamp,,,8 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-141,LED BR30 lamp (8 W E26 3000 K),Lamp,,,8 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,
+elec-142,LED BR30 lamp (8 W E26 4000 K),Lamp,,,8 W,,,,,,,,E26,4000 K,,,,,,,,,,Glass,
+elec-143,LED BR30 lamp (8 W E26 5000 K),Lamp,,,8 W,,,,,,,,E26,5000 K,,,,,,,,,,Glass,
+elec-144,LED BR30 lamp (11 W E26 2700 K),Lamp,,,11 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-145,LED BR30 lamp (8 W GU24 2700 K),Lamp,,,8 W,,,,,,,,GU24,2700 K,,,,,,,,,,Glass,
+elec-146,LED BR40 lamp (15 W E26 2700 K),Lamp,,,15 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-147,LED BR40 lamp (15 W E26 4000 K),Lamp,,,15 W,,,,,,,,E26,4000 K,,,,,,,,,,Glass,
+elec-148,LED BR40 lamp (17 W E26 5000 K),Lamp,,,17 W,,,,,,,,E26,5000 K,,,,,,,,,,Glass,
+elec-149,LED R20 lamp (6 W E26 2700 K),Lamp,,,6 W,,,,,,,,E26,2700 K,,,,,,,,,,Glass,
+elec-150,LED PAR16 lamp (7 W E26 3000 K),Lamp,,,7 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,
+elec-151,LED PAR20 lamp (7 W E26 3000 K),Lamp,,,7 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,
+elec-152,LED PAR30 short-neck lamp (11 W E26 3000 K),Lamp,,,11 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,short-neck
+elec-153,LED PAR30 long-neck lamp (11 W E26 3000 K),Lamp,,,11 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,long-neck
+elec-154,LED PAR38 lamp (13 W E26 3000 K),Lamp,,,13 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,
+elec-155,LED PAR38 lamp (15 W E26 4000 K),Lamp,,,15 W,,,,,,,,E26,4000 K,,,,,,,,,,Glass,
+elec-156,LED PAR38 lamp (17 W E26 5000 K),Lamp,,,17 W,,,,,,,,E26,5000 K,,,,,,,,,,Glass,
+elec-157,LED PAR38 narrow-flood lamp (15 W E26 3000 K),Lamp,,,15 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,narrow-flood
+elec-158,LED PAR38 flood lamp (15 W E26 3000 K),Lamp,,,15 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,flood
+elec-159,LED PAR38 wide-flood lamp (15 W E26 3000 K),Lamp,,,15 W,,,,,,,,E26,3000 K,,,,,,,,,,Glass,wide-flood
+elec-160,LED MR16 lamp (7 W GU5.3 12 V 3000 K),Lamp,,,7 W,12 V,,,,,,,GU5.3,3000 K,,,,,,,,,,Glass,
+elec-161,LED MR16 lamp (7 W GU5.3 12 V 4000 K),Lamp,,,7 W,12 V,,,,,,,GU5.3,4000 K,,,,,,,,,,Glass,
+elec-162,LED MR16 lamp (5 W GU10 120 V 3000 K),Lamp,,,5 W,120 V,,,,,,,GU10,3000 K,,,,,,,,,,Glass,
+elec-163,LED MR16 lamp (7 W GU10 120 V 3000 K),Lamp,,,7 W,120 V,,,,,,,GU10,3000 K,,,,,,,,,,Glass,
+elec-164,LED MR11 lamp (4 W GU4 12 V),Lamp,,,4 W,12 V,,,,,,,GU4,,,,,,,,,,,Glass,
+elec-165,LED G4 capsule lamp (2 W 12 V),Lamp,,,2 W,12 V,,,,,,,G4,,,,,,,,,,,Glass,
+elec-166,LED G8 capsule lamp (3 W 120 V),Lamp,,,3 W,120 V,,,,,,,G8,,,,,,,,,,,Glass,
+elec-167,LED G9 capsule lamp (4 W 120 V),Lamp,,,4 W,120 V,,,,,,,G9,,,,,,,,,,,Glass,
+elec-168,LED GY6.35 capsule lamp (5 W 12 V),Lamp,,,5 W,12 V,,,,,,,GY6.35,,,,,,,,,,,Glass,
+elec-169,LED T4 mini-candelabra lamp (E11),Lamp,,,,,,,,,,,E11,,,,,,,,,,,Glass,T4
+elec-170,LED T3 double-ended lamp (RSC 78 mm),Lamp,,,,,,,,,,,RSC,,,78 mm,,,,,,,,Glass,
+elec-171,LED T3 double-ended lamp (RSC 118 mm),Lamp,,,,,,,,,,,RSC,,,118 mm,,,,,,,,Glass,
+elec-172,LED BA15s lamp (2 W 12 V),Lamp,,,2 W,12 V,,,,,,,BA15s,,,,,,,,,,,Glass,
+elec-173,LED BA15d lamp (3 W 120 V),Lamp,,,3 W,120 V,,,,,,,BA15d,,,,,,,,,,,Glass,
+elec-174,LED A15 intermediate-base lamp (E17),Lamp,,,,,,,,,,,E17,,,,,,,,,,,Glass,A15
+elec-175,LED T8 Type A tube (2 ft G13),Lamp,,,,,,,,,,,G13,,,2 ft,,,,,,,,Glass,Type A
+elec-176,LED T8 Type A tube (3 ft G13),Lamp,,,,,,,,,,,G13,,,3 ft,,,,,,,,Glass,Type A
+elec-177,LED T8 Type A tube (4 ft G13),Lamp,,,,,,,,,,,G13,,,4 ft,,,,,,,,Glass,Type A
+elec-178,LED T8 Type A tube (8 ft Fa8),Lamp,,,,,,,,,,,Fa8,,,8 ft,,,,,,,,Glass,Type A
+elec-179,LED T8 Type B single-ended tube (2 ft G13),Lamp,,,,,,,,,,,G13,,,2 ft,,,,,,,,Glass,Type B single-ended
+elec-180,LED T8 Type B single-ended tube (4 ft G13),Lamp,,,,,,,,,,,G13,,,4 ft,,,,,,,,Glass,Type B single-ended
+elec-181,LED T8 Type B single-ended tube (8 ft Fa8),Lamp,,,,,,,,,,,Fa8,,,8 ft,,,,,,,,Glass,Type B single-ended
+elec-182,LED T8 Type B double-ended tube (4 ft G13),Lamp,,,,,,,,,,,G13,,,4 ft,,,,,,,,Glass,Type B double-ended
+elec-183,LED T8 Type A/B hybrid tube (4 ft G13),Lamp,,,,,,,,,,,G13,,,4 ft,,,,,,,,Glass,Type A/B
+elec-184,LED T8 U-bend tube (G13),Lamp,,,,,,,,,,,G13,,,,,,,,,,,Glass,U-bend
+elec-185,LED T5 Type B tube (2 ft G5),Lamp,,,,,,,,,,,G5,,,2 ft,,,,,,,,Glass,Type B
+elec-186,LED T5 Type B tube (3 ft G5),Lamp,,,,,,,,,,,G5,,,3 ft,,,,,,,,Glass,Type B
+elec-187,LED T5 Type B tube (4 ft G5),Lamp,,,,,,,,,,,G5,,,4 ft,,,,,,,,Glass,Type B
+elec-188,LED T5HO Type B tube (4 ft G5),Lamp,,,,,,,,,,,G5,,,4 ft,,,,,,,,Glass,"T5HO, Type B"
+elec-189,LED T12 Type B tube (4 ft G13),Lamp,,,,,,,,,,,G13,,,4 ft,,,,,,,,Glass,Type B
+elec-190,LED T12 Type B tube (8 ft Fa8),Lamp,,,,,,,,,,,Fa8,,,8 ft,,,,,,,,Glass,Type B
+elec-191,LED T8 HO Type B tube (8 ft R17d),Lamp,,,,,,,,,,,R17d,,,8 ft,,,,,,,,Glass,Type B
+elec-192,LED T9 circline lamp (12 in),Lamp,,,,,,,,,,,,,,12 in,,,,,,,,Glass,circline
+elec-193,LED T9 circline lamp (16 in),Lamp,,,,,,,,,,,,,,16 in,,,,,,,,Glass,circline
+elec-194,LED HID-retrofit lamp (30 W E26),Lamp,,,30 W,,,,,,,,E26,,,,,,,,,,,Polycarbonate,
+elec-195,LED HID-retrofit lamp (54 W E26),Lamp,,,54 W,,,,,,,,E26,,,,,,,,,,,Polycarbonate,
+elec-196,LED HID-retrofit lamp (80 W E39),Lamp,,,80 W,,,,,,,,E39,,,,,,,,,,,Polycarbonate,
+elec-197,LED HID-retrofit lamp (100 W E39),Lamp,,,100 W,,,,,,,,E39,,,,,,,,,,,Polycarbonate,
+elec-198,LED HID-retrofit lamp (120 W E39),Lamp,,,120 W,,,,,,,,E39,,,,,,,,,,,Polycarbonate,
+elec-199,LED HID-retrofit lamp (150 W E39),Lamp,,,150 W,,,,,,,,E39,,,,,,,,,,,Polycarbonate,
+elec-200,LED post-top retrofit lamp (30 W E26),Lamp,,,30 W,,,,,,,,E26,,,,,,,,,,,Polycarbonate,
+elec-201,LED area-light retrofit lamp (100 W E39),Lamp,,,100 W,,,,,,,,E39,,,,,,,,,,,Polycarbonate,
+elec-202,LED wall-pack retrofit lamp (45 W E26),Lamp,,,45 W,,,,,,,,E26,,,,,,,,,,,Polycarbonate,
+elec-203,LED high-bay retrofit lamp (150 W E39),Lamp,,,150 W,,,,,,,,E39,,,,,,,,,,,Polycarbonate,
+elec-204,LED ED17 filament lamp (E26),Lamp,,,,,,,,,,,E26,,,,,,,,,,,Glass,ED17
+elec-205,LED ED28 lamp (E39),Lamp,,,,,,,,,,,E39,,,,,,,,,,,Glass,ED28
+elec-206,LED PL lamp (6 W G24q 4-pin),Lamp,,,6 W,,,,,,,,G24q,,,,4-pin,,,,,,,Polycarbonate,
+elec-207,LED PL lamp (8 W G24q 4-pin),Lamp,,,8 W,,,,,,,,G24q,,,,4-pin,,,,,,,Polycarbonate,
+elec-208,LED PL lamp (12 W GX24q 4-pin),Lamp,,,12 W,,,,,,,,GX24q,,,,4-pin,,,,,,,Polycarbonate,
+elec-209,LED PL lamp (6 W G24d 2-pin),Lamp,,,6 W,,,,,,,,G24d,,,,2-pin,,,,,,,Polycarbonate,
+elec-210,LED PLL lamp (16 W 2G11),Lamp,,,16 W,,,,,,,,2G11,,,,,,,,,,,Glass,
+elec-211,LED 2-pin CFL-retrofit lamp (G23),Lamp,,,,,,,,,,,G23,,,,2-pin,,,,,,,Polycarbonate,
+elec-212,LED wedge-base lamp (for exit signs),Lamp,,,,,,,,,,,wedge base,,,,,,,,,,,Glass,
+elec-213,T8 fluorescent lamp (17 W 2 ft G13),Lamp,,,17 W,,,,,,,,G13,,,2 ft,,,,,,,,Glass,
+elec-214,T8 fluorescent lamp (25 W 3 ft G13),Lamp,,,25 W,,,,,,,,G13,,,3 ft,,,,,,,,Glass,
+elec-215,T8 fluorescent lamp (32 W 4 ft G13 3500 K),Lamp,,,32 W,,,,,,,,G13,3500 K,,4 ft,,,,,,,,Glass,
+elec-216,T8 fluorescent lamp (32 W 4 ft G13 4100 K),Lamp,,,32 W,,,,,,,,G13,4100 K,,4 ft,,,,,,,,Glass,
+elec-217,T8 fluorescent lamp (32 W 4 ft G13 5000 K),Lamp,,,32 W,,,,,,,,G13,5000 K,,4 ft,,,,,,,,Glass,
+elec-218,T8 fluorescent lamp (59 W 8 ft Fa8),Lamp,,,59 W,,,,,,,,Fa8,,,8 ft,,,,,,,,Glass,
+elec-219,T8 fluorescent U-bend lamp (32 W G13),Lamp,,,32 W,,,,,,,,G13,,,,,,,,,,,Glass,U-bend
+elec-220,T12 fluorescent lamp (20 W 2 ft G13),Lamp,,,20 W,,,,,,,,G13,,,2 ft,,,,,,,,Glass,
+elec-221,T12 fluorescent lamp (40 W 4 ft G13),Lamp,,,40 W,,,,,,,,G13,,,4 ft,,,,,,,,Glass,
+elec-222,T12 fluorescent lamp (75 W 8 ft Fa8),Lamp,,,75 W,,,,,,,,Fa8,,,8 ft,,,,,,,,Glass,
+elec-223,T12 HO fluorescent lamp (110 W 8 ft R17d),Lamp,,,110 W,,,,,,,,R17d,,,8 ft,,,,,,,,Glass,
+elec-224,T5 fluorescent lamp (14 W 2 ft G5),Lamp,,,14 W,,,,,,,,G5,,,2 ft,,,,,,,,Glass,
+elec-225,T5 fluorescent lamp (21 W 3 ft G5),Lamp,,,21 W,,,,,,,,G5,,,3 ft,,,,,,,,Glass,
+elec-226,T5 fluorescent lamp (28 W 4 ft G5),Lamp,,,28 W,,,,,,,,G5,,,4 ft,,,,,,,,Glass,
+elec-227,T5 fluorescent lamp (35 W 5 ft G5),Lamp,,,35 W,,,,,,,,G5,,,5 ft,,,,,,,,Glass,
+elec-228,T5HO fluorescent lamp (24 W 2 ft G5),Lamp,,,24 W,,,,,,,,G5,,,2 ft,,,,,,,,Glass,
+elec-229,T5HO fluorescent lamp (39 W 3 ft G5),Lamp,,,39 W,,,,,,,,G5,,,3 ft,,,,,,,,Glass,
+elec-230,T5HO fluorescent lamp (54 W 4 ft G5),Lamp,,,54 W,,,,,,,,G5,,,4 ft,,,,,,,,Glass,
+elec-231,T9 circline fluorescent lamp (22 W 8 in),Lamp,,,22 W,,,,,,,,,,,8 in,,,,,,,,Glass,
+elec-232,T9 circline fluorescent lamp (32 W 12 in),Lamp,,,32 W,,,,,,,,,,,12 in,,,,,,,,Glass,
+elec-233,T9 circline fluorescent lamp (40 W 16 in),Lamp,,,40 W,,,,,,,,,,,16 in,,,,,,,,Glass,
+elec-234,T5 circline fluorescent lamp (22 W),Lamp,,,22 W,,,,,,,,,,,,,,,,,,,Glass,T5 circline
+elec-235,CFL spiral lamp (13 W E26),Lamp,,,13 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-236,CFL spiral lamp (18 W E26),Lamp,,,18 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-237,CFL spiral lamp (23 W E26),Lamp,,,23 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-238,CFL spiral lamp (13 W E12),Lamp,,,13 W,,,,,,,,E12,,,,,,,,,,,Glass,
+elec-239,CFL 2-pin lamp (13 W G24d),Lamp,,,13 W,,,,,,,,G24d,,,,2-pin,,,,,,,Glass,
+elec-240,CFL 2-pin lamp (18 W G24d),Lamp,,,18 W,,,,,,,,G24d,,,,2-pin,,,,,,,Glass,
+elec-241,CFL 2-pin lamp (26 W G24d),Lamp,,,26 W,,,,,,,,G24d,,,,2-pin,,,,,,,Glass,
+elec-242,CFL 4-pin lamp (13 W G24q),Lamp,,,13 W,,,,,,,,G24q,,,,4-pin,,,,,,,Glass,
+elec-243,CFL 4-pin lamp (18 W G24q),Lamp,,,18 W,,,,,,,,G24q,,,,4-pin,,,,,,,Glass,
+elec-244,CFL 4-pin lamp (26 W G24q),Lamp,,,26 W,,,,,,,,G24q,,,,4-pin,,,,,,,Glass,
+elec-245,CFL 4-pin lamp (32 W GX24q),Lamp,,,32 W,,,,,,,,GX24q,,,,4-pin,,,,,,,Glass,
+elec-246,CFL 4-pin lamp (42 W GX24q),Lamp,,,42 W,,,,,,,,GX24q,,,,4-pin,,,,,,,Glass,
+elec-247,CFL long twin-tube lamp (40 W 2G11),Lamp,,,40 W,,,,,,,,2G11,,,,,,,,,,,Glass,
+elec-248,CFL long twin-tube lamp (55 W 2G11),Lamp,,,55 W,,,,,,,,2G11,,,,,,,,,,,Glass,
+elec-249,CFL 2-pin lamp (13 W G23),Lamp,,,13 W,,,,,,,,G23,,,,2-pin,,,,,,,Glass,
+elec-250,CFL 2-pin lamp (18 W GX23),Lamp,,,18 W,,,,,,,,GX23,,,,2-pin,,,,,,,Glass,
+elec-251,High-pressure sodium lamp (35 W E26),Lamp,,,35 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-252,High-pressure sodium lamp (50 W E26),Lamp,,,50 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-253,High-pressure sodium lamp (70 W E26),Lamp,,,70 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-254,High-pressure sodium lamp (100 W E39),Lamp,,,100 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-255,High-pressure sodium lamp (150 W E39),Lamp,,,150 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-256,High-pressure sodium lamp (250 W E39),Lamp,,,250 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-257,High-pressure sodium lamp (400 W E39),Lamp,,,400 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-258,High-pressure sodium lamp (1000 W E39),Lamp,,,1000 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-259,Metal halide lamp (50 W E26),Lamp,,,50 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-260,Metal halide lamp (70 W E26),Lamp,,,70 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-261,Metal halide lamp (100 W E39),Lamp,,,100 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-262,Metal halide probe-start lamp (175 W E39),Lamp,,,175 W,,,,,,,,E39,,,,,,,,,,,Glass,probe-start
+elec-263,Metal halide probe-start lamp (250 W E39),Lamp,,,250 W,,,,,,,,E39,,,,,,,,,,,Glass,probe-start
+elec-264,Metal halide probe-start lamp (400 W E39),Lamp,,,400 W,,,,,,,,E39,,,,,,,,,,,Glass,probe-start
+elec-265,Metal halide probe-start lamp (1000 W E39),Lamp,,,1000 W,,,,,,,,E39,,,,,,,,,,,Glass,probe-start
+elec-266,Metal halide pulse-start lamp (150 W E39),Lamp,,,150 W,,,,,,,,E39,,,,,,,,,,,Glass,pulse-start
+elec-267,Metal halide pulse-start lamp (250 W E39),Lamp,,,250 W,,,,,,,,E39,,,,,,,,,,,Glass,pulse-start
+elec-268,Metal halide pulse-start lamp (400 W E39),Lamp,,,400 W,,,,,,,,E39,,,,,,,,,,,Glass,pulse-start
+elec-269,Metal halide pulse-start lamp (750 W E39),Lamp,,,750 W,,,,,,,,E39,,,,,,,,,,,Glass,pulse-start
+elec-270,Metal halide pulse-start lamp (1000 W E39),Lamp,,,1000 W,,,,,,,,E39,,,,,,,,,,,Glass,pulse-start
+elec-271,Ceramic metal halide lamp (70 W G12),Lamp,,,70 W,,,,,,,,G12,,,,,,,,,,,Glass,
+elec-272,Ceramic metal halide lamp (150 W G12),Lamp,,,150 W,,,,,,,,G12,,,,,,,,,,,Glass,
+elec-273,Mercury vapor lamp (100 W E39),Lamp,,,100 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-274,Mercury vapor lamp (175 W E39),Lamp,,,175 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-275,Mercury vapor lamp (250 W E39),Lamp,,,250 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-276,Mercury vapor lamp (400 W E39),Lamp,,,400 W,,,,,,,,E39,,,,,,,,,,,Glass,
+elec-277,Incandescent A19 lamp (40 W E26),Lamp,,,40 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-278,Incandescent A19 lamp (60 W E26),Lamp,,,60 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-279,Incandescent A19 lamp (100 W E26),Lamp,,,100 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-280,Incandescent three-way A19 lamp (50/100/150 W E26),Lamp,,,50/100/150 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-281,Appliance incandescent lamp (40 W E26),Lamp,,,40 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-282,Oven appliance lamp (40 W E17),Lamp,,,40 W,,,,,,,,E17,,,,,,,,,,,Glass,high-temperature
+elec-283,Refrigerator appliance lamp (40 W E17),Lamp,,,40 W,,,,,,,,E17,,,,,,,,,,,Glass,
+elec-284,Infrared heat lamp (250 W R40 E26),Lamp,,,250 W,,,,,,,,E26,,,,,,,,,,,Glass,R40
+elec-285,Halogen PAR38 lamp (60 W E26),Lamp,,,60 W,,,,,,,,E26,,,,,,,,,,,Glass,PAR38
+elec-286,Halogen PAR20 lamp (50 W E26),Lamp,,,50 W,,,,,,,,E26,,,,,,,,,,,Glass,PAR20
+elec-287,Halogen MR16 lamp (50 W GU5.3 12 V),Lamp,,,50 W,12 V,,,,,,,GU5.3,,,,,,,,,,,Glass,
+elec-288,Halogen T3 double-ended lamp (150 W RSC 118 mm),Lamp,,,150 W,,,,,,,,RSC,,,118 mm,,,,,,,,Glass,
+elec-289,Halogen T4 lamp (100 W E11),Lamp,,,100 W,,,,,,,,E11,,,,,,,,,,,Glass,
+elec-290,Rough-service incandescent lamp (100 W E26),Lamp,,,100 W,,,,,,,,E26,,,,,,,,,,,Glass,
+elec-291,Exit-sign incandescent lamp (15 W T6.5 E12),Lamp,,,15 W,,,,,,,,E12,,,,,,,,,,,Glass,T6.5
+elec-292,LED flush-mount ceiling fixture (11 in),Fixture,,,,,,,,,,,,,,,,,,,,,11 in,Steel,
+elec-293,LED flush-mount ceiling fixture (14 in),Fixture,,,,,,,,,,,,,,,,,,,,,14 in,Steel,
+elec-294,LED flush-mount ceiling fixture (16 in),Fixture,,,,,,,,,,,,,,,,,,,,,16 in,Steel,
+elec-295,LED flush-mount ceiling fixture (24 in),Fixture,,,,,,,,,,,,,,,,,,,,,24 in,Steel,
+elec-296,LED semi-flush ceiling fixture (14 in),Fixture,,,,,,,,,,,,,,,,,,,,,14 in,Steel,
+elec-297,LED close-to-ceiling utility fixture (12 in),Fixture,,,,,,,,,,,,,,,,,,,,,12 in,Steel,
+elec-298,LED wraparound fixture (2 ft),Fixture,,,,,,,,,,,,,,2 ft,,,,,,,,Steel,
+elec-299,LED wraparound fixture (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Steel,
+elec-300,LED wraparound fixture (8 ft),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Steel,
+elec-301,LED strip fixture (2 ft),Fixture,,,,,,,,,,,,,,2 ft,,,,,,,,Steel,
+elec-302,LED strip fixture (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Steel,
+elec-303,LED strip fixture (8 ft),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Steel,
+elec-304,LED industrial strip fixture (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Steel,
+elec-305,LED industrial strip fixture (8 ft),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Steel,
+elec-306,LED shop light (4 ft linkable),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Steel,
+elec-307,LED shop light (8 ft linkable),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Steel,
+elec-308,LED round high-bay fixture (100 W),Fixture,,,100 W,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-309,LED round high-bay fixture (150 W),Fixture,,,150 W,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-310,LED round high-bay fixture (200 W),Fixture,,,200 W,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-311,LED round high-bay fixture (240 W),Fixture,,,240 W,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-312,LED linear high-bay fixture (100 W 2 ft),Fixture,,,100 W,,,,,,,,,,,2 ft,,,,,,,,Aluminum,
+elec-313,LED linear high-bay fixture (200 W 4 ft),Fixture,,,200 W,,,,,,,,,,,4 ft,,,,,,,,Aluminum,
+elec-314,LED linear high-bay fixture (300 W 8 ft),Fixture,,,300 W,,,,,,,,,,,8 ft,,,,,,,,Aluminum,
+elec-315,LED low-bay fixture (80 W),Fixture,,,80 W,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-316,LED troffer (1 ft x 4 ft),Fixture,,,,,,,,,,,,,,,,,,,,,1 ft x 4 ft,Steel,
+elec-317,LED flat panel (1 ft x 4 ft),Fixture,,,,,,,,,,,,,,,,,,,,,1 ft x 4 ft,Aluminum,
+elec-318,LED troffer (2 ft x 2 ft),Fixture,,,,,,,,,,,,,,,,,,,,,2 ft x 2 ft,Steel,
+elec-319,LED flat panel (2 ft x 2 ft),Fixture,,,,,,,,,,,,,,,,,,,,,2 ft x 2 ft,Aluminum,
+elec-320,LED troffer (2 ft x 4 ft),Fixture,,,,,,,,,,,,,,,,,,,,,2 ft x 4 ft,Steel,
+elec-321,LED flat panel (2 ft x 4 ft),Fixture,,,,,,,,,,,,,,,,,,,,,2 ft x 4 ft,Aluminum,
+elec-322,LED troffer retrofit kit (2 ft x 2 ft),Fixture,,,,,,,,,,,,,,,,,,,,,2 ft x 2 ft,Steel,
+elec-323,LED troffer retrofit kit (2 ft x 4 ft),Fixture,,,,,,,,,,,,,,,,,,,,,2 ft x 4 ft,Steel,
+elec-324,LED recessed downlight new-construction (4 in),Fixture,,,,,,,,,,,,,,,,,,,new-construction,,4 in,Aluminum,
+elec-325,LED recessed downlight new-construction (5 in),Fixture,,,,,,,,,,,,,,,,,,,new-construction,,5 in,Aluminum,
+elec-326,LED recessed downlight new-construction (6 in),Fixture,,,,,,,,,,,,,,,,,,,new-construction,,6 in,Aluminum,
+elec-327,LED recessed downlight remodel (4 in),Fixture,,,,,,,,,,,,,,,,,,,remodel,,4 in,Aluminum,
+elec-328,LED recessed downlight remodel (6 in),Fixture,,,,,,,,,,,,,,,,,,,remodel,,6 in,Aluminum,
+elec-329,LED recessed downlight IC-rated (6 in),Fixture,,,,,,,,,,,,,,,,,,,,,6 in,Aluminum,IC-rated
+elec-330,LED wafer downlight (4 in),Fixture,,,,,,,,,,,,,,,,,,,,,4 in,Aluminum,
+elec-331,LED wafer downlight (6 in),Fixture,,,,,,,,,,,,,,,,,,,,,6 in,Aluminum,
+elec-332,LED gimbal downlight (4 in),Fixture,,,,,,,,,,,,,,,,,,,,,4 in,Aluminum,
+elec-333,LED gimbal downlight (6 in),Fixture,,,,,,,,,,,,,,,,,,,,,6 in,Aluminum,
+elec-334,Recessed downlight housing new-construction (6 in),Fixture,,,,,,,,,,,,,,,,,,,new-construction,,6 in,Steel,
+elec-335,Recessed downlight housing remodel (6 in),Fixture,,,,,,,,,,,,,,,,,,,remodel,,6 in,Steel,
+elec-336,Recessed downlight housing IC-rated (6 in),Fixture,,,,,,,,,,,,,,,,,,,,,6 in,Steel,IC-rated
+elec-337,LED commercial downlight (6 in 20 W),Fixture,,,20 W,,,,,,,,,,,,,,,,,,6 in,Aluminum,
+elec-338,LED commercial downlight (8 in 30 W),Fixture,,,30 W,,,,,,,,,,,,,,,,,,8 in,Aluminum,
+elec-339,H-type track rail (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Aluminum,H-type
+elec-340,H-type track rail (8 ft),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Aluminum,H-type
+elec-341,H-type LED track head,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,H-type
+elec-342,J-type LED track head,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,J-type
+elec-343,L-type LED track head,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,L-type
+elec-344,LED pendant fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-345,LED drum pendant fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,
+elec-346,LED gooseneck pendant fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-347,LED vanity light bar (2-light),Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,2-light
+elec-348,LED vanity light bar (3-light),Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,3-light
+elec-349,LED vanity light bar (4-light),Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,4-light
+elec-350,LED wall sconce,Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,
+elec-351,LED outdoor wall pack (30 W),Fixture,,,30 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-352,LED outdoor wall pack (40 W),Fixture,,,40 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-353,LED outdoor wall pack (60 W),Fixture,,,60 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-354,LED outdoor wall pack (80 W),Fixture,,,80 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-355,LED outdoor wall pack (100 W),Fixture,,,100 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-356,LED full-cutoff wall pack (40 W),Fixture,,,40 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-357,LED area light fixture (75 W),Fixture,,,75 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-358,LED area light fixture (100 W),Fixture,,,100 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-359,LED area light fixture (150 W),Fixture,,,150 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-360,LED area light fixture (300 W),Fixture,,,300 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-361,LED flood light (15 W),Fixture,,,15 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-362,LED flood light (30 W),Fixture,,,30 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-363,LED flood light (50 W),Fixture,,,50 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-364,LED flood light (100 W),Fixture,,,100 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-365,LED flood light (150 W),Fixture,,,150 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-366,LED security flood light with photocell (20 W),Fixture,,,20 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-367,LED security flood light with motion sensor (20 W),Fixture,,,20 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-368,LED dusk-to-dawn yard light (40 W),Fixture,,,40 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-369,LED dusk-to-dawn barn light (50 W),Fixture,,,50 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-370,LED post-top fixture (40 W),Fixture,,,40 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-371,LED outdoor lantern wall fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-372,LED bollard fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-373,LED canopy fixture (40 W),Fixture,,,40 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-374,LED canopy fixture (60 W),Fixture,,,60 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-375,LED parking-garage fixture (40 W),Fixture,,,40 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-376,LED stairwell fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-377,LED vandal-resistant ceiling fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Polycarbonate,
+elec-378,LED vapor-tight fixture (2 ft),Fixture,,,,,,,,,,,,,,2 ft,,,,,,,,Polycarbonate,
+elec-379,LED vapor-tight fixture (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Polycarbonate,
+elec-380,LED vapor-tight fixture (8 ft),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Polycarbonate,
+elec-381,Hazardous-location LED fixture (Class I Div 2),Fixture,,,,,,,,,,,,,,,,,,Class I Div 2,,,,Die-cast aluminum,
+elec-382,Explosion-proof LED fixture (Class I Div 1),Fixture,,,,,,,,,,,,,,,,,,Class I Div 1,,,,Die-cast aluminum,
+elec-383,LED temporary work light (50 W),Fixture,,,50 W,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-384,LED string work light (50 ft),Fixture,,,,,,,,,,,,,,50 ft,,,,,,,,Plastic,
+elec-385,LED under-cabinet bar (12 in),Fixture,,,,,,,,,,,,,,,,,,,,,12 in,Aluminum,
+elec-386,LED under-cabinet bar (24 in),Fixture,,,,,,,,,,,,,,,,,,,,,24 in,Aluminum,
+elec-387,LED under-cabinet bar (36 in),Fixture,,,,,,,,,,,,,,,,,,,,,36 in,Aluminum,
+elec-388,LED tape light (12 V),Fixture,,,,12 V,,,,,,,,,,,,,,,,,,Plastic,
+elec-389,LED tape light (24 V),Fixture,,,,24 V,,,,,,,,,,,,,,,,,,Plastic,
+elec-390,LED cove light channel (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Aluminum,
+elec-391,LED step light,Fixture,,,,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-392,LED path light (12 V),Fixture,,,,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-393,LED landscape spotlight (12 V),Fixture,,,,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-394,LED landscape flood (12 V),Fixture,,,,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-395,LED well light (12 V),Fixture,,,,12 V,,,,,,,,,,,,,,,,,,Brass,
+elec-396,LED deck light (12 V),Fixture,,,,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-397,LED wall-wash fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-398,LED roadway cobra-head fixture (100 W),Fixture,,,100 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-399,LED roadway cobra-head fixture (150 W),Fixture,,,150 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-400,LED roadway cobra-head fixture (250 W),Fixture,,,250 W,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-401,Utility jelly-jar fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Die-cast aluminum,
+elec-402,LED closet puff fixture,Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,
+elec-403,Portable clamp lamp,Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,
+elec-404,LED picture light,Fixture,,,,,,,,,,,,,,,,,,,,,,Steel,
+elec-405,Architectural linear suspended fixture (4 ft),Fixture,,,,,,,,,,,,,,4 ft,,,,,,,,Aluminum,
+elec-406,Architectural linear suspended fixture (8 ft),Fixture,,,,,,,,,,,,,,8 ft,,,,,,,,Aluminum,
+elec-407,Thermoplastic exit sign (red AC-only),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Thermoplastic,AC-only
+elec-408,Thermoplastic exit sign (red battery backup),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Thermoplastic,battery backup
+elec-409,Thermoplastic exit sign (green battery backup),Emergency light,,,,,,,,,,,,,,,,,,,,green,,Thermoplastic,battery backup
+elec-410,Die-cast aluminum exit sign (red battery backup),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Die-cast aluminum,battery backup
+elec-411,Edge-lit exit sign (red battery backup),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Aluminum,battery backup
+elec-412,Wet-location exit sign (red battery backup),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Thermoplastic,wet-location
+elec-413,Hazardous-location exit sign,Emergency light,,,,,,,,,,,,,,,,,,,,,,Die-cast aluminum,hazardous-location
+elec-414,Self-testing exit sign (red battery backup),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Thermoplastic,self-testing
+elec-415,Combo exit/emergency light (red),Emergency light,,,,,,,,,,,,,,,,,,,,red,,Thermoplastic,combo
+elec-416,Combo exit/emergency light (green),Emergency light,,,,,,,,,,,,,,,,,,,,green,,Thermoplastic,combo
+elec-417,Thermoplastic emergency light (two-head),Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,two-head
+elec-418,Wet-location emergency light (two-head),Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,"two-head, wet-location"
+elec-419,Remote-capable emergency light,Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,remote-capable
+elec-420,Self-testing emergency light (two-head),Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,"two-head, self-testing"
+elec-421,High-output emergency light,Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,high-output
+elec-422,Single remote emergency lamp head,Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,single remote head
+elec-423,Double remote emergency lamp head,Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,double remote head
+elec-424,Adjustable-head emergency unit,Emergency light,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,adjustable heads
+elec-425,Emergency lighting inverter (250 VA),Emergency light,,,,,,,,,,,,,,,,,,250 VA,,,,Steel,
+elec-426,Emergency lighting inverter (500 VA),Emergency light,,,,,,,,,,,,,,,,,,500 VA,,,,Steel,
+elec-427,Emergency lighting inverter (1000 VA),Emergency light,,,,,,,,,,,,,,,,,,1000 VA,,,,Steel,
+elec-428,Stem-mount photocell (120 V),Photocell,,,,120 V,,,,,,,,,,,,,,,stem-mount,,,Polycarbonate,
+elec-429,Stem-mount photocell (120-277 V),Photocell,,,,120-277 V,,,,,,,,,,,,,,,stem-mount,,,Polycarbonate,
+elec-430,Stem-mount photocell (480 V),Photocell,,,,480 V,,,,,,,,,,,,,,,stem-mount,,,Polycarbonate,
+elec-431,Swivel-mount photocell (120-277 V),Photocell,,,,120-277 V,,,,,,,,,,,,,,,swivel-mount,,,Polycarbonate,
+elec-432,Button photocell (120-277 V),Photocell,,,,120-277 V,,,,,,,,,,,,,,,button,,,Polycarbonate,
+elec-433,Twist-lock photocell (NEMA 3-pin),Photocell,,,,,,,,,,,,,,,NEMA 3-pin,,,,,,,Polycarbonate,
+elec-434,Twist-lock photocell (NEMA 5-pin),Photocell,,,,,,,,,,,,,,,NEMA 5-pin,,,,,,,Polycarbonate,
+elec-435,Twist-lock photocell (NEMA 7-pin),Photocell,,,,,,,,,,,,,,,NEMA 7-pin,,,,,,,Polycarbonate,
+elec-436,Twist-lock shorting cap (NEMA 3-pin),Photocell,,,,,,,,,,,,,,,NEMA 3-pin,,,,,,,Polycarbonate,shorting cap
+elec-437,Twist-lock photocell receptacle (NEMA 3-pin),Photocell,,,,,,,,,,,,,,,NEMA 3-pin,,,,,,,Polycarbonate,receptacle
+elec-438,Ceiling occupancy sensor PIR (360 degree),Occupancy sensor,,,,,,,,,,,,,,,,,,,ceiling,,,Thermoplastic,"PIR, 360 degree"
+elec-439,Ceiling occupancy sensor PIR (high-bay),Occupancy sensor,,,,,,,,,,,,,,,,,,,ceiling,,,Thermoplastic,"PIR, high-bay"
+elec-440,Ceiling occupancy sensor ultrasonic,Occupancy sensor,,,,,,,,,,,,,,,,,,,ceiling,,,Thermoplastic,ultrasonic
+elec-441,Ceiling occupancy sensor dual-technology,Occupancy sensor,,,,,,,,,,,,,,,,,,,ceiling,,,Thermoplastic,PIR + ultrasonic
+elec-442,Wall-mount occupancy sensor PIR (low-voltage),Occupancy sensor,,,,,,,,,,,,,,,,,,,wall-mount,,,Thermoplastic,"PIR, low-voltage"
+elec-443,Fixture-mount occupancy sensor,Occupancy sensor,,,,,,,,,,,,,,,,,,,fixture-mount,,,Thermoplastic,
+elec-444,High-bay aisle occupancy sensor,Occupancy sensor,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,high-bay aisle
+elec-445,Daylight harvesting sensor,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,"daylight, low-voltage"
+elec-446,Low-voltage sensor power pack (120-277 V),Lighting control,,,,120-277 V,,,,,,,,,,,,,,,,,,Thermoplastic,power pack
+elec-447,0-10 V fixture dimming module,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,0-10 V
+elec-448,ELV fixture dimming module,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,ELV
+elec-449,In-line cord dimmer (lamp-cord),Lighting control,,,,,,,,,,,,,,,,,,,in-line cord,,,Plastic,
+elec-450,Plug-in lamp dimmer,Lighting control,,,,,,,,,,,,,,,,,,,plug-in,,,Plastic,
+elec-451,Fixture-integrated occupancy/dimming sensor,Lighting control,,,,,,,,,,,,,,,,,,,fixture-integrated,,,Thermoplastic,
+elec-452,Bi-level high-bay control module,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,"bi-level, high-bay"
+elec-453,Astronomical lighting time switch,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,astronomical
+elec-454,7-day lighting time switch,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,7-day
+elec-455,Wireless fixture control module,Lighting control,,,,,,,,,,,,,,,,,,,fixture-mount,,,Thermoplastic,wireless
+elec-456,Outdoor fixture motion sensor,Lighting control,,,,,,,,,,,,,,,,,,,fixture-mount,,,Polycarbonate,outdoor
+elec-457,Photocell and motion combo sensor,Lighting control,,,,,,,,,,,,,,,,,,,,,,Polycarbonate,photocell + motion
+elec-458,Hold-off daylighting controller,Lighting control,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,daylight hold-off
+elec-459,Electronic T8 instant-start ballast (1-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,1-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-460,Electronic T8 programmed-start ballast (1-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,1-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-461,Electronic T8 instant-start ballast (2-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,2-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-462,Electronic T8 programmed-start ballast (2-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,2-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-463,Electronic T8 instant-start ballast (3-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,3-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-464,Electronic T8 programmed-start ballast (3-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,3-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-465,Electronic T8 instant-start ballast (4-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,4-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-466,Electronic T8 programmed-start ballast (4-lamp 4 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,4-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-467,Electronic T8 instant-start ballast (2-lamp 8 ft),Ballast,,,,,,,,,,,,,2-lamp,8 ft,,,,,,,,Thermoplastic,
+elec-468,Electronic T8 0-10 V dimming ballast (2-lamp 4 ft),Ballast,,,,,,,,,,,,,2-lamp,4 ft,,,,,,,,Thermoplastic,0-10 V
+elec-469,Magnetic T12 ballast (1-lamp 40 W 120 V),Ballast,,,40 W,120 V,,,,,,,,,1-lamp,,,,,,,,,Steel,
+elec-470,Magnetic T12 ballast (2-lamp 40 W 120 V),Ballast,,,40 W,120 V,,,,,,,,,2-lamp,,,,,,,,,Steel,
+elec-471,Electronic T12 ballast (2-lamp 4 ft),Ballast,,,,,,,,,,,,,2-lamp,4 ft,,,,,,,,Thermoplastic,
+elec-472,Electronic T5 programmed-start ballast (1-lamp 28 W),Ballast,,,28 W,,,,,,,,,,1-lamp,,,,,,,,,Thermoplastic,
+elec-473,Electronic T5 programmed-start ballast (2-lamp 28 W),Ballast,,,28 W,,,,,,,,,,2-lamp,,,,,,,,,Thermoplastic,
+elec-474,Electronic T5HO programmed-start ballast (1-lamp 54 W),Ballast,,,54 W,,,,,,,,,,1-lamp,,,,,,,,,Thermoplastic,
+elec-475,Electronic T5HO programmed-start ballast (2-lamp 54 W),Ballast,,,54 W,,,,,,,,,,2-lamp,,,,,,,,,Thermoplastic,
+elec-476,Electronic T5HO programmed-start ballast (3-lamp 54 W),Ballast,,,54 W,,,,,,,,,,3-lamp,,,,,,,,,Thermoplastic,
+elec-477,Electronic T5HO programmed-start ballast (4-lamp 54 W),Ballast,,,54 W,,,,,,,,,,4-lamp,,,,,,,,,Thermoplastic,
+elec-478,Electronic T5HO 0-10 V dimming ballast (2-lamp 54 W),Ballast,,,54 W,,,,,,,,,,2-lamp,,,,,,,,,Thermoplastic,0-10 V
+elec-479,Electronic sign ballast (2-12 ft 120-277 V),Ballast,,,,120-277 V,,,,,,,,,,2-12 ft,,,,,,,,Thermoplastic,
+elec-480,Circline electronic ballast (22/32/40 W),Ballast,,,22/32/40 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-481,CFL electronic ballast (13 W),Ballast,,,13 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-482,CFL electronic ballast (18 W),Ballast,,,18 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-483,CFL electronic ballast (26 W),Ballast,,,26 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-484,CFL electronic ballast (32 W),Ballast,,,32 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-485,CFL electronic ballast (42 W),Ballast,,,42 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-486,CFL magnetic ballast (26 W 2-pin),Ballast,,,26 W,,,,,,,,,,,,2-pin,,,,,,,Steel,
+elec-487,Compact fluorescent dimming ballast (26 W),Ballast,,,26 W,,,,,,,,,,,,,,,,,,,Thermoplastic,dimming
+elec-488,HPS core-and-coil ballast (70 W quad-tap),Ballast,,,70 W,,,,,,,,,,,,,,,,,,,Steel,quad-tap
+elec-489,HPS core-and-coil ballast (100 W quad-tap),Ballast,,,100 W,,,,,,,,,,,,,,,,,,,Steel,quad-tap
+elec-490,HPS core-and-coil ballast (150 W quad-tap),Ballast,,,150 W,,,,,,,,,,,,,,,,,,,Steel,quad-tap
+elec-491,HPS core-and-coil ballast (250 W quad-tap),Ballast,,,250 W,,,,,,,,,,,,,,,,,,,Steel,quad-tap
+elec-492,HPS core-and-coil ballast (400 W quad-tap),Ballast,,,400 W,,,,,,,,,,,,,,,,,,,Steel,quad-tap
+elec-493,HPS core-and-coil ballast (1000 W quad-tap),Ballast,,,1000 W,,,,,,,,,,,,,,,,,,,Steel,quad-tap
+elec-494,HPS reactor ballast (250 W 120 V),Ballast,,,250 W,120 V,,,,,,,,,,,,,,,,,,Steel,
+elec-495,Metal halide probe-start ballast (175 W quad-tap),Ballast,,,175 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, probe-start"
+elec-496,Metal halide probe-start ballast (250 W quad-tap),Ballast,,,250 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, probe-start"
+elec-497,Metal halide probe-start ballast (400 W quad-tap),Ballast,,,400 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, probe-start"
+elec-498,Metal halide probe-start ballast (1000 W quad-tap),Ballast,,,1000 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, probe-start"
+elec-499,Metal halide pulse-start ballast (150 W quad-tap),Ballast,,,150 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, pulse-start"
+elec-500,Metal halide pulse-start ballast (250 W quad-tap),Ballast,,,250 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, pulse-start"
+elec-501,Metal halide pulse-start ballast (400 W quad-tap),Ballast,,,400 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, pulse-start"
+elec-502,Metal halide pulse-start ballast (750 W quad-tap),Ballast,,,750 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, pulse-start"
+elec-503,Metal halide pulse-start ballast (1000 W quad-tap),Ballast,,,1000 W,,,,,,,,,,,,,,,,,,,Steel,"quad-tap, pulse-start"
+elec-504,Mercury vapor ballast (175 W),Ballast,,,175 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-505,Mercury vapor ballast (400 W),Ballast,,,400 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-506,HID F-can ballast (250 W 120 V),Ballast,,,250 W,120 V,,,,,,,,,,,,,,,,,,Steel,F-can
+elec-507,HID encapsulated ballast (400 W),Ballast,,,400 W,,,,,,,,,,,,,,,,,,,Steel,encapsulated
+elec-508,HID ignitor (for HPS/MH),Ballast,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-509,HID ballast capacitor (24 uF),Ballast,,,,,,,,,,,,,,,,,,24 uF,,,,,
+elec-510,HID ballast kit (400 W pulse-start),Ballast,,,400 W,,,,,,,,,,,,,,,,,,,Steel,"pulse-start, kit"
+elec-511,Constant-current LED driver (12 W 350 mA 120-277 V),Driver,,,12 W,120-277 V,,,350 mA,,,,,,,,,,,,,,,Aluminum,
+elec-512,Constant-current LED driver (20 W 500 mA 120-277 V),Driver,,,20 W,120-277 V,,,500 mA,,,,,,,,,,,,,,,Aluminum,
+elec-513,Constant-current LED driver (40 W 700 mA 120-277 V),Driver,,,40 W,120-277 V,,,700 mA,,,,,,,,,,,,,,,Aluminum,
+elec-514,Constant-current LED driver (40 W 1050 mA 120-277 V),Driver,,,40 W,120-277 V,,,1050 mA,,,,,,,,,,,,,,,Aluminum,
+elec-515,Constant-current LED driver (60 W 1400 mA 120-277 V),Driver,,,60 W,120-277 V,,,1400 mA,,,,,,,,,,,,,,,Aluminum,
+elec-516,Constant-current LED driver (75 W 2100 mA 120-277 V),Driver,,,75 W,120-277 V,,,2100 mA,,,,,,,,,,,,,,,Aluminum,
+elec-517,Constant-current LED driver (100 W 2100 mA 120-277 V),Driver,,,100 W,120-277 V,,,2100 mA,,,,,,,,,,,,,,,Aluminum,
+elec-518,Constant-current LED driver (150 W 120-277 V),Driver,,,150 W,120-277 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-519,Constant-current LED driver (200 W 120-277 V),Driver,,,200 W,120-277 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-520,Constant-current LED driver (240 W 120-277 V),Driver,,,240 W,120-277 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-521,Constant-current LED driver (100 W 347-480 V),Driver,,,100 W,347-480 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-522,Constant-current 0-10 V dimming driver (40 W 700 mA),Driver,,,40 W,,,,700 mA,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-523,Constant-current 0-10 V dimming driver (60 W),Driver,,,60 W,,,,,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-524,Constant-current 0-10 V dimming driver (100 W),Driver,,,100 W,,,,,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-525,Constant-current 0-10 V dimming driver (150 W),Driver,,,150 W,,,,,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-526,Constant-current 0-10 V dimming driver (200 W),Driver,,,200 W,,,,,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-527,Constant-current TRIAC-dimming driver (20 W),Driver,,,20 W,,,,,,,,,,,,,,,,,,,Aluminum,TRIAC
+elec-528,Constant-current TRIAC-dimming driver (40 W),Driver,,,40 W,,,,,,,,,,,,,,,,,,,Aluminum,TRIAC
+elec-529,Programmable constant-current LED driver (100 W),Driver,,,100 W,,,,,,,,,,,,,,,,,,,Aluminum,programmable
+elec-530,Class 2 constant-current LED driver (20 W),Driver,,,20 W,,,,,,,,,,,,,,,Class 2,,,,Thermoplastic,
+elec-531,Wet-location LED driver (60 W 120-277 V),Driver,,,60 W,120-277 V,,,,,,,,,,,,,,,,,,Aluminum,wet-location
+elec-532,Wet-location LED driver (100 W 120-277 V),Driver,,,100 W,120-277 V,,,,,,,,,,,,,,,,,,Aluminum,wet-location
+elec-533,High-bay LED driver (150 W 0-10 V),Driver,,,150 W,,,,,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-534,Downlight LED driver (15 W),Driver,,,15 W,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-535,Constant-voltage LED driver (12 V 20 W),Driver,,,20 W,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-536,Constant-voltage LED driver (12 V 60 W),Driver,,,60 W,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-537,Constant-voltage LED driver (12 V 100 W),Driver,,,100 W,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-538,Constant-voltage LED driver (12 V 150 W),Driver,,,150 W,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-539,Constant-voltage LED driver (12 V 200 W),Driver,,,200 W,12 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-540,Constant-voltage LED driver (24 V 20 W),Driver,,,20 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-541,Constant-voltage LED driver (24 V 60 W),Driver,,,60 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-542,Constant-voltage LED driver (24 V 100 W),Driver,,,100 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-543,Constant-voltage LED driver (24 V 150 W),Driver,,,150 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-544,Constant-voltage LED driver (24 V 200 W),Driver,,,200 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,
+elec-545,Constant-voltage 0-10 V dimming driver (24 V 96 W),Driver,,,96 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,0-10 V
+elec-546,Constant-voltage TRIAC-dimming driver (12 V 60 W),Driver,,,60 W,12 V,,,,,,,,,,,,,,,,,,Aluminum,TRIAC
+elec-547,Class 2 constant-voltage LED driver (24 V 60 W),Driver,,,60 W,24 V,,,,,,,,,,,,,,Class 2,,,,Thermoplastic,
+elec-548,Wet-location constant-voltage LED driver (24 V 100 W),Driver,,,100 W,24 V,,,,,,,,,,,,,,,,,,Aluminum,wet-location
+elec-549,Emergency fluorescent ballast pack (500-700 lm),Emergency ballast,,,,,,,,,,,,,,,,,,500-700 lm,,,,Steel,
+elec-550,Emergency fluorescent ballast pack (900-1400 lm),Emergency ballast,,,,,,,,,,,,,,,,,,900-1400 lm,,,,Steel,
+elec-551,Emergency fluorescent ballast pack (high-output),Emergency ballast,,,,,,,,,,,,,,,,,,,,,,Steel,high-output
+elec-552,Emergency compact fluorescent ballast pack,Emergency ballast,,,,,,,,,,,,,,,,,,,,,,Steel,CFL
+elec-553,Emergency LED driver (5 W),Emergency ballast,,,5 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-554,Emergency LED driver (7 W),Emergency ballast,,,7 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-555,Emergency LED driver (10 W),Emergency ballast,,,10 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-556,Emergency LED driver (15 W),Emergency ballast,,,15 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-557,Emergency LED driver (20 W),Emergency ballast,,,20 W,,,,,,,,,,,,,,,,,,,Steel,
+elec-558,Emergency LED driver (constant-power 10 W),Emergency ballast,,,10 W,,,,,,,,,,,,,,,,,,,Steel,constant-power
+elec-559,Dual-mode emergency LED driver (10 W),Emergency ballast,,,10 W,,,,,,,,,,,,,,,,,,,Steel,dual-mode
+elec-560,Emergency LED driver with battery pack (10 W 90 min),Emergency ballast,,,10 W,,,,,,,,,,,,,,,90 min,,,,Steel,
+elec-561,Emergency lighting battery pack (nickel-cadmium),Emergency ballast,,,,,,,,,,,,,,,,,,,,,,,NiCd
+elec-562,Emergency lighting test switch and indicator,Emergency ballast,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,
+elec-563,IEC 3-pole contactor (9 A 120 V coil),Contactor,,,,,120 V,9 A,,,,3-pole,,,,,,,,,,,,,
+elec-564,IEC 3-pole contactor (12 A 120 V coil),Contactor,,,,,120 V,12 A,,,,3-pole,,,,,,,,,,,,,
+elec-565,IEC 3-pole contactor (18 A 120 V coil),Contactor,,,,,120 V,18 A,,,,3-pole,,,,,,,,,,,,,
+elec-566,IEC 3-pole contactor (25 A 120 V coil),Contactor,,,,,120 V,25 A,,,,3-pole,,,,,,,,,,,,,
+elec-567,IEC 3-pole contactor (32 A 120 V coil),Contactor,,,,,120 V,32 A,,,,3-pole,,,,,,,,,,,,,
+elec-568,IEC 3-pole contactor (40 A 120 V coil),Contactor,,,,,120 V,40 A,,,,3-pole,,,,,,,,,,,,,
+elec-569,IEC 3-pole contactor (50 A 120 V coil),Contactor,,,,,120 V,50 A,,,,3-pole,,,,,,,,,,,,,
+elec-570,IEC 3-pole contactor (65 A 120 V coil),Contactor,,,,,120 V,65 A,,,,3-pole,,,,,,,,,,,,,
+elec-571,IEC 3-pole contactor (80 A 120 V coil),Contactor,,,,,120 V,80 A,,,,3-pole,,,,,,,,,,,,,
+elec-572,IEC 3-pole contactor (95 A 120 V coil),Contactor,,,,,120 V,95 A,,,,3-pole,,,,,,,,,,,,,
+elec-573,IEC 3-pole contactor (18 A 24 V coil),Contactor,,,,,24 V,18 A,,,,3-pole,,,,,,,,,,,,,
+elec-574,IEC 3-pole contactor (18 A 24 V DC coil),Contactor,,,,,24 V DC,18 A,,,,3-pole,,,,,,,,,,,,,
+elec-575,IEC 3-pole contactor (18 A 208 V coil),Contactor,,,,,208 V,18 A,,,,3-pole,,,,,,,,,,,,,
+elec-576,IEC 3-pole contactor (18 A 240 V coil),Contactor,,,,,240 V,18 A,,,,3-pole,,,,,,,,,,,,,
+elec-577,IEC 3-pole contactor (32 A 24 V coil),Contactor,,,,,24 V,32 A,,,,3-pole,,,,,,,,,,,,,
+elec-578,IEC 3-pole contactor (32 A 240 V coil),Contactor,,,,,240 V,32 A,,,,3-pole,,,,,,,,,,,,,
+elec-579,IEC 3-pole contactor (65 A 24 V coil),Contactor,,,,,24 V,65 A,,,,3-pole,,,,,,,,,,,,,
+elec-580,IEC 4-pole contactor (18 A 120 V coil),Contactor,,,,,120 V,18 A,,,,4-pole,,,,,,,,,,,,,
+elec-581,IEC reversing contactor pair (18 A 120 V coil),Contactor,,,,,120 V,18 A,,,,,,,,,,,,,,,,,reversing
+elec-582,NEMA Size 00 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,00,,,,,,
+elec-583,NEMA Size 0 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,0,,,,,,
+elec-584,NEMA Size 1 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,1,,,,,,
+elec-585,NEMA Size 2 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,2,,,,,,
+elec-586,NEMA Size 3 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,3,,,,,,
+elec-587,NEMA Size 4 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,4,,,,,,
+elec-588,NEMA Size 5 3-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,3-pole,,,,,,,5,,,,,,
+elec-589,NEMA Size 1 3-pole contactor (24 V coil),Contactor,,,,,24 V,,,,,3-pole,,,,,,,1,,,,,,
+elec-590,NEMA Size 1 3-pole contactor (240 V coil),Contactor,,,,,240 V,,,,,3-pole,,,,,,,1,,,,,,
+elec-591,NEMA Size 1 4-pole contactor (120 V coil),Contactor,,,,,120 V,,,,,4-pole,,,,,,,1,,,,,,
+elec-592,Electrically held lighting contactor (20 A 4-pole),Contactor,,,,,,20 A,,,,4-pole,,,,,,,,,,,,,electrically held
+elec-593,Electrically held lighting contactor (30 A 8-pole),Contactor,,,,,,30 A,,,,8-pole,,,,,,,,,,,,,electrically held
+elec-594,Electrically held lighting contactor (30 A 12-pole),Contactor,,,,,,30 A,,,,12-pole,,,,,,,,,,,,,electrically held
+elec-595,Mechanically held lighting contactor (30 A 8-pole),Contactor,,,,,,30 A,,,,8-pole,,,,,,,,,,,,,mechanically held
+elec-596,Mechanically held lighting contactor (60 A 4-pole),Contactor,,,,,,60 A,,,,4-pole,,,,,,,,,,,,,mechanically held
+elec-597,Lighting contactor (100 A 3-pole),Contactor,,,,,,100 A,,,,3-pole,,,,,,,,,,,,,
+elec-598,Lighting contactor (200 A 3-pole),Contactor,,,,,,200 A,,,,3-pole,,,,,,,,,,,,,
+elec-599,Definite-purpose contactor (25 A 3-pole 24 V coil),Contactor,,,,,24 V,25 A,,,,3-pole,,,,,,,,,,,,,
+elec-600,Definite-purpose contactor (30 A 3-pole 24 V coil),Contactor,,,,,24 V,30 A,,,,3-pole,,,,,,,,,,,,,
+elec-601,Definite-purpose contactor (40 A 3-pole 24 V coil),Contactor,,,,,24 V,40 A,,,,3-pole,,,,,,,,,,,,,
+elec-602,Definite-purpose contactor (50 A 3-pole 24 V coil),Contactor,,,,,24 V,50 A,,,,3-pole,,,,,,,,,,,,,
+elec-603,Definite-purpose contactor (60 A 3-pole 24 V coil),Contactor,,,,,24 V,60 A,,,,3-pole,,,,,,,,,,,,,
+elec-604,Definite-purpose contactor (90 A 3-pole 24 V coil),Contactor,,,,,24 V,90 A,,,,3-pole,,,,,,,,,,,,,
+elec-605,NEMA Size 00 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,00,,,,,,
+elec-606,NEMA Size 0 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,0,,,,,,
+elec-607,NEMA Size 1 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,1,,,,,,
+elec-608,NEMA Size 2 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,2,,,,,,
+elec-609,NEMA Size 3 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,3,,,,,,
+elec-610,NEMA Size 4 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,4,,,,,,
+elec-611,NEMA Size 5 non-reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,5,,,,,,
+elec-612,NEMA Size 1 reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,1,,,,,,reversing
+elec-613,NEMA Size 2 reversing starter (120 V coil),Motor starter,,,,,120 V,,,,,,,,,,,,2,,,,,,reversing
+elec-614,IEC non-reversing starter (9 A),Motor starter,,,,,,9 A,,,,,,,,,,,,,,,,,IEC
+elec-615,IEC non-reversing starter (18 A),Motor starter,,,,,,18 A,,,,,,,,,,,,,,,,,IEC
+elec-616,IEC non-reversing starter (32 A),Motor starter,,,,,,32 A,,,,,,,,,,,,,,,,,IEC
+elec-617,IEC non-reversing starter (65 A),Motor starter,,,,,,65 A,,,,,,,,,,,,,,,,,IEC
+elec-618,IEC reversing starter (18 A),Motor starter,,,,,,18 A,,,,,,,,,,,,,,,,,"IEC, reversing"
+elec-619,Combination starter NEMA Size 1 (NEMA 1 enclosure),Motor starter,,,,,,,,,,,,,,,,,1,NEMA 1,,,,Steel,
+elec-620,Combination starter NEMA Size 2 (NEMA 12 enclosure),Motor starter,,,,,,,,,,,,,,,,,2,NEMA 12,,,,Steel,
+elec-621,Wye-delta starter (25 HP 460 V),Motor starter,,,,460 V,,,,25 HP,,,,,,,,,,,,,,,wye-delta
+elec-622,Part-winding starter (30 HP 460 V),Motor starter,,,,460 V,,,,30 HP,,,,,,,,,,,,,,,part-winding
+elec-623,Soft starter (10 HP 460 V),Motor starter,,,,460 V,,,,10 HP,,,,,,,,,,,,,,,
+elec-624,Soft starter (25 HP 460 V),Motor starter,,,,460 V,,,,25 HP,,,,,,,,,,,,,,,
+elec-625,Soft starter (50 HP 460 V),Motor starter,,,,460 V,,,,50 HP,,,,,,,,,,,,,,,
+elec-626,Soft starter (100 HP 460 V),Motor starter,,,,460 V,,,,100 HP,,,,,,,,,,,,,,,
+elec-627,Full-voltage non-reversing starter (5 HP 230 V 1-phase),Motor starter,,,,230 V,,,,5 HP,1-phase,,,,,,,,,,,,,,
+elec-628,Full-voltage non-reversing starter (10 HP 460 V),Motor starter,,,,460 V,,,,10 HP,,,,,,,,,,,,,,,
+elec-629,Bimetallic overload relay (0.16-0.25 A Class 10),Overload relay,,,,,,0.16-0.25 A,,,,,,,,,,,,Class 10,,,,,
+elec-630,Bimetallic overload relay (0.63-1 A Class 10),Overload relay,,,,,,0.63-1 A,,,,,,,,,,,,Class 10,,,,,
+elec-631,Bimetallic overload relay (1.6-2.5 A Class 10),Overload relay,,,,,,1.6-2.5 A,,,,,,,,,,,,Class 10,,,,,
+elec-632,Bimetallic overload relay (2.5-4 A Class 10),Overload relay,,,,,,2.5-4 A,,,,,,,,,,,,Class 10,,,,,
+elec-633,Bimetallic overload relay (4-6 A Class 10),Overload relay,,,,,,4-6 A,,,,,,,,,,,,Class 10,,,,,
+elec-634,Bimetallic overload relay (6-10 A Class 10),Overload relay,,,,,,6-10 A,,,,,,,,,,,,Class 10,,,,,
+elec-635,Bimetallic overload relay (9-13 A Class 10),Overload relay,,,,,,9-13 A,,,,,,,,,,,,Class 10,,,,,
+elec-636,Bimetallic overload relay (12-18 A Class 10),Overload relay,,,,,,12-18 A,,,,,,,,,,,,Class 10,,,,,
+elec-637,Bimetallic overload relay (16-24 A Class 10),Overload relay,,,,,,16-24 A,,,,,,,,,,,,Class 10,,,,,
+elec-638,Bimetallic overload relay (23-32 A Class 10),Overload relay,,,,,,23-32 A,,,,,,,,,,,,Class 10,,,,,
+elec-639,Bimetallic overload relay (30-40 A Class 10),Overload relay,,,,,,30-40 A,,,,,,,,,,,,Class 10,,,,,
+elec-640,Bimetallic overload relay (6-10 A Class 20),Overload relay,,,,,,6-10 A,,,,,,,,,,,,Class 20,,,,,
+elec-641,Electronic overload relay (1-5 A Class 10),Overload relay,,,,,,1-5 A,,,,,,,,,,,,Class 10,,,,,
+elec-642,Electronic overload relay (4-20 A Class 10),Overload relay,,,,,,4-20 A,,,,,,,,,,,,Class 10,,,,,
+elec-643,Electronic overload relay (8-40 A Class 10),Overload relay,,,,,,8-40 A,,,,,,,,,,,,Class 10,,,,,
+elec-644,Electronic overload relay (20-100 A Class 10),Overload relay,,,,,,20-100 A,,,,,,,,,,,,Class 10,,,,,
+elec-645,Electronic overload relay with phase-loss protection (4-20 A),Overload relay,,,,,,4-20 A,,,,,,,,,,,,,,,,,phase-loss
+elec-646,Overload heater element (Size 1 mid-range),Overload relay,,,,,,,,,,,,,,,,,1,,,,,,mid-range
+elec-647,Manual motor starter (16 A 1-pole),Manual starter,,,,,,16 A,,,,1-pole,,,,,,,,,,,,,
+elec-648,Manual motor starter (16 A 2-pole),Manual starter,,,,,,16 A,,,,2-pole,,,,,,,,,,,,,
+elec-649,Manual motor starter (1 HP 120 V 1-phase),Manual starter,,,,120 V,,,,1 HP,1-phase,,,,,,,,,,,,,,
+elec-650,Manual motor starter (2 HP 240 V 1-phase),Manual starter,,,,240 V,,,,2 HP,1-phase,,,,,,,,,,,,,,
+elec-651,Manual motor starter (3 HP 240 V 1-phase),Manual starter,,,,240 V,,,,3 HP,1-phase,,,,,,,,,,,,,,
+elec-652,Manual motor protector (0.16-0.25 A),Manual starter,,,,,,0.16-0.25 A,,,,,,,,,,,,,,,,,
+elec-653,Manual motor protector (1-1.6 A),Manual starter,,,,,,1-1.6 A,,,,,,,,,,,,,,,,,
+elec-654,Manual motor protector (2.5-4 A),Manual starter,,,,,,2.5-4 A,,,,,,,,,,,,,,,,,
+elec-655,Manual motor protector (6-10 A),Manual starter,,,,,,6-10 A,,,,,,,,,,,,,,,,,
+elec-656,Manual motor protector (9-14 A),Manual starter,,,,,,9-14 A,,,,,,,,,,,,,,,,,
+elec-657,Manual motor protector (13-18 A),Manual starter,,,,,,13-18 A,,,,,,,,,,,,,,,,,
+elec-658,Manual motor protector (20-25 A),Manual starter,,,,,,20-25 A,,,,,,,,,,,,,,,,,
+elec-659,Manual motor protector (24-32 A),Manual starter,,,,,,24-32 A,,,,,,,,,,,,,,,,,
+elec-660,Manual motor starter in NEMA 1 enclosure (1 HP),Manual starter,,,,,,,,1 HP,,,,,,,,,,NEMA 1,,,,Steel,
+elec-661,Manual motor starter in NEMA 3R enclosure (3 HP),Manual starter,,,,,,,,3 HP,,,,,,,,,,NEMA 3R,,,,Steel,
+elec-662,Manual motor starter with pilot light (2-pole),Manual starter,,,,,,,,,,2-pole,,,,,,,,,,,,,with pilot light
+elec-663,22 mm flush pushbutton momentary (red),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,red,,Polycarbonate,momentary
+elec-664,22 mm flush pushbutton momentary (green),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,green,,Polycarbonate,momentary
+elec-665,22 mm flush pushbutton momentary (black),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,black,,Polycarbonate,momentary
+elec-666,22 mm flush pushbutton momentary (yellow),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,yellow,,Polycarbonate,momentary
+elec-667,22 mm flush pushbutton momentary (blue),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,blue,,Polycarbonate,momentary
+elec-668,22 mm flush pushbutton momentary (white),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,white,,Polycarbonate,momentary
+elec-669,22 mm extended pushbutton momentary (green),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,green,,Polycarbonate,extended
+elec-670,22 mm maintained pushbutton (red),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,red,,Polycarbonate,maintained
+elec-671,22 mm mushroom emergency-stop (twist-to-release),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,,,Polycarbonate,"E-stop, twist-to-release"
+elec-672,22 mm mushroom emergency-stop (pull-to-release),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,,,Polycarbonate,"E-stop, pull-to-release"
+elec-673,22 mm mushroom emergency-stop (key-release),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,,,Polycarbonate,"E-stop, key-release"
+elec-674,22 mm illuminated pushbutton (red 24 V),Pushbutton,,,,24 V,,,,,,,,,,,,,,,22 mm,red,,Polycarbonate,illuminated
+elec-675,22 mm illuminated pushbutton (green 120 V),Pushbutton,,,,120 V,,,,,,,,,,,,,,,22 mm,green,,Polycarbonate,illuminated
+elec-676,22 mm 2-position selector switch,Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,,,Polycarbonate,2-position
+elec-677,22 mm 3-position selector switch,Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,,,Polycarbonate,3-position
+elec-678,22 mm key selector switch (2-position),Pushbutton,,,,,,,,,,,,,,,,,,,22 mm,,,Polycarbonate,"key, 2-position"
+elec-679,22 mm LED pilot light (red 24 V),Pilot light,,,,24 V,,,,,,,,,,,,,,,22 mm,red,,Polycarbonate,
+elec-680,22 mm LED pilot light (green 24 V),Pilot light,,,,24 V,,,,,,,,,,,,,,,22 mm,green,,Polycarbonate,
+elec-681,22 mm LED pilot light (amber 24 V),Pilot light,,,,24 V,,,,,,,,,,,,,,,22 mm,amber,,Polycarbonate,
+elec-682,22 mm LED pilot light (blue 24 V),Pilot light,,,,24 V,,,,,,,,,,,,,,,22 mm,blue,,Polycarbonate,
+elec-683,22 mm LED pilot light (white 24 V),Pilot light,,,,24 V,,,,,,,,,,,,,,,22 mm,white,,Polycarbonate,
+elec-684,22 mm LED pilot light (red 120 V),Pilot light,,,,120 V,,,,,,,,,,,,,,,22 mm,red,,Polycarbonate,
+elec-685,22 mm LED pilot light (green 120 V),Pilot light,,,,120 V,,,,,,,,,,,,,,,22 mm,green,,Polycarbonate,
+elec-686,22 mm push-to-test pilot light (red 120 V),Pilot light,,,,120 V,,,,,,,,,,,,,,,22 mm,red,,Polycarbonate,push-to-test
+elec-687,30 mm flush pushbutton momentary (red),Pushbutton,,,,,,,,,,,,,,,,,,,30 mm,red,,Metal,momentary
+elec-688,30 mm flush pushbutton momentary (green),Pushbutton,,,,,,,,,,,,,,,,,,,30 mm,green,,Metal,momentary
+elec-689,30 mm mushroom emergency-stop (twist-to-release),Pushbutton,,,,,,,,,,,,,,,,,,,30 mm,,,Metal,"E-stop, twist-to-release"
+elec-690,30 mm LED pilot light (red 120 V),Pilot light,,,,120 V,,,,,,,,,,,,,,,30 mm,red,,Metal,
+elec-691,30 mm 2-position selector switch,Pushbutton,,,,,,,,,,,,,,,,,,,30 mm,,,Metal,2-position
+elec-692,Contact block (normally open),Accessory,,,,,,,,,,,,,,,,N.O.,,,,,,,
+elec-693,Contact block (normally closed),Accessory,,,,,,,,,,,,,,,,N.C.,,,,,,,
+elec-694,Contact block (1 NO / 1 NC),Accessory,,,,,,,,,,,,,,,,1 NO / 1 NC,,,,,,,
+elec-695,Pushbutton enclosure (1-hole),Enclosure,,,,,,,,,,,,,,,,,,,,,1-hole,Steel,
+elec-696,Pushbutton enclosure (2-hole),Enclosure,,,,,,,,,,,,,,,,,,,,,2-hole,Steel,
+elec-697,Pushbutton enclosure (3-hole),Enclosure,,,,,,,,,,,,,,,,,,,,,3-hole,Steel,
+elec-698,Pushbutton enclosure (4-hole),Enclosure,,,,,,,,,,,,,,,,,,,,,4-hole,Steel,
+elec-699,Pushbutton legend plate,Accessory,,,,,,,,,,,,,,,,,,,,,,Aluminum,
+elec-700,Industrial foot switch (momentary),Pushbutton,,,,,,,,,,,,,,,,,,,,,,Cast metal,momentary
+elec-701,Pendant control station (2-button),Pushbutton,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,2-button
+elec-702,Pendant control station (4-button),Pushbutton,,,,,,,,,,,,,,,,,,,,,,Thermoplastic,4-button
+elec-703,Octal ice-cube relay (8-pin DPDT 10 A 120 V coil),Control relay,,,,,120 V,10 A,,,,,,,,,8-pin,DPDT,,,,,,,
+elec-704,Octal ice-cube relay (8-pin DPDT 10 A 24 V coil),Control relay,,,,,24 V,10 A,,,,,,,,,8-pin,DPDT,,,,,,,
+elec-705,Octal ice-cube relay (11-pin 3PDT 10 A 120 V coil),Control relay,,,,,120 V,10 A,,,,,,,,,11-pin,3PDT,,,,,,,
+elec-706,Octal ice-cube relay (11-pin 3PDT 10 A 24 V coil),Control relay,,,,,24 V,10 A,,,,,,,,,11-pin,3PDT,,,,,,,
+elec-707,Octal relay socket (8-pin),Accessory,,,,,,,,,,,,,,,8-pin,,,,,,,Thermoplastic,
+elec-708,Octal relay socket (11-pin),Accessory,,,,,,,,,,,,,,,11-pin,,,,,,,Thermoplastic,
+elec-709,IEC control relay (4 NO 120 V coil),Control relay,,,,,120 V,,,,,,,,,,,4 NO,,,,,,,
+elec-710,IEC control relay (3 NO / 1 NC 120 V coil),Control relay,,,,,120 V,,,,,,,,,,,3 NO / 1 NC,,,,,,,
+elec-711,IEC control relay (2 NO / 2 NC 120 V coil),Control relay,,,,,120 V,,,,,,,,,,,2 NO / 2 NC,,,,,,,
+elec-712,IEC control relay (4 NO 24 V coil),Control relay,,,,,24 V,,,,,,,,,,,4 NO,,,,,,,
+elec-713,Latching control relay (120 V),Control relay,,,,,120 V,,,,,,,,,,,,,,,,,,latching
+elec-714,Interposing relay (24 V DC coil 8 A),Control relay,,,,,24 V DC,8 A,,,,,,,,,,,,,,,,,
+elec-715,Solid-state relay (10 A 24 V DC input),Control relay,,,,,24 V DC,10 A,,,,,,,,,,,,,,,,,
+elec-716,Solid-state relay (25 A 24 V DC input),Control relay,,,,,24 V DC,25 A,,,,,,,,,,,,,,,,,
+elec-717,Solid-state relay (40 A 24 V DC input),Control relay,,,,,24 V DC,40 A,,,,,,,,,,,,,,,,,
+elec-718,Solid-state relay (50 A AC input),Control relay,,,,,,50 A,,,,,,,,,,,,,,,,,AC input
+elec-719,Phase-monitor relay (208-240 V),Control relay,,,,208-240 V,,,,,,,,,,,,,,,,,,,
+elec-720,Phase-monitor relay (440-480 V),Control relay,,,,440-480 V,,,,,,,,,,,,,,,,,,,
+elec-721,Voltage-monitoring relay (120 V),Control relay,,,,120 V,,,,,,,,,,,,,,,,,,,
+elec-722,Current-monitoring relay,Control relay,,,,,,,,,,,,,,,,,,,,,,,
+elec-723,Alternating relay (120 V),Control relay,,,,,120 V,,,,,,,,,,,,,,,,,,
+elec-724,Contactor auxiliary contact (1 NO / 1 NC),Accessory,,,,,,,,,,,,,,,,1 NO / 1 NC,,,,,,,
+elec-725,Contactor coil surge suppressor (120 V),Accessory,,,,,120 V,,,,,,,,,,,,,,,,,,
+elec-726,Reversing contactor mechanical interlock,Accessory,,,,,,,,,,,,,,,,,,,,,,,
+elec-727,On-delay timing relay (0.1 s to 10 min 120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,"on-delay, 0.1 s-10 min"
+elec-728,Off-delay timing relay (0.1 s to 10 min 120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,"off-delay, 0.1 s-10 min"
+elec-729,Interval timing relay (120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,interval
+elec-730,One-shot timing relay (120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,one-shot
+elec-731,Recycle timing relay (120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,recycle
+elec-732,Multi-function digital timer (24-240 V),Timer,,,,24-240 V,,,,,,,,,,,,,,,,,,,multi-function
+elec-733,Analog dial timer (120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,analog
+elec-734,Star-delta timing relay,Timer,,,,,,,,,,,,,,,,,,,,,,,star-delta
+elec-735,Pneumatic timer attachment (on-delay),Timer,,,,,,,,,,,,,,,,,,,,,,,"pneumatic, on-delay"
+elec-736,Pneumatic timer attachment (off-delay),Timer,,,,,,,,,,,,,,,,,,,,,,,"pneumatic, off-delay"
+elec-737,24-hour time switch (120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,24-hour
+elec-738,7-day digital time switch (120 V),Timer,,,,,120 V,,,,,,,,,,,,,,,,,,7-day
+elec-739,24-hour time switch (208-277 V),Timer,,,,208-277 V,,,,,,,,,,,,,,,,,,,24-hour
+elec-740,VFD (0.5 HP 230 V 1-phase input),VFD,,,,230 V,,,,0.5 HP,1-phase,,,,,,,,,,,,,,1-phase input
+elec-741,VFD (1 HP 230 V 1-phase input),VFD,,,,230 V,,,,1 HP,1-phase,,,,,,,,,,,,,,1-phase input
+elec-742,VFD (2 HP 230 V 1-phase input),VFD,,,,230 V,,,,2 HP,1-phase,,,,,,,,,,,,,,1-phase input
+elec-743,VFD (3 HP 230 V 1-phase input),VFD,,,,230 V,,,,3 HP,1-phase,,,,,,,,,,,,,,1-phase input
+elec-744,VFD (1 HP 230 V 3-phase),VFD,,,,230 V,,,,1 HP,3-phase,,,,,,,,,,,,,,
+elec-745,VFD (3 HP 230 V 3-phase),VFD,,,,230 V,,,,3 HP,3-phase,,,,,,,,,,,,,,
+elec-746,VFD (5 HP 230 V 3-phase),VFD,,,,230 V,,,,5 HP,3-phase,,,,,,,,,,,,,,
+elec-747,VFD (10 HP 230 V 3-phase),VFD,,,,230 V,,,,10 HP,3-phase,,,,,,,,,,,,,,
+elec-748,VFD (1 HP 460 V 3-phase),VFD,,,,460 V,,,,1 HP,3-phase,,,,,,,,,,,,,,
+elec-749,VFD (3 HP 460 V 3-phase),VFD,,,,460 V,,,,3 HP,3-phase,,,,,,,,,,,,,,
+elec-750,VFD (5 HP 460 V 3-phase),VFD,,,,460 V,,,,5 HP,3-phase,,,,,,,,,,,,,,
+elec-751,VFD (7.5 HP 460 V 3-phase),VFD,,,,460 V,,,,7.5 HP,3-phase,,,,,,,,,,,,,,
+elec-752,VFD (10 HP 460 V 3-phase),VFD,,,,460 V,,,,10 HP,3-phase,,,,,,,,,,,,,,
+elec-753,VFD (15 HP 460 V 3-phase),VFD,,,,460 V,,,,15 HP,3-phase,,,,,,,,,,,,,,
+elec-754,VFD (20 HP 460 V 3-phase),VFD,,,,460 V,,,,20 HP,3-phase,,,,,,,,,,,,,,
+elec-755,VFD (25 HP 460 V 3-phase),VFD,,,,460 V,,,,25 HP,3-phase,,,,,,,,,,,,,,
+elec-756,VFD (30 HP 460 V 3-phase),VFD,,,,460 V,,,,30 HP,3-phase,,,,,,,,,,,,,,
+elec-757,VFD (40 HP 460 V 3-phase),VFD,,,,460 V,,,,40 HP,3-phase,,,,,,,,,,,,,,
+elec-758,VFD (50 HP 460 V 3-phase),VFD,,,,460 V,,,,50 HP,3-phase,,,,,,,,,,,,,,
+elec-759,VFD (75 HP 460 V 3-phase),VFD,,,,460 V,,,,75 HP,3-phase,,,,,,,,,,,,,,
+elec-760,VFD (100 HP 460 V 3-phase),VFD,,,,460 V,,,,100 HP,3-phase,,,,,,,,,,,,,,
+elec-761,VFD line reactor (5 HP),Accessory,,,,,,,,5 HP,,,,,,,,,,,,,,,line reactor
+elec-762,VFD line reactor (10 HP),Accessory,,,,,,,,10 HP,,,,,,,,,,,,,,,line reactor
+elec-763,VFD line reactor (25 HP),Accessory,,,,,,,,25 HP,,,,,,,,,,,,,,,line reactor
+elec-764,VFD load reactor (10 HP),Accessory,,,,,,,,10 HP,,,,,,,,,,,,,,,load reactor
+elec-765,VFD load reactor (25 HP),Accessory,,,,,,,,25 HP,,,,,,,,,,,,,,,load reactor
+elec-766,VFD dynamic braking resistor (5 HP),Accessory,,,,,,,,5 HP,,,,,,,,,,,,,,,braking resistor
+elec-767,VFD dynamic braking resistor (10 HP),Accessory,,,,,,,,10 HP,,,,,,,,,,,,,,,braking resistor
+elec-768,VFD EMC filter (10 HP),Accessory,,,,,,,,10 HP,,,,,,,,,,,,,,,EMC filter
+elec-769,VFD remote keypad,Accessory,,,,,,,,,,,,,,,,,,,,,,,remote keypad
+elec-770,NEMA 1 control enclosure (8 in x 6 in x 4 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 1,,,8 in x 6 in x 4 in,Steel,
+elec-771,NEMA 1 control enclosure (12 in x 10 in x 6 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 1,,,12 in x 10 in x 6 in,Steel,
+elec-772,NEMA 1 control enclosure (16 in x 14 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 1,,,16 in x 14 in x 8 in,Steel,
+elec-773,NEMA 12 control enclosure (12 in x 10 in x 6 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 12,,,12 in x 10 in x 6 in,Steel,
+elec-774,NEMA 12 control enclosure (16 in x 14 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 12,,,16 in x 14 in x 8 in,Steel,
+elec-775,NEMA 12 control enclosure (20 in x 16 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 12,,,20 in x 16 in x 8 in,Steel,
+elec-776,NEMA 12 control enclosure (24 in x 20 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 12,,,24 in x 20 in x 8 in,Steel,
+elec-777,NEMA 3R control enclosure (12 in x 10 in x 6 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 3R,,,12 in x 10 in x 6 in,Steel,
+elec-778,NEMA 3R control enclosure (16 in x 14 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 3R,,,16 in x 14 in x 8 in,Steel,
+elec-779,NEMA 3R control enclosure (20 in x 16 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 3R,,,20 in x 16 in x 8 in,Steel,
+elec-780,NEMA 4 control enclosure (12 in x 10 in x 6 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 4,,,12 in x 10 in x 6 in,Steel,
+elec-781,NEMA 4 control enclosure (16 in x 14 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 4,,,16 in x 14 in x 8 in,Steel,
+elec-782,NEMA 4X stainless enclosure (12 in x 10 in x 6 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 4X,,,12 in x 10 in x 6 in,Stainless steel,
+elec-783,NEMA 4X stainless enclosure (16 in x 14 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 4X,,,16 in x 14 in x 8 in,Stainless steel,
+elec-784,NEMA 4X nonmetallic enclosure (12 in x 10 in x 6 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 4X,,,12 in x 10 in x 6 in,Polycarbonate,
+elec-785,NEMA 4X nonmetallic enclosure (16 in x 14 in x 8 in),Enclosure,,,,,,,,,,,,,,,,,,NEMA 4X,,,16 in x 14 in x 8 in,Polycarbonate,
+elec-786,NEMA 7 hazardous-location enclosure,Enclosure,,,,,,,,,,,,,,,,,,NEMA 7,,,,Cast metal,
+elec-787,Motor starter enclosure NEMA Size 0 (NEMA 1),Enclosure,,,,,,,,,,,,,,,,,0,NEMA 1,,,,Steel,
+elec-788,Motor starter enclosure NEMA Size 1 (NEMA 1),Enclosure,,,,,,,,,,,,,,,,,1,NEMA 1,,,,Steel,
+elec-789,Motor starter enclosure NEMA Size 1 (NEMA 12),Enclosure,,,,,,,,,,,,,,,,,1,NEMA 12,,,,Steel,
+elec-790,Motor starter enclosure NEMA Size 2 (NEMA 1),Enclosure,,,,,,,,,,,,,,,,,2,NEMA 1,,,,Steel,
+elec-791,Motor starter enclosure NEMA Size 3 (NEMA 1),Enclosure,,,,,,,,,,,,,,,,,3,NEMA 1,,,,Steel,
+elec-792,Freestanding motor-control enclosure (60 in),Enclosure,,,,,,,,,,,,,,,,,,,,,60 in,Steel,
+elec-793,Motor control center unit (Size 1),Enclosure,,,,,,,,,,,,,,,,,1,,,,,Steel,MCC unit
+elec-794,Control transformer (50 VA 240/480-120 V),Control transformer,,,,240/480-120 V,,,,,,,,,,,,,,50 VA,,,,,
+elec-795,Control transformer (100 VA 240/480-120 V),Control transformer,,,,240/480-120 V,,,,,,,,,,,,,,100 VA,,,,,
+elec-796,Control transformer (150 VA 240/480-120 V),Control transformer,,,,240/480-120 V,,,,,,,,,,,,,,150 VA,,,,,
+elec-797,Control transformer (250 VA 240/480-120 V),Control transformer,,,,240/480-120 V,,,,,,,,,,,,,,250 VA,,,,,
+elec-798,Control transformer (500 VA 240/480-120 V),Control transformer,,,,240/480-120 V,,,,,,,,,,,,,,500 VA,,,,,
+elec-799,Control transformer (1000 VA 240/480-120 V),Control transformer,,,,240/480-120 V,,,,,,,,,,,,,,1000 VA,,,,,
+elec-800,Control transformer (100 VA 208/120 V),Control transformer,,,,208/120 V,,,,,,,,,,,,,,100 VA,,,,,
+elec-801,Machine-tool control transformer (150 VA),Control transformer,,,,,,,,,,,,,,,,,,150 VA,,,,,machine-tool
+elec-802,Reversing drum switch (2 HP),Pushbutton,,,,,,,,2 HP,,,,,,,,,,,,,,Cast metal,reversing

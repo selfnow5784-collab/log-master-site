@@ -1,112 +1,120 @@
+# Schema: logmaster-1
+# Trade: HVAC
+# Columns: Type, Size, Material, Brand
+# Filters: Type, Material
+# Search: Product_Name, Type, Size, Material, Brand, Series
+# Card: Type, Size, Material, Brand, Series
 # Data_Pulled: 2026-11
 # Generic HVAC demo catalog in our own words. No supplier part numbers, prices, or links.
-# Gas and electrical parts should be installed by a qualified technician.
-Year(s),Make,Model,Product_Name,Type,Size,Material,id
-,,,Dual run capacitor (35/5 uF),Capacitor,35/5 uF,,hvac-001
-,,,Dual run capacitor (40/5 uF),Capacitor,40/5 uF,,hvac-002
-,,,Dual run capacitor (45/5 uF),Capacitor,45/5 uF,,hvac-003
-,,,Dual run capacitor (50/5 uF),Capacitor,50/5 uF,,hvac-004
-,,,Dual run capacitor (55/5 uF),Capacitor,55/5 uF,,hvac-005
-,,,Dual run capacitor (60/5 uF),Capacitor,60/5 uF,,hvac-006
-,,,Single run capacitor (5 uF),Capacitor,5 uF,,hvac-007
-,,,Single run capacitor (7.5 uF),Capacitor,7.5 uF,,hvac-008
-,,,Single run capacitor (25 uF),Capacitor,25 uF,,hvac-009
-,,,Single run capacitor (30 uF),Capacitor,30 uF,,hvac-010
-,,,Single run capacitor (35 uF),Capacitor,35 uF,,hvac-011
-,,,Single run capacitor (40 uF),Capacitor,40 uF,,hvac-012
-,,,Single run capacitor (45 uF),Capacitor,45 uF,,hvac-013
-,,,Start capacitor (88-108 uF),Capacitor,88-108 uF,,hvac-014
-,,,Start capacitor (189-227 uF),Capacitor,189-227 uF,,hvac-015
-,,,Start capacitor (270-324 uF),Capacitor,270-324 uF,,hvac-016
-,,,Contactor (1-pole 30 A),Contactor,30 A,,hvac-017
-,,,Contactor (2-pole 30 A),Contactor,30 A,,hvac-018
-,,,Contactor (2-pole 40 A),Contactor,40 A,,hvac-019
-,,,Contactor (3-pole 40 A),Contactor,40 A,,hvac-020
-,,,Hard start kit (1/2 to 3 HP),Start kit,1/2 to 3 HP,,hvac-021
-,,,Hard start kit (3.5 to 5 HP),Start kit,3.5 to 5 HP,,hvac-022
-,,,Condenser fan motor (1/6 HP 825 RPM),Motor,1/6 HP 825 RPM,,hvac-023
-,,,Condenser fan motor (1/5 HP 1075 RPM),Motor,1/5 HP 1075 RPM,,hvac-024
-,,,Condenser fan motor (1/4 HP 1075 RPM),Motor,1/4 HP 1075 RPM,,hvac-025
-,,,Condenser fan motor (1/3 HP 1075 RPM),Motor,1/3 HP 1075 RPM,,hvac-026
-,,,Blower motor (1/3 HP 1075 RPM),Motor,1/3 HP 1075 RPM,,hvac-027
-,,,Blower motor (1/2 HP 1075 RPM),Motor,1/2 HP 1075 RPM,,hvac-028
-,,,Blower motor (3/4 HP 1075 RPM),Motor,3/4 HP 1075 RPM,,hvac-029
-,,,ECM blower motor,Motor,,,hvac-030
-,,,ECM motor control module,Control,,,hvac-031
-,,,Hot surface igniter,Igniter,,,hvac-032
-,,,Spark igniter,Igniter,,,hvac-033
-,,,Flame sensor,Sensor,,,hvac-034
-,,,Pressure switch (0.40 in WC),Switch,0.40 in WC,,hvac-035
-,,,Pressure switch (0.60 in WC),Switch,0.60 in WC,,hvac-036
-,,,Pressure switch (0.80 in WC),Switch,0.80 in WC,,hvac-037
-,,,Limit switch (auto reset),Switch,,,hvac-038
-,,,Limit switch (manual reset),Switch,,,hvac-039
-,,,Rollout switch,Switch,,,hvac-040
-,,,Single-stage gas valve,Valve,,,hvac-041
-,,,Two-stage gas valve,Valve,,,hvac-042
-,,,Inducer motor,Motor,,,hvac-043
-,,,Furnace control board,Control board,,,hvac-044
-,,,Heat pump defrost board,Control board,,,hvac-045
-,,,Air handler control board,Control board,,,hvac-046
-,,,Transformer (24 V 40 VA),Transformer,24 V 40 VA,,hvac-047
-,,,Transformer (24 V 75 VA),Transformer,24 V 75 VA,,hvac-048
-,,,Non-programmable thermostat,Thermostat,,,hvac-049
-,,,Programmable thermostat,Thermostat,,,hvac-050
-,,,Heat pump thermostat,Thermostat,,,hvac-051
-,,,Smart thermostat,Thermostat,,,hvac-052
-,,,Pleated filter (16x25x1),Filter,16x25x1,,hvac-053
-,,,Pleated filter (20x25x1),Filter,20x25x1,,hvac-054
-,,,Pleated filter (16x20x1),Filter,16x20x1,,hvac-055
-,,,Pleated filter (20x20x1),Filter,20x20x1,,hvac-056
-,,,Pleated filter (14x25x1),Filter,14x25x1,,hvac-057
-,,,Pleated filter (16x25x4),Filter,16x25x4,,hvac-058
-,,,Pleated filter (20x25x4),Filter,20x25x4,,hvac-059
-,,,Liquid-line filter drier (3/8 in),Filter drier,3/8 in,,hvac-060
-,,,Suction-line filter drier (3/4 in),Filter drier,3/4 in,,hvac-061
-,,,Burnout filter drier,Filter drier,,,hvac-062
-,,,Flare nut (1/4 in),Fitting,1/4 in,Brass,hvac-063
-,,,Flare nut (3/8 in),Fitting,3/8 in,Brass,hvac-064
-,,,Service access fitting,Fitting,1/4 in,Brass,hvac-065
-,,,Schrader valve core,Fitting,,Brass,hvac-066
-,,,Line set insulation (3/8 in),Insulation,3/8 in,Foam,hvac-067
-,,,Line set insulation (3/4 in),Insulation,3/4 in,Foam,hvac-068
-,,,Condensate pump,Pump,,,hvac-069
-,,,Condensate float switch,Switch,,,hvac-070
-,,,Condensate overflow switch,Switch,,,hvac-071
-,,,Non-fused disconnect (30 A),Disconnect,30 A,Steel,hvac-072
-,,,Fused disconnect (30 A),Disconnect,30 A,Steel,hvac-073
-,,,Non-fused disconnect (60 A),Disconnect,60 A,Steel,hvac-074
-,,,Liquid-tight whip (1/2 in x 6 ft),Whip,1/2 in x 6 ft,,hvac-075
-,,,Liquid-tight whip (3/4 in x 6 ft),Whip,3/4 in x 6 ft,,hvac-076
-,,,Blower belt (A34),Belt,A34,Rubber,hvac-077
-,,,Blower belt (A36),Belt,A36,Rubber,hvac-078
-,,,Thermocouple (24 in),Sensor,24 in,,hvac-079
-,,,Thermocouple (30 in),Sensor,30 in,,hvac-080
-,,,Thermopile,Sensor,,,hvac-081
-,,,Standing pilot assembly,Pilot,,,hvac-082
-,,,Pilot orifice,Orifice,,,hvac-083
-,,,Electric furnace heating element,Heating element,,,hvac-084
-,,,Heat sequencer,Control,,,hvac-085
-,,,Fan-and-limit control,Switch,,,hvac-086
-,,,Furnace door switch,Switch,,,hvac-087
-,,,Burner orifice (natural gas),Orifice,,,hvac-088
-,,,Gas conversion kit (natural gas to propane),Kit,,,hvac-089
-,,,Blower wheel,Blower,,,hvac-090
-,,,Inducer motor gasket,Gasket,,,hvac-091
-,,,Condensing furnace condensate trap,Drain,,,hvac-092
-,,,Condensate neutralizer,Drain,,,hvac-093
-,,,Heat-only thermostat,Thermostat,,,hvac-094
-,,,Circulator pump,Pump,,,hvac-095
-,,,Zone valve,Valve,3/4 in,,hvac-096
-,,,Zone valve motor,Motor,,,hvac-097
-,,,Diaphragm expansion tank,Tank,,,hvac-098
-,,,Boiler pressure relief valve (30 PSI),Valve,3/4 in,Brass,hvac-099
-,,,Boiler temperature control,Control,,,hvac-100
-,,,Low water cutoff,Control,,,hvac-101
-,,,Boiler feed valve,Valve,1/2 in,Brass,hvac-102
-,,,Boiler temperature and pressure gauge,Gauge,,,hvac-103
-,,,Automatic air vent,Vent,1/8 in,Brass,hvac-104
-,,,Air eliminator,Fitting,,,hvac-105
-,,,Boiler control board,Control board,,,hvac-106
-,,,Steam pressure control,Control,,,hvac-107
-,,,Steam boiler water feeder,Valve,,,hvac-108
+# Always check the product label and local code before installing. Gas and electrical parts should be installed by a qualified, licensed technician.
+# Refrigerant work requires an EPA Section 608 certified technician.
+# Brand names show fit only. Not affiliated with or endorsed by the makers or stores.
+id,Product_Name,Type,Size,Material,Brand,Series
+hvac-001,Dual run capacitor (35/5 uF),Capacitor,35/5 uF,,,
+hvac-002,Dual run capacitor (40/5 uF),Capacitor,40/5 uF,,,
+hvac-003,Dual run capacitor (45/5 uF),Capacitor,45/5 uF,,,
+hvac-004,Dual run capacitor (50/5 uF),Capacitor,50/5 uF,,,
+hvac-005,Dual run capacitor (55/5 uF),Capacitor,55/5 uF,,,
+hvac-006,Dual run capacitor (60/5 uF),Capacitor,60/5 uF,,,
+hvac-007,Single run capacitor (5 uF),Capacitor,5 uF,,,
+hvac-008,Single run capacitor (7.5 uF),Capacitor,7.5 uF,,,
+hvac-009,Single run capacitor (25 uF),Capacitor,25 uF,,,
+hvac-010,Single run capacitor (30 uF),Capacitor,30 uF,,,
+hvac-011,Single run capacitor (35 uF),Capacitor,35 uF,,,
+hvac-012,Single run capacitor (40 uF),Capacitor,40 uF,,,
+hvac-013,Single run capacitor (45 uF),Capacitor,45 uF,,,
+hvac-014,Start capacitor (88-108 uF),Capacitor,88-108 uF,,,
+hvac-015,Start capacitor (189-227 uF),Capacitor,189-227 uF,,,
+hvac-016,Start capacitor (270-324 uF),Capacitor,270-324 uF,,,
+hvac-017,Contactor (1-pole 30 A),Contactor,30 A,,,
+hvac-018,Contactor (2-pole 30 A),Contactor,30 A,,,
+hvac-019,Contactor (2-pole 40 A),Contactor,40 A,,,
+hvac-020,Contactor (3-pole 40 A),Contactor,40 A,,,
+hvac-021,Hard start kit (1/2 to 3 HP),Start kit,1/2 to 3 HP,,,
+hvac-022,Hard start kit (3.5 to 5 HP),Start kit,3.5 to 5 HP,,,
+hvac-023,Condenser fan motor (1/6 HP 825 RPM),Motor,1/6 HP 825 RPM,,,
+hvac-024,Condenser fan motor (1/5 HP 1075 RPM),Motor,1/5 HP 1075 RPM,,,
+hvac-025,Condenser fan motor (1/4 HP 1075 RPM),Motor,1/4 HP 1075 RPM,,,
+hvac-026,Condenser fan motor (1/3 HP 1075 RPM),Motor,1/3 HP 1075 RPM,,,
+hvac-027,Blower motor (1/3 HP 1075 RPM),Motor,1/3 HP 1075 RPM,,,
+hvac-028,Blower motor (1/2 HP 1075 RPM),Motor,1/2 HP 1075 RPM,,,
+hvac-029,Blower motor (3/4 HP 1075 RPM),Motor,3/4 HP 1075 RPM,,,
+hvac-030,ECM blower motor,Motor,,,,
+hvac-031,ECM motor control module,Control,,,,
+hvac-032,Hot surface igniter,Igniter,,,,
+hvac-033,Spark igniter,Igniter,,,,
+hvac-034,Flame sensor,Sensor,,,,
+hvac-035,Pressure switch (0.40 in WC),Switch,0.40 in WC,,,
+hvac-036,Pressure switch (0.60 in WC),Switch,0.60 in WC,,,
+hvac-037,Pressure switch (0.80 in WC),Switch,0.80 in WC,,,
+hvac-038,Limit switch (auto reset),Switch,,,,
+hvac-039,Limit switch (manual reset),Switch,,,,
+hvac-040,Rollout switch,Switch,,,,
+hvac-041,Single-stage gas valve,Valve,,,,
+hvac-042,Two-stage gas valve,Valve,,,,
+hvac-043,Inducer motor,Motor,,,,
+hvac-044,Furnace control board,Control board,,,,
+hvac-045,Heat pump defrost board,Control board,,,,
+hvac-046,Air handler control board,Control board,,,,
+hvac-047,Transformer (24 V 40 VA),Transformer,24 V 40 VA,,,
+hvac-048,Transformer (24 V 75 VA),Transformer,24 V 75 VA,,,
+hvac-049,Non-programmable thermostat,Thermostat,,,,
+hvac-050,Programmable thermostat,Thermostat,,,,
+hvac-051,Heat pump thermostat,Thermostat,,,,
+hvac-052,Smart thermostat,Thermostat,,,,
+hvac-053,Pleated filter (16x25x1),Filter,16x25x1,,,
+hvac-054,Pleated filter (20x25x1),Filter,20x25x1,,,
+hvac-055,Pleated filter (16x20x1),Filter,16x20x1,,,
+hvac-056,Pleated filter (20x20x1),Filter,20x20x1,,,
+hvac-057,Pleated filter (14x25x1),Filter,14x25x1,,,
+hvac-058,Pleated filter (16x25x4),Filter,16x25x4,,,
+hvac-059,Pleated filter (20x25x4),Filter,20x25x4,,,
+hvac-060,Liquid-line filter drier (3/8 in),Filter drier,3/8 in,,,
+hvac-061,Suction-line filter drier (3/4 in),Filter drier,3/4 in,,,
+hvac-062,Burnout filter drier,Filter drier,,,,
+hvac-063,Flare nut (1/4 in),Fitting,1/4 in,Brass,,
+hvac-064,Flare nut (3/8 in),Fitting,3/8 in,Brass,,
+hvac-065,Service access fitting,Fitting,1/4 in,Brass,,
+hvac-066,Schrader valve core,Fitting,,Brass,,
+hvac-067,Line set insulation (3/8 in),Insulation,3/8 in,Foam,,
+hvac-068,Line set insulation (3/4 in),Insulation,3/4 in,Foam,,
+hvac-069,Condensate pump,Pump,,,,
+hvac-070,Condensate float switch,Switch,,,,
+hvac-071,Condensate overflow switch,Switch,,,,
+hvac-072,Non-fused disconnect (30 A),Disconnect,30 A,Steel,,
+hvac-073,Fused disconnect (30 A),Disconnect,30 A,Steel,,
+hvac-074,Non-fused disconnect (60 A),Disconnect,60 A,Steel,,
+hvac-075,Liquid-tight whip (1/2 in x 6 ft),Whip,1/2 in x 6 ft,,,
+hvac-076,Liquid-tight whip (3/4 in x 6 ft),Whip,3/4 in x 6 ft,,,
+hvac-077,Blower belt (A34),Belt,A34,Rubber,,
+hvac-078,Blower belt (A36),Belt,A36,Rubber,,
+hvac-079,Thermocouple (24 in),Sensor,24 in,,,
+hvac-080,Thermocouple (30 in),Sensor,30 in,,,
+hvac-081,Thermopile,Sensor,,,,
+hvac-082,Standing pilot assembly,Pilot,,,,
+hvac-083,Pilot orifice,Orifice,,,,
+hvac-084,Electric furnace heating element,Heating element,,,,
+hvac-085,Heat sequencer,Control,,,,
+hvac-086,Fan-and-limit control,Switch,,,,
+hvac-087,Furnace door switch,Switch,,,,
+hvac-088,Burner orifice (natural gas),Orifice,,,,
+hvac-089,Gas conversion kit (natural gas to propane),Kit,,,,
+hvac-090,Blower wheel,Blower,,,,
+hvac-091,Inducer motor gasket,Gasket,,,,
+hvac-092,Condensing furnace condensate trap,Drain,,,,
+hvac-093,Condensate neutralizer,Drain,,,,
+hvac-094,Heat-only thermostat,Thermostat,,,,
+hvac-095,Circulator pump,Pump,,,,
+hvac-096,Zone valve,Valve,3/4 in,,,
+hvac-097,Zone valve motor,Motor,,,,
+hvac-098,Diaphragm expansion tank,Tank,,,,
+hvac-099,Boiler pressure relief valve (30 PSI),Valve,3/4 in,Brass,,
+hvac-100,Boiler temperature control,Control,,,,
+hvac-101,Low water cutoff,Control,,,,
+hvac-102,Boiler feed valve,Valve,1/2 in,Brass,,
+hvac-103,Boiler temperature and pressure gauge,Gauge,,,,
+hvac-104,Automatic air vent,Vent,1/8 in,Brass,,
+hvac-105,Air eliminator,Fitting,,,,
+hvac-106,Boiler control board,Control board,,,,
+hvac-107,Steam pressure control,Control,,,,
+hvac-108,Steam boiler water feeder,Valve,,,,
