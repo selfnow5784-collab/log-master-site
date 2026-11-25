@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--
+  Log Master website — Screenshots page
+  Edit the wording on this page in the <main> section below.
+  The header and footer are repeated in each HTML file, so update a link
+  or the copyright line in every page. Colors, fonts, and layout live in css/styles.css.
+  Images live in assets/.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Screenshots — Log Master</title>
+  <meta name="description" content="See what the Log Master app looks like on a phone.">
+  <meta name="theme-color" content="#0d0e11">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Screenshots page only */
+    .shot-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; margin: 0; padding: 0; list-style: none; }
+    .shot { margin: 0; padding: 1rem 1rem 1.15rem; }
+    .shot img { width: 100%; max-width: 300px; margin: 0 auto; border-radius: 18px; border: 1px solid var(--hair-strong); box-shadow: 0 12px 30px rgba(0,0,0,0.45); }
+    .shot figcaption { margin-top: 0.9rem; color: var(--ink-dim); font-size: 0.97rem; line-height: 1.5; text-align: center; }
+    .shot figcaption strong { display: block; color: var(--ink); font-weight: 600; margin-bottom: 0.15rem; }
+    @media (max-width: 880px) { .shot-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .shot-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="36" height="36" alt="">
+        <span class="brand-name">Log Master</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="menu-btn"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="screenshots.html" aria-current="page">Screenshots</a></li>
+            <li><a href="guide.html">User Guide</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="header-cta" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <div class="wrap">
+      <header class="page-head">
+        <span class="kicker">Screenshots</span>
+        <h1>See the app</h1>
+        <p class="lede">Log Master on a phone, using the free trade lists from the <a href="downloads.html">Downloads</a> page.</p>
+      </header>
+
+      <ul class="shot-grid">
+        <li><figure class="shot panel">
+          <img src="img/screenshots/01-plumbing-list.png" width="390" height="844" loading="lazy" alt="Log Master on a phone: a trade list loaded. The plumbing list, ready to scroll.">
+          <figcaption><strong>A trade list loaded</strong>The plumbing list, ready to scroll.</figcaption>
+        </figure></li>
+        <li><figure class="shot panel">
+          <img src="img/screenshots/02-search-flapper.png" width="390" height="844" loading="lazy" alt="Log Master on a phone: search. Type a word, like “flapper,” to find a part fast.">
+          <figcaption><strong>Search</strong>Type a word, like “flapper,” to find a part fast.</figcaption>
+        </figure></li>
+        <li><figure class="shot panel">
+          <img src="img/screenshots/03-item-details.png" width="390" height="844" loading="lazy" alt="Log Master on a phone: item details. Tap a row to see its details and mark it in stock.">
+          <figcaption><strong>Item details</strong>Tap a row to see its details and mark it in stock.</figcaption>
+        </figure></li>
+        <li><figure class="shot panel">
+          <img src="img/screenshots/04-hvac-thermostat.png" width="390" height="844" loading="lazy" alt="Log Master on a phone: other trades too. The HVAC list, searched for “thermostat.”">
+          <figcaption><strong>Other trades too</strong>The HVAC list, searched for “thermostat.”</figcaption>
+        </figure></li>
+        <li><figure class="shot panel">
+          <img src="img/screenshots/05-data-tab.png" width="390" height="844" loading="lazy" alt="Log Master on a phone: data tab. Shows which list is loaded and how many items it has.">
+          <figcaption><strong>Data tab</strong>Shows which list is loaded and how many items it has.</figcaption>
+        </figure></li>
+        <li><figure class="shot panel">
+          <img src="img/screenshots/06-menu.png" width="390" height="844" loading="lazy" alt="Log Master on a phone: menu. Print, share, add your own items, and change the look.">
+          <figcaption><strong>Menu</strong>Print, share, add your own items, and change the look.</figcaption>
+        </figure></li>
+      </ul>
+      <p class="note">Screens from Log Master v1.4. Newer versions may look a little different.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <small>© 2026 Log Master</small>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="screenshots.html">Screenshots</a>
+        <a href="guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
