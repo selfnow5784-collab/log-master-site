@@ -1,0 +1,872 @@
+# Data_Pulled: 2026-11
+# Generic plumbing demo catalog (product types only, our own wording). No supplier part numbers, prices, or links.
+# Gas, water heater and backflow parts should be installed by a qualified, licensed plumber. Always check local code and the fixture or unit label before installing.
+Year(s),Make,Model,Product_Name,Type,Size,Material,id
+,,,Kitchen faucet (single handle),Faucet,,,plb-001
+,,,Bathroom faucet (centerset),Faucet,4 in,,plb-002
+,,,Bathroom faucet (widespread),Faucet,8 in,,plb-003
+,,,Tub/shower valve with trim,Valve,,,plb-004
+,,,Shower head,Fixture,,,plb-005
+,,,Handheld shower,Fixture,,,plb-006
+,,,Faucet cartridge,Repair part,,,plb-007
+,,,Faucet aerator,Repair part,,,plb-008
+,,,Faucet washer & O-ring kit,Repair part,,,plb-009
+,,,Toilet fill valve,Toilet part,,,plb-010
+,,,Toilet flapper,Toilet part,2 in,,plb-011
+,,,Toilet flapper,Toilet part,3 in,,plb-012
+,,,Toilet flush valve,Toilet part,,,plb-013
+,,,Toilet wax ring,Toilet part,,,plb-014
+,,,Toilet closet bolts,Toilet part,,,plb-015
+,,,Toilet supply line,Supply line,3/8 in x 7/8 in,Braided steel,plb-016
+,,,Faucet supply line,Supply line,3/8 in x 1/2 in,Braided steel,plb-017
+,,,Dishwasher supply line,Supply line,3/8 in,Braided steel,plb-018
+,,,Washing machine hoses (pair),Supply line,3/4 in,Braided steel,plb-019
+,,,Ice maker line,Supply line,1/4 in,Braided steel,plb-020
+,,,Angle stop valve,Valve,1/2 in x 3/8 in,Brass,plb-021
+,,,Straight stop valve,Valve,1/2 in x 3/8 in,Brass,plb-022
+,,,Ball valve,Valve,1/2 in,Brass,plb-023
+,,,Ball valve,Valve,3/4 in,Brass,plb-024
+,,,Gate valve,Valve,3/4 in,Brass,plb-025
+,,,Check valve,Valve,3/4 in,Brass,plb-026
+,,,Hose bib / outdoor faucet,Valve,1/2 in,Brass,plb-027
+,,,Frost-free sillcock,Valve,1/2 in,Brass,plb-028
+,,,Pressure-reducing valve,Valve,3/4 in,Brass,plb-029
+,,,Water heater T&P relief valve,Valve,3/4 in,Brass,plb-030
+,,,P-trap kit,Drain,1-1/2 in,PVC,plb-031
+,,,P-trap kit,Drain,1-1/4 in,PVC,plb-032
+,,,Sink tailpiece,Drain,1-1/2 in,PVC,plb-033
+,,,Basket strainer,Drain,,Stainless,plb-034
+,,,Pop-up drain assembly,Drain,,,plb-035
+,,,Tub drain & overflow kit,Drain,,,plb-036
+,,,Floor drain,Drain,2 in,PVC,plb-037
+,,,Cleanout plug,Drain,3 in,PVC,plb-038
+,,,PVC elbow 90°,Fitting,2 in,PVC,plb-039
+,,,PVC coupling,Fitting,2 in,PVC,plb-040
+,,,Copper elbow 90°,Fitting,1/2 in,Copper,plb-041
+,,,Copper coupling,Fitting,1/2 in,Copper,plb-042
+,,,Push-to-connect coupling,Fitting,1/2 in,Brass,plb-043
+,,,PEX crimp ring,Fitting,1/2 in,Copper,plb-044
+,,,PEX elbow,Fitting,1/2 in,Brass,plb-045
+,,,No-hub coupling,Fitting,4 in,Rubber/steel,plb-046
+,,,Dielectric union,Fitting,3/4 in,,plb-047
+,,,Garbage disposal,Appliance,1/2 HP,,plb-048
+,,,Water heater anode rod,Water heater part,,,plb-049
+,,,Sump pump,Pump,1/3 HP,,plb-050
+,,,Thread seal tape,Supply,1/2 in,PTFE,plb-051
+,,,Pipe thread compound,Supply,,,plb-052
+,,,Plumber's putty,Supply,,,plb-053
+,,,PVC primer & cement,Supply,,,plb-054
+,,,Lead-free solder & flux,Supply,,,plb-055
+,,,Drain auger / snake,Tool,25 ft,,plb-056
+,,,Pipe cutter (copper),Tool,,,plb-057
+,,,PEX crimp tool,Tool,1/2 in,,plb-058
+,,,Basin wrench,Tool,,,plb-059
+,,,Toilet plunger,Tool,,,plb-060
+,,,Toilet wax ring (standard),Toilet part,,,plb-061
+,,,Toilet wax ring (extra thick),Toilet part,,,plb-062
+,,,Toilet wax ring (with horn),Toilet part,,,plb-063
+,,,Toilet wax ring (wax-free (foam/rubber)),Toilet part,,,plb-064
+,,,Closet flange,Toilet part,3 x 4 in,PVC,plb-065
+,,,Closet flange,Toilet part,3 x 4 in,Cast iron,plb-066
+,,,Closet flange,Toilet part,3 x 4 in,ABS,plb-067
+,,,Closet flange repair ring,Toilet part,,Stainless,plb-068
+,,,Tank-to-bowl gasket,Toilet part,,,plb-069
+,,,Tank-to-bowl bolt kit,Toilet part,,Brass,plb-070
+,,,Toilet handle (trip lever),Toilet part,,,plb-071
+,,,Toilet flapper chain,Toilet part,,,plb-072
+,,,Complete toilet repair kit,Toilet part,,,plb-073
+,,,Toilet seat (round),Toilet part,,Plastic,plb-074
+,,,Toilet seat (elongated),Toilet part,,Plastic,plb-075
+,,,Flushometer repair kit,Commercial part,,,plb-076
+,,,Flushometer diaphragm,Commercial part,,,plb-077
+,,,Urinal flush valve rebuild kit,Commercial part,,,plb-078
+,,,Single-handle faucet cartridge (fits common brands),Repair part,,,plb-079
+,,,Two-handle faucet stem,Repair part,,,plb-080
+,,,Three-handle tub/shower stem,Repair part,,,plb-081
+,,,Faucet seat & spring kit,Repair part,,,plb-082
+,,,Faucet seat wrench set,Tool,,,plb-083
+,,,Universal faucet handle,Repair part,,,plb-084
+,,,Tub spout (slip-on),Fixture,,,plb-085
+,,,Tub spout with diverter,Fixture,,,plb-086
+,,,Shower arm,Fixture,1/2 in,,plb-087
+,,,Shower arm flange,Fixture,,,plb-088
+,,,Kitchen sprayer & hose,Repair part,,,plb-089
+,,,Laundry/utility faucet,Faucet,,,plb-090
+,,,Water heater dip tube,Water heater part,,,plb-091
+,,,Water heater thermocouple,Water heater part,,,plb-092
+,,,Water heater gas control valve,Water heater part,,,plb-093
+,,,Igniter (water heater),Water heater part,,,plb-094
+,,,Water heater heating element,Water heater part,,,plb-095
+,,,Thermostat (electric water heater),Water heater part,,,plb-096
+,,,Water heater drain valve,Water heater part,,,plb-097
+,,,Expansion tank,Water heater part,,,plb-098
+,,,Water heater drain pan,Water heater part,,,plb-099
+,,,Gas flex connector,Water heater part,,,plb-100
+,,,Water heater flex connector,Water heater part,,,plb-101
+,,,Water heater vent connector/flue pipe,Water heater part,,,plb-102
+,,,Hose bib repair stem,Valve,,,plb-103
+,,,Sillcock vacuum breaker,Valve,,,plb-104
+,,,Hose bib vacuum breaker,Valve,3/4 in,,plb-105
+,,,Backflow preventer repair kit,Valve,,,plb-106
+,,,Washing machine outlet box,Valve,,,plb-107
+,,,Ice maker outlet box,Valve,,,plb-108
+,,,Angle stop (compression),Valve,1/2 in x 3/8 in,Brass,plb-109
+,,,Angle stop (PEX),Valve,1/2 in x 3/8 in,Brass,plb-110
+,,,Angle stop (sweat),Valve,1/2 in x 3/8 in,Brass,plb-111
+,,,Ball valve,Valve,1 in,Brass,plb-112
+,,,Gas shutoff valve,Valve,1/2 in,Brass,plb-113
+,,,Main shutoff valve,Valve,3/4 in,Brass,plb-114
+,,,Faucet supply line,Supply line,"3/8 in x 1/2 in, 12 in",Braided steel,plb-115
+,,,Faucet supply line,Supply line,"3/8 in x 1/2 in, 16 in",Braided steel,plb-116
+,,,Faucet supply line,Supply line,"3/8 in x 1/2 in, 20 in",Braided steel,plb-117
+,,,Faucet supply line,Supply line,"3/8 in x 1/2 in, 24 in",Braided steel,plb-118
+,,,P-trap,Drain,1-1/4 in,Chrome brass,plb-119
+,,,P-trap,Drain,1-1/2 in,Chrome brass,plb-120
+,,,P-trap,Drain,2 in,PVC,plb-121
+,,,Kitchen sink tee,Drain,1-1/2 in,PVC,plb-122
+,,,Dishwasher branch tailpiece,Drain,1-1/2 in,PVC,plb-123
+,,,Slip-joint washer assortment,Drain,,,plb-124
+,,,Slip nut,Drain,1-1/2 in,,plb-125
+,,,Sink drain extension,Drain,1-1/2 in,,plb-126
+,,,Lavatory drain assembly,Drain,,,plb-127
+,,,Tub drain stopper,Drain,,,plb-128
+,,,Shower drain,Drain,2 in,,plb-129
+,,,Air admittance valve,Drain,1-1/2 in,,plb-130
+,,,Test plug (expandable),Drain,2 in,,plb-131
+,,,Test plug (expandable),Drain,3 in,,plb-132
+,,,Test ball,Drain,4 in,,plb-133
+,,,Copper elbow 90°,Fitting,3/4 in,Copper,plb-134
+,,,Copper tee,Fitting,3/4 in,Copper,plb-135
+,,,Copper coupling,Fitting,3/4 in,Copper,plb-136
+,,,Copper male adapter,Fitting,3/4 in,Copper,plb-137
+,,,Copper elbow 90°,Fitting,1 in,Copper,plb-138
+,,,Copper tee,Fitting,1 in,Copper,plb-139
+,,,Copper coupling,Fitting,1 in,Copper,plb-140
+,,,Copper male adapter,Fitting,1 in,Copper,plb-141
+,,,Copper tee,Fitting,1/2 in,Copper,plb-142
+,,,Copper cap,Fitting,1/2 in,Copper,plb-143
+,,,Copper male adapter,Fitting,1/2 in,Copper,plb-144
+,,,Copper female adapter,Fitting,1/2 in,Copper,plb-145
+,,,Copper union,Fitting,1/2 in,Copper,plb-146
+,,,Copper repair (slip) coupling,Fitting,1/2 in,Copper,plb-147
+,,,Push-to-connect elbow 90°,Fitting,1/2 in,Brass,plb-148
+,,,Push-to-connect tee,Fitting,1/2 in,Brass,plb-149
+,,,Push-to-connect cap,Fitting,1/2 in,Brass,plb-150
+,,,Push-to-connect end stop,Fitting,1/2 in,Brass,plb-151
+,,,Push-to-connect coupling,Fitting,3/4 in,Brass,plb-152
+,,,Push-to-connect disconnect clip,Tool,,,plb-153
+,,,PEX tee,Fitting,1/2 in,Brass,plb-154
+,,,PEX coupling,Fitting,1/2 in,Brass,plb-155
+,,,PEX male adapter,Fitting,1/2 in,Brass,plb-156
+,,,PEX female adapter,Fitting,1/2 in,Brass,plb-157
+,,,PEX plug,Fitting,1/2 in,Brass,plb-158
+,,,PEX elbow,Fitting,3/4 in,Brass,plb-159
+,,,PEX crimp ring,Fitting,3/4 in,Copper,plb-160
+,,,PEX cinch clamp,Fitting,1/2 in,Stainless,plb-161
+,,,PEX tubing,Pipe,1/2 in,,plb-162
+,,,PEX tubing,Pipe,3/4 in,,plb-163
+,,,Copper pipe (Type M),Pipe,1/2 in,Copper,plb-164
+,,,Copper pipe (Type L),Pipe,3/4 in,Copper,plb-165
+,,,Soft copper tubing,Pipe,3/8 in,Copper,plb-166
+,,,CPVC pipe,Pipe,1/2 in,CPVC,plb-167
+,,,CPVC elbow 90°,Fitting,1/2 in,CPVC,plb-168
+,,,CPVC coupling,Fitting,3/4 in,CPVC,plb-169
+,,,PVC elbow 90°,Fitting,1-1/2 in,PVC,plb-170
+,,,PVC sanitary tee,Fitting,1-1/2 in,PVC,plb-171
+,,,PVC coupling,Fitting,1-1/2 in,PVC,plb-172
+,,,PVC elbow 90°,Fitting,3 in,PVC,plb-173
+,,,PVC sanitary tee,Fitting,3 in,PVC,plb-174
+,,,PVC coupling,Fitting,3 in,PVC,plb-175
+,,,PVC elbow 90°,Fitting,4 in,PVC,plb-176
+,,,PVC sanitary tee,Fitting,4 in,PVC,plb-177
+,,,PVC coupling,Fitting,4 in,PVC,plb-178
+,,,PVC wye,Fitting,2 in,PVC,plb-179
+,,,PVC long-sweep elbow,Fitting,2 in,PVC,plb-180
+,,,PVC cleanout adapter & plug,Fitting,2 in,PVC,plb-181
+,,,PVC DWV pipe,Pipe,2 in,PVC,plb-182
+,,,No-hub coupling,Fitting,2 in,Rubber/steel,plb-183
+,,,Transition coupling (cast iron to PVC),Fitting,4 in,Rubber/steel,plb-184
+,,,Galvanized nipple,Fitting,1/2 in,Galvanized steel,plb-185
+,,,Galvanized elbow,Fitting,3/4 in,Galvanized steel,plb-186
+,,,Brass nipple,Fitting,1/2 in,Brass,plb-187
+,,,Compression nut & sleeve,Fitting,3/8 in,Brass,plb-188
+,,,Pipe strap / hanger,Supply,,,plb-189
+,,,Pipe insulation,Supply,1/2 in,Foam,plb-190
+,,,Garbage disposal,Appliance,1/3 HP,,plb-191
+,,,Disposal mounting kit,Appliance part,,,plb-192
+,,,Disposal splash guard,Appliance part,,,plb-193
+,,,Sewage ejector pump,Pump,,,plb-194
+,,,Sump pump check valve,Pump,1-1/2 in,,plb-195
+,,,Utility transfer pump,Pump,,,plb-196
+,,,Silicone caulk,Supply,,,plb-197
+,,,Flux,Supply,,,plb-198
+,,,Lead-free solder,Supply,,,plb-199
+,,,Emery cloth,Supply,,,plb-200
+,,,Torch gas cylinder,Supply,,,plb-201
+,,,Drain opener enzyme,Supply,,,plb-202
+,,,Pipe repair clamp,Supply,1/2 in,Stainless,plb-203
+,,,Epoxy putty,Supply,,,plb-204
+,,,Pipe wrench,Tool,14 in,,plb-205
+,,,Tongue-and-groove pliers,Tool,,,plb-206
+,,,Tubing cutter (mini),Tool,,,plb-207
+,,,PVC pipe cutter,Tool,,,plb-208
+,,,Deburring tool,Tool,,,plb-209
+,,,Flange plunger,Tool,,,plb-210
+,,,Closet auger,Tool,,,plb-211
+,,,Drain cleaning machine cable,Tool,,,plb-212
+,,,Faucet cartridge puller,Tool,,,plb-213
+,,,Stem socket set,Tool,,,plb-214
+,,,Water pressure test gauge,Tool,,,plb-215
+,,,Inspection mirror,Tool,,,plb-216
+,,,Gas tank water heater,Water heater,40 gal,,plb-217
+,,,Electric tank water heater,Water heater,40 gal,,plb-218
+,,,Gas tank water heater,Water heater,50 gal,,plb-219
+,,,Electric tank water heater,Water heater,50 gal,,plb-220
+,,,Water heater anode rod (magnesium),Water heater part,,,plb-221
+,,,Water heater anode rod (aluminum/zinc),Water heater part,,,plb-222
+,,,Flexible anode rod,Water heater part,,,plb-223
+,,,Water heater pilot assembly,Water heater part,,,plb-224
+,,,Water heater flame sensor,Water heater part,,,plb-225
+,,,Water heater burner assembly,Water heater part,,,plb-226
+,,,Water heater thermal switch / ECO kit,Water heater part,,,plb-227
+,,,Water heater element wrench,Tool,,,plb-228
+,,,Water heater stand,Water heater part,,,plb-229
+,,,Seismic strap kit,Water heater part,,,plb-230
+,,,Water heater vent damper,Water heater part,,,plb-231
+,,,Power vent blower,Water heater part,,,plb-232
+,,,Water heater recirculation pump,Pump,,,plb-233
+,,,Thermostatic mixing valve,Valve,3/4 in,Brass,plb-234
+,,,Tankless water heater (gas),Water heater,,,plb-235
+,,,Tankless water heater (electric),Water heater,,,plb-236
+,,,Tankless isolation valve kit,Water heater part,3/4 in,Brass,plb-237
+,,,Tankless descaling kit,Water heater part,,,plb-238
+,,,Tankless inlet filter screen,Water heater part,,,plb-239
+,,,Tankless flow sensor,Water heater part,,,plb-240
+,,,Tankless condensate neutralizer,Water heater part,,,plb-241
+,,,Tankless vent pipe,Water heater part,3 in,,plb-242
+,,,Submersible well pump,Pump,1/2 HP,,plb-243
+,,,Submersible well pump,Pump,1 HP,,plb-244
+,,,Jet pump (shallow well),Pump,,,plb-245
+,,,Jet pump (deep well),Pump,,,plb-246
+,,,Well pressure tank,Pump part,20 gal,,plb-247
+,,,Well pressure tank,Pump part,40 gal,,plb-248
+,,,Pressure switch (30/50),Pump part,,,plb-249
+,,,Pressure switch (40/60),Pump part,,,plb-250
+,,,Tank tee kit,Pump part,1 in,Brass,plb-251
+,,,Well pressure gauge,Pump part,,,plb-252
+,,,Pump control box,Pump part,,,plb-253
+,,,Pump start capacitor,Pump part,,,plb-254
+,,,Foot valve,Pump part,1-1/4 in,,plb-255
+,,,Well cap,Pump part,6 in,,plb-256
+,,,Pitless adapter,Pump part,1 in,,plb-257
+,,,Torque arrestor,Pump part,,,plb-258
+,,,Submersible wire splice kit,Pump part,,,plb-259
+,,,Polyethylene well pipe,Pipe,1 in,Poly,plb-260
+,,,Sump pump switch (vertical float),Pump part,,,plb-261
+,,,Sump pump (submersible),Pump,1/2 HP,,plb-262
+,,,Battery backup sump pump,Pump,,,plb-263
+,,,Sump basin,Pump part,,,plb-264
+,,,Sump basin lid,Pump part,,,plb-265
+,,,Condensate pump,Pump,,,plb-266
+,,,Grinder pump,Pump,,,plb-267
+,,,Ejector basin,Pump part,,,plb-268
+,,,High-water alarm,Pump part,,,plb-269
+,,,Whole-house water filter housing,Water treatment,3/4 in,,plb-270
+,,,Sediment filter cartridge,Water treatment,10 in,,plb-271
+,,,Carbon filter cartridge,Water treatment,10 in,,plb-272
+,,,Big-blue filter housing,Water treatment,4.5 x 10 in,,plb-273
+,,,Filter housing wrench,Tool,,,plb-274
+,,,Under-sink filter system,Water treatment,,,plb-275
+,,,Reverse osmosis system,Water treatment,,,plb-276
+,,,RO membrane,Water treatment,,,plb-277
+,,,RO pre-filter set,Water treatment,,,plb-278
+,,,RO storage tank,Water treatment,,,plb-279
+,,,RO faucet,Water treatment,,,plb-280
+,,,Water softener,Water treatment,,,plb-281
+,,,Softener bypass valve,Water treatment,,,plb-282
+,,,Softener brine float,Water treatment,,,plb-283
+,,,Softener resin,Water treatment,,,plb-284
+,,,UV disinfection system,Water treatment,,,plb-285
+,,,UV lamp,Water treatment,,,plb-286
+,,,Water test kit,Water treatment,,,plb-287
+,,,Scale inhibitor cartridge,Water treatment,,,plb-288
+,,,Double check valve assembly,Backflow,3/4 in,Bronze,plb-289
+,,,Reduced pressure zone (RPZ) assembly,Backflow,3/4 in,Bronze,plb-290
+,,,Pressure vacuum breaker,Backflow,1 in,Bronze,plb-291
+,,,Atmospheric vacuum breaker,Backflow,3/4 in,Brass,plb-292
+,,,Dual check valve,Backflow,3/4 in,Brass,plb-293
+,,,Backflow test kit,Tool,,,plb-294
+,,,RPZ relief valve rebuild kit,Backflow,,,plb-295
+,,,Check valve rubber kit,Backflow,,,plb-296
+,,,Backflow enclosure,Backflow,,,plb-297
+,,,Thermal expansion relief valve,Backflow,1/2 in,Brass,plb-298
+,,,Dual-flush conversion kit,Toilet part,,,plb-299
+,,,Toilet tank lever (side mount),Toilet part,,,plb-300
+,,,Toilet bolt caps,Toilet part,,,plb-301
+,,,Toilet shim pack,Toilet part,,,plb-302
+,,,Pressure-assist toilet flush cartridge,Toilet part,,,plb-303
+,,,Toilet fill valve refill tube,Toilet part,,,plb-304
+,,,Toilet tank lid,Toilet part,,,plb-305
+,,,"Toilet (complete, round bowl)",Fixture,,,plb-306
+,,,"Toilet (complete, elongated bowl)",Fixture,,,plb-307
+,,,Wall-hung toilet carrier,Fixture,,,plb-308
+,,,Pressure-balance cartridge,Repair part,,,plb-309
+,,,Thermostatic shower cartridge,Repair part,,,plb-310
+,,,Shower valve trim kit,Fixture,,,plb-311
+,,,Diverter valve,Repair part,,,plb-312
+,,,Bathroom sink (drop-in),Fixture,,,plb-313
+,,,Pedestal sink,Fixture,,,plb-314
+,,,"Kitchen sink (stainless, double bowl)",Fixture,,,plb-315
+,,,Utility sink,Fixture,,,plb-316
+,,,Bar sink faucet,Faucet,,,plb-317
+,,,Commercial pre-rinse faucet,Faucet,,,plb-318
+,,,Sensor faucet,Faucet,,,plb-319
+,,,Sensor faucet solenoid,Repair part,,,plb-320
+,,,Metering faucet cartridge,Repair part,,,plb-321
+,,,Drinking fountain bubbler,Fixture,,,plb-322
+,,,Mop sink faucet,Faucet,,,plb-323
+,,,Hose bib key (loose key) faucet,Valve,,,plb-324
+,,,Bidet seat,Fixture,,,plb-325
+,,,Grab bar,Fixture,24 in,Stainless,plb-326
+,,,Drain cleaning machine (drum),Tool,,,plb-327
+,,,Drain cleaning machine (sectional),Tool,,,plb-328
+,,,Drain jetter,Tool,,,plb-329
+,,,Sewer inspection camera,Tool,,,plb-330
+,,,Pipe locator / sonde receiver,Tool,,,plb-331
+,,,Press tool (copper/PEX),Tool,,,plb-332
+,,,PEX expansion tool,Tool,,,plb-333
+,,,PEX cinch tool,Tool,,,plb-334
+,,,Propane/MAP torch kit,Tool,,,plb-335
+,,,Flame protector cloth,Tool,,,plb-336
+,,,Fitting brush,Tool,1/2 in,,plb-337
+,,,Copper pipe reamer,Tool,,,plb-338
+,,,Hacksaw,Tool,,,plb-339
+,,,Reciprocating saw blade (pipe),Tool,,,plb-340
+,,,Hole saw kit,Tool,,,plb-341
+,,,Cast iron snap cutter,Tool,,,plb-342
+,,,Strap wrench,Tool,,,plb-343
+,,,Spud wrench,Tool,,,plb-344
+,,,Internal pipe wrench,Tool,,,plb-345
+,,,Pipe wrench,Tool,18 in,,plb-346
+,,,Pipe wrench,Tool,24 in,,plb-347
+,,,Wet/dry shop vacuum,Tool,,,plb-348
+,,,Manual drain hand pump,Tool,,,plb-349
+,,,Gas leak detector,Tool,,,plb-350
+,,,Leak detection solution,Supply,,,plb-351
+,,,Moisture meter,Tool,,,plb-352
+,,,Knee pads,Safety,,,plb-353
+,,,Shoe covers,Safety,,,plb-354
+,,,Drop cloth,Safety,,,plb-355
+,,,Nitrile gloves,Safety,,,plb-356
+,,,Pipe joint compound (gas-rated),Supply,,,plb-357
+,,,Gas-rated thread seal tape,Supply,1/2 in,PTFE,plb-358
+,,,ABS cement,Supply,,,plb-359
+,,,CPVC cement,Supply,,,plb-360
+,,,Transition cement (PVC to ABS),Supply,,,plb-361
+,,,Water-soluble flux,Supply,,,plb-362
+,,,Pipe freeze kit,Tool,,,plb-363
+,,,Rubber gasket assortment,Supply,,,plb-364
+,,,O-ring assortment,Supply,,,plb-365
+,,,Shop rags,Supply,,,plb-366
+,,,Hand cleaner,Supply,,,plb-367
+,,,Anchors & screws assortment,Supply,,,plb-368
+,,,Escutcheon (chrome),Supply,1/2 in,,plb-369
+,,,Split escutcheon,Supply,1-1/2 in,,plb-370
+,,,Access panel,Supply,14 x 14 in,,plb-371
+,,,PVC schedule 40 pipe,Pipe,1/2 in,PVC,plb-400
+,,,PVC schedule 40 pipe,Pipe,3/4 in,PVC,plb-401
+,,,PVC schedule 40 pipe,Pipe,1 in,PVC,plb-402
+,,,PVC schedule 40 pipe,Pipe,1-1/4 in,PVC,plb-403
+,,,PVC schedule 40 pipe,Pipe,1-1/2 in,PVC,plb-404
+,,,PVC schedule 40 pipe,Pipe,2 in,PVC,plb-405
+,,,PVC schedule 80 pipe,Pipe,1/2 in,PVC,plb-406
+,,,PVC schedule 80 pipe,Pipe,3/4 in,PVC,plb-407
+,,,PVC schedule 80 pipe,Pipe,1 in,PVC,plb-408
+,,,PVC schedule 80 pipe,Pipe,2 in,PVC,plb-409
+,,,PVC DWV pipe,Pipe,1-1/2 in,PVC,plb-410
+,,,PVC DWV pipe,Pipe,3 in,PVC,plb-411
+,,,PVC DWV pipe,Pipe,4 in,PVC,plb-412
+,,,ABS DWV pipe,Pipe,1-1/2 in,ABS,plb-413
+,,,ABS DWV pipe,Pipe,2 in,ABS,plb-414
+,,,ABS DWV pipe,Pipe,3 in,ABS,plb-415
+,,,ABS DWV pipe,Pipe,4 in,ABS,plb-416
+,,,CPVC pipe,Pipe,3/4 in,CPVC,plb-417
+,,,CPVC pipe,Pipe,1 in,CPVC,plb-418
+,,,Copper pipe (Type K),Pipe,1/2 in,Copper,plb-419
+,,,Copper pipe (Type K),Pipe,3/4 in,Copper,plb-420
+,,,Copper pipe (Type K),Pipe,1 in,Copper,plb-421
+,,,Copper pipe (Type L),Pipe,1/2 in,Copper,plb-422
+,,,Copper pipe (Type L),Pipe,1 in,Copper,plb-423
+,,,Copper pipe (Type L),Pipe,1-1/4 in,Copper,plb-424
+,,,Copper pipe (Type L),Pipe,1-1/2 in,Copper,plb-425
+,,,Copper pipe (Type M),Pipe,3/4 in,Copper,plb-426
+,,,Copper pipe (Type M),Pipe,1 in,Copper,plb-427
+,,,Soft copper tubing,Pipe,1/2 in,Copper,plb-428
+,,,Soft copper tubing,Pipe,3/4 in,Copper,plb-429
+,,,Soft copper tubing,Pipe,1 in,Copper,plb-430
+,,,PEX-A tubing,Pipe,1/2 in,PEX,plb-431
+,,,PEX-A tubing,Pipe,3/4 in,PEX,plb-432
+,,,PEX-A tubing,Pipe,1 in,PEX,plb-433
+,,,PEX-B tubing,Pipe,3/8 in,PEX,plb-434
+,,,PEX-B tubing,Pipe,1/2 in,PEX,plb-435
+,,,PEX-B tubing,Pipe,3/4 in,PEX,plb-436
+,,,PEX-B tubing,Pipe,1 in,PEX,plb-437
+,,,Galvanized pipe,Pipe,1/2 in,Galvanized steel,plb-438
+,,,Galvanized pipe,Pipe,3/4 in,Galvanized steel,plb-439
+,,,Galvanized pipe,Pipe,1 in,Galvanized steel,plb-440
+,,,Galvanized pipe,Pipe,2 in,Galvanized steel,plb-441
+,,,Black iron pipe,Pipe,1/2 in,Black iron,plb-442
+,,,Black iron pipe,Pipe,3/4 in,Black iron,plb-443
+,,,Black iron pipe,Pipe,1 in,Black iron,plb-444
+,,,Black iron pipe,Pipe,1-1/4 in,Black iron,plb-445
+,,,Black iron pipe,Pipe,2 in,Black iron,plb-446
+,,,Cast iron no-hub pipe,Pipe,2 in,Cast iron,plb-447
+,,,Cast iron no-hub pipe,Pipe,3 in,Cast iron,plb-448
+,,,Cast iron no-hub pipe,Pipe,4 in,Cast iron,plb-449
+,,,HDPE pipe,Pipe,3/4 in,HDPE,plb-450
+,,,HDPE pipe,Pipe,1-1/4 in,HDPE,plb-451
+,,,PVC elbow 90°,Fitting,1/2 in,PVC,plb-452
+,,,PVC tee,Fitting,1/2 in,PVC,plb-453
+,,,PVC coupling,Fitting,1/2 in,PVC,plb-454
+,,,PVC male adapter,Fitting,1/2 in,PVC,plb-455
+,,,PVC elbow 90°,Fitting,3/4 in,PVC,plb-456
+,,,PVC tee,Fitting,3/4 in,PVC,plb-457
+,,,PVC coupling,Fitting,3/4 in,PVC,plb-458
+,,,PVC male adapter,Fitting,3/4 in,PVC,plb-459
+,,,PVC elbow 90°,Fitting,1 in,PVC,plb-460
+,,,PVC tee,Fitting,1 in,PVC,plb-461
+,,,PVC coupling,Fitting,1 in,PVC,plb-462
+,,,PVC male adapter,Fitting,1 in,PVC,plb-463
+,,,PVC elbow 90°,Fitting,1-1/4 in,PVC,plb-464
+,,,PVC tee,Fitting,1-1/4 in,PVC,plb-465
+,,,PVC coupling,Fitting,1-1/4 in,PVC,plb-466
+,,,PVC male adapter,Fitting,1-1/4 in,PVC,plb-467
+,,,PVC elbow 45°,Fitting,1/2 in,PVC,plb-468
+,,,PVC street elbow 45°,Fitting,1/2 in,PVC,plb-469
+,,,PVC cap,Fitting,1/2 in,PVC,plb-470
+,,,PVC female adapter,Fitting,1/2 in,PVC,plb-471
+,,,PVC union,Fitting,1/2 in,PVC,plb-472
+,,,PVC elbow 45°,Fitting,3/4 in,PVC,plb-473
+,,,PVC street elbow 45°,Fitting,3/4 in,PVC,plb-474
+,,,PVC cap,Fitting,3/4 in,PVC,plb-475
+,,,PVC female adapter,Fitting,3/4 in,PVC,plb-476
+,,,PVC union,Fitting,3/4 in,PVC,plb-477
+,,,PVC elbow 45°,Fitting,1 in,PVC,plb-478
+,,,PVC street elbow 45°,Fitting,1 in,PVC,plb-479
+,,,PVC cap,Fitting,1 in,PVC,plb-480
+,,,PVC female adapter,Fitting,1 in,PVC,plb-481
+,,,PVC union,Fitting,1 in,PVC,plb-482
+,,,PVC street elbow 90°,Fitting,1/2 in,PVC,plb-483
+,,,PVC street elbow 90°,Fitting,3/4 in,PVC,plb-484
+,,,PVC elbow 45°,Fitting,1-1/4 in,PVC,plb-485
+,,,PVC female adapter,Fitting,1-1/4 in,PVC,plb-486
+,,,PVC reducing coupling,Fitting,3/4 in x 1/2 in,PVC,plb-487
+,,,PVC reducing coupling,Fitting,1 in x 3/4 in,PVC,plb-488
+,,,PVC reducing coupling,Fitting,1 in x 1/2 in,PVC,plb-489
+,,,PVC reducing coupling,Fitting,1-1/4 in x 1 in,PVC,plb-490
+,,,PVC bushing,Fitting,3/4 in x 1/2 in,PVC,plb-491
+,,,PVC bushing,Fitting,1 in x 3/4 in,PVC,plb-492
+,,,PVC elbow 45°,Fitting,1-1/2 in,PVC,plb-493
+,,,PVC combination wye and eighth bend,Fitting,1-1/2 in,PVC,plb-494
+,,,PVC elbow 45°,Fitting,2 in,PVC,plb-495
+,,,PVC combination wye and eighth bend,Fitting,2 in,PVC,plb-496
+,,,PVC elbow 45°,Fitting,3 in,PVC,plb-497
+,,,PVC combination wye and eighth bend,Fitting,3 in,PVC,plb-498
+,,,PVC elbow 45°,Fitting,4 in,PVC,plb-499
+,,,PVC combination wye and eighth bend,Fitting,4 in,PVC,plb-500
+,,,PVC street elbow 90°,Fitting,1-1/2 in,PVC,plb-501
+,,,PVC street elbow 45°,Fitting,1-1/2 in,PVC,plb-502
+,,,PVC cap,Fitting,1-1/2 in,PVC,plb-503
+,,,PVC street elbow 90°,Fitting,2 in,PVC,plb-504
+,,,PVC street elbow 45°,Fitting,2 in,PVC,plb-505
+,,,PVC cap,Fitting,2 in,PVC,plb-506
+,,,PVC street elbow 45°,Fitting,3 in,PVC,plb-507
+,,,PVC long-sweep elbow 90°,Fitting,1-1/2 in,PVC,plb-508
+,,,PVC long-sweep elbow 90°,Fitting,3 in,PVC,plb-509
+,,,PVC long-sweep elbow 90°,Fitting,4 in,PVC,plb-510
+,,,PVC sanitary tee,Fitting,2 in,PVC,plb-511
+,,,PVC wye,Fitting,1-1/2 in,PVC,plb-512
+,,,PVC cleanout adapter,Fitting,1-1/2 in,PVC,plb-513
+,,,PVC wye,Fitting,3 in,PVC,plb-514
+,,,PVC cleanout adapter,Fitting,3 in,PVC,plb-515
+,,,PVC wye,Fitting,4 in,PVC,plb-516
+,,,PVC cleanout adapter,Fitting,4 in,PVC,plb-517
+,,,PVC two-way cleanout,Fitting,3 in,PVC,plb-518
+,,,PVC closet bend,Fitting,3 in,PVC,plb-519
+,,,PVC two-way cleanout,Fitting,4 in,PVC,plb-520
+,,,PVC closet bend,Fitting,4 in,PVC,plb-521
+,,,PVC reducing coupling,Fitting,2 in x 1-1/2 in,PVC,plb-522
+,,,PVC reducing coupling,Fitting,3 in x 2 in,PVC,plb-523
+,,,PVC reducing coupling,Fitting,4 in x 3 in,PVC,plb-524
+,,,PVC reducing sanitary tee,Fitting,2 in x 2 in x 1-1/2 in,PVC,plb-525
+,,,PVC reducing sanitary tee,Fitting,3 in x 3 in x 2 in,PVC,plb-526
+,,,PVC reducing sanitary tee,Fitting,4 in x 4 in x 3 in,PVC,plb-527
+,,,PVC reducing wye,Fitting,3 in x 3 in x 2 in,PVC,plb-528
+,,,ABS elbow 90°,Fitting,1-1/2 in,ABS,plb-529
+,,,ABS sanitary tee,Fitting,1-1/2 in,ABS,plb-530
+,,,ABS wye,Fitting,1-1/2 in,ABS,plb-531
+,,,ABS coupling,Fitting,1-1/2 in,ABS,plb-532
+,,,ABS elbow 90°,Fitting,2 in,ABS,plb-533
+,,,ABS sanitary tee,Fitting,2 in,ABS,plb-534
+,,,ABS wye,Fitting,2 in,ABS,plb-535
+,,,ABS coupling,Fitting,2 in,ABS,plb-536
+,,,ABS elbow 90°,Fitting,3 in,ABS,plb-537
+,,,ABS sanitary tee,Fitting,3 in,ABS,plb-538
+,,,ABS wye,Fitting,3 in,ABS,plb-539
+,,,ABS coupling,Fitting,3 in,ABS,plb-540
+,,,ABS elbow 90°,Fitting,4 in,ABS,plb-541
+,,,ABS sanitary tee,Fitting,4 in,ABS,plb-542
+,,,ABS wye,Fitting,4 in,ABS,plb-543
+,,,ABS coupling,Fitting,4 in,ABS,plb-544
+,,,ABS elbow 45°,Fitting,1-1/2 in,ABS,plb-545
+,,,ABS long-sweep elbow 90°,Fitting,1-1/2 in,ABS,plb-546
+,,,ABS combination wye and eighth bend,Fitting,1-1/2 in,ABS,plb-547
+,,,ABS cleanout adapter,Fitting,1-1/2 in,ABS,plb-548
+,,,ABS elbow 45°,Fitting,2 in,ABS,plb-549
+,,,ABS long-sweep elbow 90°,Fitting,2 in,ABS,plb-550
+,,,ABS combination wye and eighth bend,Fitting,2 in,ABS,plb-551
+,,,ABS cleanout adapter,Fitting,2 in,ABS,plb-552
+,,,ABS elbow 45°,Fitting,3 in,ABS,plb-553
+,,,ABS long-sweep elbow 90°,Fitting,3 in,ABS,plb-554
+,,,ABS combination wye and eighth bend,Fitting,3 in,ABS,plb-555
+,,,ABS cleanout adapter,Fitting,3 in,ABS,plb-556
+,,,ABS street elbow 45°,Fitting,1-1/2 in,ABS,plb-557
+,,,ABS street elbow 45°,Fitting,2 in,ABS,plb-558
+,,,ABS closet bend,Fitting,3 in,ABS,plb-559
+,,,ABS closet bend,Fitting,4 in,ABS,plb-560
+,,,ABS reducing coupling,Fitting,2 in x 1-1/2 in,ABS,plb-561
+,,,ABS reducing coupling,Fitting,3 in x 2 in,ABS,plb-562
+,,,ABS reducing coupling,Fitting,4 in x 3 in,ABS,plb-563
+,,,ABS reducing sanitary tee,Fitting,3 in x 3 in x 2 in,ABS,plb-564
+,,,CPVC elbow 90°,Fitting,3/4 in,CPVC,plb-565
+,,,CPVC reducing coupling,Fitting,3/4 in x 1/2 in,CPVC,plb-566
+,,,CPVC elbow 90°,Fitting,1 in,CPVC,plb-567
+,,,CPVC reducing coupling,Fitting,1 in x 3/4 in,CPVC,plb-568
+,,,CPVC elbow 45°,Fitting,1/2 in,CPVC,plb-569
+,,,CPVC tee,Fitting,1/2 in,CPVC,plb-570
+,,,CPVC cap,Fitting,1/2 in,CPVC,plb-571
+,,,CPVC male adapter,Fitting,1/2 in,CPVC,plb-572
+,,,CPVC female adapter,Fitting,1/2 in,CPVC,plb-573
+,,,CPVC elbow 45°,Fitting,3/4 in,CPVC,plb-574
+,,,CPVC tee,Fitting,3/4 in,CPVC,plb-575
+,,,CPVC cap,Fitting,3/4 in,CPVC,plb-576
+,,,CPVC male adapter,Fitting,3/4 in,CPVC,plb-577
+,,,CPVC female adapter,Fitting,3/4 in,CPVC,plb-578
+,,,CPVC elbow 45°,Fitting,1 in,CPVC,plb-579
+,,,CPVC tee,Fitting,1 in,CPVC,plb-580
+,,,CPVC cap,Fitting,1 in,CPVC,plb-581
+,,,CPVC male adapter,Fitting,1 in,CPVC,plb-582
+,,,CPVC female adapter,Fitting,1 in,CPVC,plb-583
+,,,CPVC coupling,Fitting,1/2 in,CPVC,plb-584
+,,,CPVC coupling,Fitting,1 in,CPVC,plb-585
+,,,CPVC drop-ear elbow 90°,Fitting,1/2 in,CPVC,plb-586
+,,,CPVC bushing,Fitting,3/4 in x 1/2 in,CPVC,plb-587
+,,,Copper elbow 90°,Fitting,1-1/4 in,Copper,plb-588
+,,,Copper coupling,Fitting,1-1/4 in,Copper,plb-589
+,,,Copper tee,Fitting,1-1/4 in,Copper,plb-590
+,,,Copper male adapter,Fitting,1-1/4 in,Copper,plb-591
+,,,Copper elbow 90°,Fitting,1-1/2 in,Copper,plb-592
+,,,Copper coupling,Fitting,1-1/2 in,Copper,plb-593
+,,,Copper tee,Fitting,1-1/2 in,Copper,plb-594
+,,,Copper male adapter,Fitting,1-1/2 in,Copper,plb-595
+,,,Copper elbow 45°,Fitting,1/2 in,Copper,plb-596
+,,,Copper street elbow 90°,Fitting,1/2 in,Copper,plb-597
+,,,Copper elbow 45°,Fitting,3/4 in,Copper,plb-598
+,,,Copper street elbow 90°,Fitting,3/4 in,Copper,plb-599
+,,,Copper elbow 45°,Fitting,1 in,Copper,plb-600
+,,,Copper street elbow 90°,Fitting,1 in,Copper,plb-601
+,,,Copper female adapter,Fitting,3/4 in,Copper,plb-602
+,,,Copper union,Fitting,3/4 in,Copper,plb-603
+,,,Copper repair (slip) coupling,Fitting,3/4 in,Copper,plb-604
+,,,Copper cap,Fitting,3/4 in,Copper,plb-605
+,,,Copper female adapter,Fitting,1 in,Copper,plb-606
+,,,Copper union,Fitting,1 in,Copper,plb-607
+,,,Copper repair (slip) coupling,Fitting,1 in,Copper,plb-608
+,,,Copper cap,Fitting,1 in,Copper,plb-609
+,,,Copper reducing coupling,Fitting,3/4 in x 1/2 in,Copper,plb-610
+,,,Copper reducing coupling,Fitting,1 in x 3/4 in,Copper,plb-611
+,,,Copper reducing coupling,Fitting,1 in x 1/2 in,Copper,plb-612
+,,,Copper reducing coupling,Fitting,1-1/4 in x 1 in,Copper,plb-613
+,,,Copper reducing tee,Fitting,3/4 in x 3/4 in x 1/2 in,Copper,plb-614
+,,,Copper reducing tee,Fitting,1 in x 1 in x 3/4 in,Copper,plb-615
+,,,Copper reducing tee,Fitting,1 in x 1 in x 1/2 in,Copper,plb-616
+,,,Copper bushing,Fitting,3/4 in x 1/2 in,Copper,plb-617
+,,,Copper bushing,Fitting,1 in x 3/4 in,Copper,plb-618
+,,,Copper drop-ear elbow 90°,Fitting,1/2 in,Copper,plb-619
+,,,Copper drop-ear elbow 90°,Fitting,3/4 in,Copper,plb-620
+,,,Copper sweat flange,Fitting,1/2 in,Copper,plb-621
+,,,PEX crimp ring,Fitting,3/8 in,Copper,plb-622
+,,,PEX crimp ring,Fitting,1 in,Copper,plb-623
+,,,PEX cinch clamp,Fitting,3/8 in,Stainless,plb-624
+,,,PEX cinch clamp,Fitting,3/4 in,Stainless,plb-625
+,,,PEX cinch clamp,Fitting,1 in,Stainless,plb-626
+,,,PEX expansion ring,Fitting,1/2 in,PEX,plb-627
+,,,PEX expansion elbow 90°,Fitting,1/2 in,Brass,plb-628
+,,,PEX expansion tee,Fitting,1/2 in,Brass,plb-629
+,,,PEX expansion coupling,Fitting,1/2 in,Brass,plb-630
+,,,PEX expansion male adapter,Fitting,1/2 in,Brass,plb-631
+,,,PEX drop-ear elbow 90°,Fitting,1/2 in,Brass,plb-632
+,,,PEX expansion ring,Fitting,3/4 in,PEX,plb-633
+,,,PEX expansion elbow 90°,Fitting,3/4 in,Brass,plb-634
+,,,PEX expansion tee,Fitting,3/4 in,Brass,plb-635
+,,,PEX expansion coupling,Fitting,3/4 in,Brass,plb-636
+,,,PEX expansion male adapter,Fitting,3/4 in,Brass,plb-637
+,,,PEX drop-ear elbow 90°,Fitting,3/4 in,Brass,plb-638
+,,,PEX expansion ring,Fitting,1 in,PEX,plb-639
+,,,PEX expansion elbow 90°,Fitting,1 in,Brass,plb-640
+,,,PEX expansion tee,Fitting,1 in,Brass,plb-641
+,,,PEX expansion coupling,Fitting,1 in,Brass,plb-642
+,,,PEX expansion male adapter,Fitting,1 in,Brass,plb-643
+,,,PEX drop-ear elbow 90°,Fitting,1 in,Brass,plb-644
+,,,PEX expansion drop-ear elbow 90°,Fitting,1/2 in,Brass,plb-645
+,,,PEX expansion drop-ear elbow 90°,Fitting,3/4 in,Brass,plb-646
+,,,PEX elbow 90°,Fitting,1 in,Brass,plb-647
+,,,PEX tee,Fitting,3/4 in,Brass,plb-648
+,,,PEX tee,Fitting,1 in,Brass,plb-649
+,,,PEX coupling,Fitting,3/4 in,Brass,plb-650
+,,,PEX coupling,Fitting,1 in,Brass,plb-651
+,,,PEX male adapter,Fitting,3/4 in,Brass,plb-652
+,,,PEX male adapter,Fitting,1 in,Brass,plb-653
+,,,PEX female adapter,Fitting,3/4 in,Brass,plb-654
+,,,PEX female adapter,Fitting,1 in,Brass,plb-655
+,,,PEX reducing tee,Fitting,3/4 in x 3/4 in x 1/2 in,Brass,plb-656
+,,,PEX reducing tee,Fitting,1 in x 1 in x 3/4 in,Brass,plb-657
+,,,PEX reducing tee,Fitting,1 in x 1 in x 1/2 in,Brass,plb-658
+,,,PEX reducing coupling,Fitting,3/4 in x 1/2 in,Brass,plb-659
+,,,PEX reducing coupling,Fitting,1 in x 3/4 in,Brass,plb-660
+,,,Galvanized elbow 90°,Fitting,1/2 in,Galvanized steel,plb-661
+,,,Galvanized elbow 90°,Fitting,1 in,Galvanized steel,plb-662
+,,,Galvanized elbow 90°,Fitting,2 in,Galvanized steel,plb-663
+,,,Galvanized elbow 45°,Fitting,1/2 in,Galvanized steel,plb-664
+,,,Galvanized union,Fitting,1/2 in,Galvanized steel,plb-665
+,,,Galvanized cap,Fitting,1/2 in,Galvanized steel,plb-666
+,,,Galvanized elbow 45°,Fitting,3/4 in,Galvanized steel,plb-667
+,,,Galvanized union,Fitting,3/4 in,Galvanized steel,plb-668
+,,,Galvanized cap,Fitting,3/4 in,Galvanized steel,plb-669
+,,,Galvanized elbow 45°,Fitting,1 in,Galvanized steel,plb-670
+,,,Galvanized union,Fitting,1 in,Galvanized steel,plb-671
+,,,Galvanized cap,Fitting,1 in,Galvanized steel,plb-672
+,,,Galvanized street elbow 90°,Fitting,1/2 in,Galvanized steel,plb-673
+,,,Galvanized street elbow 90°,Fitting,3/4 in,Galvanized steel,plb-674
+,,,Galvanized tee,Fitting,1/2 in,Galvanized steel,plb-675
+,,,Galvanized coupling,Fitting,1/2 in,Galvanized steel,plb-676
+,,,Galvanized tee,Fitting,3/4 in,Galvanized steel,plb-677
+,,,Galvanized coupling,Fitting,3/4 in,Galvanized steel,plb-678
+,,,Galvanized tee,Fitting,1 in,Galvanized steel,plb-679
+,,,Galvanized coupling,Fitting,1 in,Galvanized steel,plb-680
+,,,Galvanized tee,Fitting,2 in,Galvanized steel,plb-681
+,,,Galvanized coupling,Fitting,2 in,Galvanized steel,plb-682
+,,,Galvanized nipple,Fitting,3/4 in,Galvanized steel,plb-683
+,,,Galvanized nipple,Fitting,1 in,Galvanized steel,plb-684
+,,,Galvanized nipple,Fitting,2 in,Galvanized steel,plb-685
+,,,Galvanized bushing,Fitting,3/4 in x 1/2 in,Galvanized steel,plb-686
+,,,Galvanized bushing,Fitting,1 in x 3/4 in,Galvanized steel,plb-687
+,,,Galvanized bushing,Fitting,1 in x 1/2 in,Galvanized steel,plb-688
+,,,Black iron elbow 90°,Fitting,1/2 in,Black iron,plb-689
+,,,Black iron tee,Fitting,1/2 in,Black iron,plb-690
+,,,Black iron coupling,Fitting,1/2 in,Black iron,plb-691
+,,,Black iron union,Fitting,1/2 in,Black iron,plb-692
+,,,Black iron nipple,Fitting,1/2 in,Black iron,plb-693
+,,,Black iron elbow 90°,Fitting,3/4 in,Black iron,plb-694
+,,,Black iron tee,Fitting,3/4 in,Black iron,plb-695
+,,,Black iron coupling,Fitting,3/4 in,Black iron,plb-696
+,,,Black iron union,Fitting,3/4 in,Black iron,plb-697
+,,,Black iron nipple,Fitting,3/4 in,Black iron,plb-698
+,,,Black iron elbow 90°,Fitting,1 in,Black iron,plb-699
+,,,Black iron tee,Fitting,1 in,Black iron,plb-700
+,,,Black iron coupling,Fitting,1 in,Black iron,plb-701
+,,,Black iron union,Fitting,1 in,Black iron,plb-702
+,,,Black iron nipple,Fitting,1 in,Black iron,plb-703
+,,,Black iron elbow 45°,Fitting,1/2 in,Black iron,plb-704
+,,,Black iron street elbow 90°,Fitting,1/2 in,Black iron,plb-705
+,,,Black iron cap,Fitting,1/2 in,Black iron,plb-706
+,,,Black iron plug,Fitting,1/2 in,Black iron,plb-707
+,,,Black iron elbow 45°,Fitting,3/4 in,Black iron,plb-708
+,,,Black iron street elbow 90°,Fitting,3/4 in,Black iron,plb-709
+,,,Black iron cap,Fitting,3/4 in,Black iron,plb-710
+,,,Black iron plug,Fitting,3/4 in,Black iron,plb-711
+,,,Black iron elbow 90°,Fitting,1-1/4 in,Black iron,plb-712
+,,,Black iron nipple,Fitting,1-1/4 in,Black iron,plb-713
+,,,Black iron elbow 90°,Fitting,2 in,Black iron,plb-714
+,,,Black iron nipple,Fitting,2 in,Black iron,plb-715
+,,,Black iron bushing,Fitting,3/4 in x 1/2 in,Black iron,plb-716
+,,,Black iron bushing,Fitting,1 in x 3/4 in,Black iron,plb-717
+,,,Black iron bushing,Fitting,1 in x 1/2 in,Black iron,plb-718
+,,,No-hub coupling,Fitting,3 in,Rubber/steel,plb-719
+,,,No-hub elbow 90°,Fitting,2 in,Cast iron,plb-720
+,,,No-hub elbow 45°,Fitting,2 in,Cast iron,plb-721
+,,,No-hub sanitary tee,Fitting,2 in,Cast iron,plb-722
+,,,No-hub wye,Fitting,2 in,Cast iron,plb-723
+,,,No-hub combination wye and eighth bend,Fitting,2 in,Cast iron,plb-724
+,,,No-hub elbow 90°,Fitting,3 in,Cast iron,plb-725
+,,,No-hub elbow 45°,Fitting,3 in,Cast iron,plb-726
+,,,No-hub sanitary tee,Fitting,3 in,Cast iron,plb-727
+,,,No-hub wye,Fitting,3 in,Cast iron,plb-728
+,,,No-hub combination wye and eighth bend,Fitting,3 in,Cast iron,plb-729
+,,,No-hub elbow 90°,Fitting,4 in,Cast iron,plb-730
+,,,No-hub elbow 45°,Fitting,4 in,Cast iron,plb-731
+,,,No-hub sanitary tee,Fitting,4 in,Cast iron,plb-732
+,,,No-hub wye,Fitting,4 in,Cast iron,plb-733
+,,,No-hub combination wye and eighth bend,Fitting,4 in,Cast iron,plb-734
+,,,No-hub long-sweep elbow 90°,Fitting,3 in,Cast iron,plb-735
+,,,No-hub long-sweep elbow 90°,Fitting,4 in,Cast iron,plb-736
+,,,No-hub reducing coupling,Fitting,3 in x 2 in,Rubber/steel,plb-737
+,,,No-hub reducing coupling,Fitting,4 in x 3 in,Rubber/steel,plb-738
+,,,No-hub reducing coupling,Fitting,4 in x 2 in,Rubber/steel,plb-739
+,,,Brass elbow 90°,Fitting,1/2 in,Brass,plb-740
+,,,Brass tee,Fitting,1/2 in,Brass,plb-741
+,,,Brass coupling,Fitting,1/2 in,Brass,plb-742
+,,,Brass union,Fitting,1/2 in,Brass,plb-743
+,,,Brass elbow 90°,Fitting,3/4 in,Brass,plb-744
+,,,Brass tee,Fitting,3/4 in,Brass,plb-745
+,,,Brass coupling,Fitting,3/4 in,Brass,plb-746
+,,,Brass union,Fitting,3/4 in,Brass,plb-747
+,,,Brass elbow 90°,Fitting,1 in,Brass,plb-748
+,,,Brass tee,Fitting,1 in,Brass,plb-749
+,,,Brass union,Fitting,1 in,Brass,plb-750
+,,,Brass nipple,Fitting,3/4 in,Brass,plb-751
+,,,Brass nipple,Fitting,1 in,Brass,plb-752
+,,,Brass bushing,Fitting,3/4 in x 1/2 in,Brass,plb-753
+,,,Brass bushing,Fitting,1 in x 3/4 in,Brass,plb-754
+,,,Compression nut and sleeve,Fitting,1/2 in,Brass,plb-755
+,,,Compression nut and sleeve,Fitting,3/4 in,Brass,plb-756
+,,,Compression coupling,Fitting,3/8 in,Brass,plb-757
+,,,Compression coupling,Fitting,1/2 in,Brass,plb-758
+,,,Compression coupling,Fitting,3/4 in,Brass,plb-759
+,,,Compression elbow 90°,Fitting,3/8 in,Brass,plb-760
+,,,Compression male adapter,Fitting,3/8 in,Brass,plb-761
+,,,Compression elbow 90°,Fitting,1/2 in,Brass,plb-762
+,,,Compression male adapter,Fitting,1/2 in,Brass,plb-763
+,,,Compression tee,Fitting,1/2 in,Brass,plb-764
+,,,Compression union,Fitting,1/2 in,Brass,plb-765
+,,,Compression reducing coupling,Fitting,1/2 in x 3/8 in,Brass,plb-766
+,,,Compression female adapter,Fitting,1/2 in,Brass,plb-767
+,,,Push-to-connect elbow 90°,Fitting,3/8 in,Brass,plb-768
+,,,Push-to-connect elbow 90°,Fitting,3/4 in,Brass,plb-769
+,,,Push-to-connect elbow 90°,Fitting,1 in,Brass,plb-770
+,,,Push-to-connect tee,Fitting,3/4 in,Brass,plb-771
+,,,Push-to-connect cap,Fitting,3/4 in,Brass,plb-772
+,,,Push-to-connect tee,Fitting,1 in,Brass,plb-773
+,,,Push-to-connect cap,Fitting,1 in,Brass,plb-774
+,,,Push-to-connect coupling,Fitting,3/8 in,Brass,plb-775
+,,,Push-to-connect coupling,Fitting,1 in,Brass,plb-776
+,,,Push-to-connect male adapter,Fitting,1/2 in,Brass,plb-777
+,,,Push-to-connect female adapter,Fitting,1/2 in,Brass,plb-778
+,,,Push-to-connect male adapter,Fitting,3/4 in,Brass,plb-779
+,,,Push-to-connect female adapter,Fitting,3/4 in,Brass,plb-780
+,,,Push-to-connect male adapter,Fitting,1 in,Brass,plb-781
+,,,Push-to-connect female adapter,Fitting,1 in,Brass,plb-782
+,,,Push-to-connect reducing coupling,Fitting,3/4 in x 1/2 in,Brass,plb-783
+,,,Push-to-connect reducing coupling,Fitting,1 in x 3/4 in,Brass,plb-784
+,,,Push-to-connect reducing tee,Fitting,3/4 in x 3/4 in x 1/2 in,Brass,plb-785
+,,,Push-to-connect drop-ear elbow 90°,Fitting,1/2 in,Brass,plb-786
+,,,Dielectric union,Fitting,1/2 in,Brass,plb-787
+,,,Dielectric union,Fitting,1 in,Brass,plb-788
+,,,Copper x PEX transition adapter,Fitting,1/2 in,Brass,plb-789
+,,,Copper x PEX transition adapter,Fitting,3/4 in,Brass,plb-790
+,,,Copper x PEX transition adapter,Fitting,1 in,Brass,plb-791
+,,,CPVC x PEX transition adapter,Fitting,1/2 in,Brass,plb-792
+,,,Copper x CPVC transition adapter,Fitting,1/2 in,Brass,plb-793
+,,,CPVC x PEX transition adapter,Fitting,3/4 in,Brass,plb-794
+,,,Copper x CPVC transition adapter,Fitting,3/4 in,Brass,plb-795
+,,,Transition coupling (cast iron to PVC),Fitting,2 in,Rubber/steel,plb-796
+,,,Transition coupling (cast iron to PVC),Fitting,3 in,Rubber/steel,plb-797
+,,,Transition coupling (cast iron to ABS),Fitting,3 in,Rubber/steel,plb-798
+,,,Transition coupling (cast iron to ABS),Fitting,4 in,Rubber/steel,plb-799
+,,,Transition coupling (PVC to ABS),Fitting,2 in,Rubber/steel,plb-800
+,,,Transition coupling (PVC to ABS),Fitting,3 in,Rubber/steel,plb-801
+,,,Transition coupling (PVC to ABS),Fitting,4 in,Rubber/steel,plb-802
+,,,Flexible rubber coupling,Fitting,1-1/2 in,Rubber,plb-803
+,,,Flexible rubber coupling,Fitting,2 in,Rubber,plb-804
+,,,Closet flange,Fitting,4 in,PVC,plb-805
+,,,Closet flange,Fitting,4 in,ABS,plb-806
+,,,Offset closet flange,Fitting,3 in,PVC,plb-807
+,,,Offset closet flange,Fitting,3 in,ABS,plb-808
+,,,Adjustable closet flange,Fitting,3 in,PVC,plb-809
+,,,Closet flange extender,Fitting,3 in,PVC,plb-810
+,,,Closet flange (stainless replacement),Fitting,3 in,Stainless,plb-811
+,,,Trap adapter (hub x slip),Drain,1-1/4 in,PVC,plb-812
+,,,Trap adapter (hub x slip),Drain,1-1/2 in,PVC,plb-813
+,,,Trap adapter (hub x slip),Drain,2 in,PVC,plb-814
+,,,Trap adapter (hub x slip),Drain,1-1/2 in,ABS,plb-815
+,,,Trap adapter (hub x slip),Drain,2 in,ABS,plb-816
+,,,Cleanout plug,Drain,1-1/2 in,PVC,plb-817
+,,,Cleanout plug,Drain,2 in,PVC,plb-818
+,,,Cleanout plug,Drain,4 in,PVC,plb-819
+,,,Test cap (solvent weld),Drain,1-1/2 in,PVC,plb-820
+,,,Test cap (solvent weld),Drain,2 in,PVC,plb-821
+,,,Test cap (solvent weld),Drain,3 in,PVC,plb-822
+,,,Test cap (solvent weld),Drain,4 in,PVC,plb-823
+,,,Air admittance valve,Drain,2 in,Plastic,plb-824
+,,,Vent cap,Drain,2 in,PVC,plb-825
+,,,Roof flashing (pipe boot),Drain,2 in,Rubber,plb-826
+,,,Vent cap,Drain,3 in,PVC,plb-827
+,,,Roof flashing (pipe boot),Drain,3 in,Rubber,plb-828
+,,,Vent cap,Drain,4 in,PVC,plb-829
+,,,Roof flashing (pipe boot),Drain,4 in,Rubber,plb-830
+,,,Roof flashing (metal),Drain,3 in,Galvanized steel,plb-831
+,,,Drum trap,Drain,2 in,Cast iron,plb-832
+,,,Floor drain,Drain,3 in,PVC,plb-833
+,,,Floor drain,Drain,4 in,PVC,plb-834
+,,,Floor drain strainer,Drain,2 in,Stainless,plb-835
+,,,Floor drain strainer,Drain,3 in,Stainless,plb-836
+,,,Floor drain body with trap,Drain,3 in,Cast iron,plb-837
+,,,Ejector basin lid,Drain,,Polyethylene,plb-838
+,,,Basin inlet pipe grommet,Drain,2 in,Rubber,plb-839
+,,,Basin inlet pipe grommet,Drain,3 in,Rubber,plb-840
+,,,Sump discharge adapter,Drain,1-1/2 in,PVC,plb-841
+,,,CSST gas tubing,Pipe,1/2 in,Stainless,plb-842
+,,,CSST termination fitting,Fitting,1/2 in,Brass,plb-843
+,,,CSST gas tubing,Pipe,3/4 in,Stainless,plb-844
+,,,CSST termination fitting,Fitting,3/4 in,Brass,plb-845
+,,,CSST gas tubing,Pipe,1 in,Stainless,plb-846
+,,,CSST termination fitting,Fitting,1 in,Brass,plb-847
+,,,CSST coupling,Fitting,3/4 in,Brass,plb-848
+,,,CSST bonding clamp,Fitting,,Brass,plb-849
+,,,Flexible appliance gas connector,Fitting,1/2 in x 24 in,Stainless,plb-850
+,,,Flexible appliance gas connector,Fitting,1/2 in x 36 in,Stainless,plb-851
+,,,Flexible appliance gas connector,Fitting,1/2 in x 48 in,Stainless,plb-852
+,,,Flexible appliance gas connector,Fitting,3/4 in x 36 in,Stainless,plb-853
+,,,Flexible appliance gas connector,Fitting,3/4 in x 48 in,Stainless,plb-854
+,,,Gas ball valve,Valve,3/4 in,Brass,plb-855
+,,,Gas ball valve,Valve,1 in,Brass,plb-856
+,,,Gas ball valve,Valve,1-1/4 in,Brass,plb-857
+,,,Gas sediment trap (drip leg),Fitting,1/2 in,Black iron,plb-858
+,,,Gas sediment trap (drip leg),Fitting,3/4 in,Black iron,plb-859
+,,,Gas sediment trap (drip leg),Fitting,1 in,Black iron,plb-860
+,,,CSST to black iron adapter,Fitting,1/2 in,Brass,plb-861
+,,,CSST to black iron adapter,Fitting,3/4 in,Brass,plb-862
+,,,Two-hole pipe strap,Hanger,1/2 in,Galvanized steel,plb-863
+,,,Two-hole pipe strap,Hanger,3/4 in,Galvanized steel,plb-864
+,,,Two-hole pipe strap,Hanger,1 in,Galvanized steel,plb-865
+,,,Two-hole pipe strap,Hanger,1-1/4 in,Galvanized steel,plb-866
+,,,Two-hole pipe strap,Hanger,1-1/2 in,Galvanized steel,plb-867
+,,,Two-hole pipe strap,Hanger,2 in,Galvanized steel,plb-868
+,,,Two-hole pipe strap,Hanger,3 in,Galvanized steel,plb-869
+,,,Two-hole pipe strap,Hanger,4 in,Galvanized steel,plb-870
+,,,Two-hole pipe strap (copper-plated),Hanger,1/2 in,Copper-plated steel,plb-871
+,,,Plastic two-hole pipe strap,Hanger,1/2 in,Plastic,plb-872
+,,,Copper tube strap (bell hanger),Hanger,1/2 in,Copper-plated steel,plb-873
+,,,Isolation suspension clamp,Hanger,1/2 in,Plastic,plb-874
+,,,PEX tube clip,Hanger,1/2 in,Plastic,plb-875
+,,,Isolation suspension clamp,Hanger,3/4 in,Plastic,plb-876
+,,,PEX tube clip,Hanger,3/4 in,Plastic,plb-877
+,,,Isolation suspension clamp,Hanger,1 in,Plastic,plb-878
+,,,PEX tube clip,Hanger,1 in,Plastic,plb-879
+,,,J-hook pipe hanger,Hanger,1/2 in,Galvanized steel,plb-880
+,,,J-hook pipe hanger,Hanger,3/4 in,Galvanized steel,plb-881
+,,,J-hook pipe hanger,Hanger,1 in,Galvanized steel,plb-882
+,,,Clevis hanger,Hanger,1 in,Galvanized steel,plb-883
+,,,Clevis hanger,Hanger,2 in,Galvanized steel,plb-884
+,,,Clevis hanger,Hanger,3 in,Galvanized steel,plb-885
+,,,Clevis hanger,Hanger,4 in,Galvanized steel,plb-886
+,,,Riser clamp,Hanger,2 in,Galvanized steel,plb-887
+,,,Riser clamp,Hanger,3 in,Galvanized steel,plb-888
+,,,Riser clamp,Hanger,4 in,Galvanized steel,plb-889
+,,,Strut clamp,Hanger,1/2 in,Galvanized steel,plb-890
+,,,Strut clamp,Hanger,1 in,Galvanized steel,plb-891
+,,,Stud nail plate (protection plate),Hanger,1-1/2 in x 5 in,Steel,plb-892
+,,,Perforated pipe banding (strap coil),Hanger,3/4 in,Galvanized steel,plb-893
+,,,Threaded rod,Hanger,3/8 in,Galvanized steel,plb-894
+,,,Beam clamp (for hanger rod),Hanger,3/8 in,Steel,plb-895
+,,,Split-ring hanger,Hanger,1 in,Galvanized steel,plb-896
