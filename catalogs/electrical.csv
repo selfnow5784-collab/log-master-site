@@ -1,4 +1,4 @@
-# Schema: logmaster-1
+# Schema: tooldude-1
 # Trade: Electrical
 # Columns: Type, Brand, Series, Amps, Wattage, Voltage, Base, Color_Temp, Poles
 # Filters: Type, Brand, Series, Poles, Phase, Base, Color_Temp, Lamp_Count, NEMA_Size, Coil_Voltage, Voltage, Color, Material
