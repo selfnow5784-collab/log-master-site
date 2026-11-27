@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Log Master website — About page
+  Edit the wording on this page in the <main> section below.
+  The header and footer are repeated in each HTML file, so update a link
+  or the copyright line in every page. Colors, fonts, and layout live in css/styles.css.
+  Images live in assets/.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Tool Shelf</title>
+  <meta name="description" content="Why Tool Shelf was built, how it works, and how it is kept going.">
+  <meta name="theme-color" content="#0d0e11">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* About page only: keep a gap between paragraphs inside a section. */
+    .faq-item p + p { margin-top: 0.7rem; }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" width="36" height="36" alt="">
+        <span class="brand-name">Tool Shelf</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="menu-btn"><span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span></label>
+      <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="screenshots.html">Screenshots</a></li>
+            <li><a href="guide.html">User Guide</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="header-cta" href="https://selfnow5784-collab.github.io/log-master/">Open the app</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="page">
+    <div class="wrap">
+      <header class="page-head">
+        <span class="kicker">About</span>
+        <h1>About Tool Shelf</h1>
+      </header>
+
+      <div class="faq-list">
+        <section class="faq-item">
+          <h2>Why we built it</h2>
+          <p>When our locksmith company needed a way to keep track of inventory, we found lots of options. However, most of them were overloaded with features we didn't need, seemingly to justify the cost of the product.</p>
+          <p>What we wanted was simply a searchable reference catalog that could also function as an inventory. And we wanted it offline. So it occurred to me that maybe, with help from AI, I could build this thing.</p>
+          <p>Our locksmith company now uses its own version of this app. It works, and the boss is happy. And I thought, why not expand it so that other trades could also use it?</p>
+        </section>
+        <section class="faq-item">
+          <h2>How it works</h2>
+          <p>The concept is straightforward. You have a standalone app that sits on your phone, and you download whichever trade data you want and load it into the app.</p>
+        </section>
+        <section class="faq-item">
+          <h2>Keeping it going</h2>
+          <p>The catch is that I pull together the trade data. It all needs to be updated regularly, in some trades quarterly if you want to be paranoid. This takes time, and sometimes the app needs updates to keep up with data changes. So I start to wonder: if this is valuable to people, isn't it fair that I get paid so I can live?</p>
+          <p>So let's see if it's valuable first. Then I might ask a small fee to cover living costs and internet service.</p>
+          <p>Until then, please comment, rate it, and feel free to make requests!</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <small>© 2026 Tool Shelf</small>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="screenshots.html">Screenshots</a>
+        <a href="guide.html">User Guide</a>
+        <a href="faq.html">FAQ</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
