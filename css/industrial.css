@@ -39,6 +39,7 @@ h1,h2,h3{letter-spacing:.03em;text-transform:uppercase;color:#c9cfce;font-weight
 .card h2{font-size:1.25rem}
 .kicker{color:#7fb3ae;letter-spacing:.22em}
 .hero h1{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:2rem;color:#9A9A9A}
+.hero .actions{justify-content:center;margin:.4rem 0 0}
 .site-footer{border-top:4px solid #0a0b0c;background:#0c0e10 url(../assets/industrial/plate-dim.png) repeat-x top/auto 8px}
 
 /* Open mobile menu must hide the page behind it. No motion. */
