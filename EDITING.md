@@ -1,4 +1,4 @@
-# How to edit the Log Master website
+# How to edit the Tool Dude website
 
 The site is plain files. Each page is one file:
 - index.html: Home
