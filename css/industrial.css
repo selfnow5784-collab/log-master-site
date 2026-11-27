@@ -1,0 +1,53 @@
+/* Tool Shelf industrial theme (mockup). Loads after styles.css. */
+:root{
+  --font-serif:"Barlow Condensed","Arial Narrow",sans-serif;
+  --steel:#15181b; --steel-2:#1b1f23; --rivet:#8fb5b0; --radius:4px;
+}
+body{background-color:#0e1012;
+  background-image:
+   repeating-linear-gradient(90deg,rgba(255,255,255,.012) 0 2px,transparent 2px 5px),
+   linear-gradient(180deg,#16191c 0%,#0e1012 60%,#0b0c0e 100%);}
+/* header: teal pitted-metal rail */
+.site-header{background:#0c0e10 url(../assets/industrial/plate-dim.png) repeat-x center/auto 100%;
+  backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:3px solid #0a0b0c;
+  box-shadow:0 2px 0 rgba(0,0,0,.6),0 6px 14px rgba(0,0,0,.45);}
+.site-header::after{display:none}
+.site-header .header-inner{position:relative}
+.brand-name{font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#d9dedd;text-shadow:0 1px 0 #000,0 0 6px rgba(0,0,0,.9)}
+.site-nav a{color:#e3e8e7 !important;background:rgba(8,10,11,.55);border-radius:3px;padding-inline:.45rem !important;text-shadow:0 1px 2px #000,0 0 6px rgba(0,0,0,.9);font-weight:600;letter-spacing:.02em}
+.site-nav a[aria-current],.site-nav a.active{border-bottom-color:#e3e8e7 !important}
+/* buttons: teal metal tabs */
+.btn-primary,.header-cta{background:#0f6f68 url(../assets/industrial/plate.png) repeat center/auto 160% !important;
+  color:#f2f7f6 !important;border:1px solid #0a3d39 !important;border-radius:4px !important;
+  text-shadow:0 1px 2px #000,0 0 6px rgba(0,0,0,.85);letter-spacing:.06em;text-transform:uppercase;font-weight:700;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.18),inset 0 -2px 0 rgba(0,0,0,.45),0 3px 8px rgba(0,0,0,.5) !important;}
+.btn-primary:hover,.header-cta:hover{transform:none;filter:brightness(1.08)}
+/* panels: dark steel plates with a teal metal frame + rivets */
+.panel,.card,.faq-item,.step,.placeholder,.contact-box{
+  position:relative;border-radius:4px;
+  background:linear-gradient(180deg,var(--steel-2),var(--steel));
+  border:9px solid transparent;
+  border-image:url(../assets/industrial/frame.png) 14 stretch;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.7),inset 0 2px 10px rgba(0,0,0,.5),0 6px 16px rgba(0,0,0,.45);}
+.panel::before,.card::before,.faq-item::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+   radial-gradient(circle at 0 0,var(--rivet) 0 2.6px,#000a 3.2px,transparent 3.8px) 6px 6px/12px 12px no-repeat,
+   radial-gradient(circle at 0 0,var(--rivet) 0 2.6px,#000a 3.2px,transparent 3.8px) calc(100% - 0px) 6px/12px 12px no-repeat;}
+.card:hover{transform:none;box-shadow:inset 0 0 0 1px rgba(0,0,0,.7),0 0 0 1px #1a8f86,0 6px 16px rgba(0,0,0,.45)}
+.card img{filter:none}
+h1,h2,h3{letter-spacing:.03em;text-transform:uppercase;color:#c9cfce;font-weight:600}
+.card h2{font-size:1.25rem}
+.kicker{color:#7fb3ae;letter-spacing:.22em}
+.hero h1{font-family:"Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:2rem;color:#9A9A9A}
+.site-footer{border-top:4px solid #0a0b0c;background:#0c0e10 url(../assets/industrial/plate-dim.png) repeat-x top/auto 8px}
+
+/* Open mobile menu must hide the page behind it. No motion. */
+html{scroll-behavior:auto}
+.btn,.card,.header-cta,.btn-ghost,.btn-primary{transition:none}
+.btn:hover,.btn-primary:hover,.btn-ghost:hover,.header-cta:hover,.card:hover{transform:none}
+@media (max-width:880px){
+  .nav-toggle:checked ~ .site-nav{
+    background:#0d0e11;
+    background-image:none;
+  }
+}
